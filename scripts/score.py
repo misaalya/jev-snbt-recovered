@@ -143,14 +143,82 @@ def agreement(results: str) -> None:
                 r["id"], r["label"].upper(), r["label_conf"] or "?", r["jev"].upper(), r["jev_conf"] or 0))
 
 
+def combined(paths: list) -> None:
+    """All 156 askable items at once, each against whatever reference it has.
+
+    The reference is deliberately mixed: 67 items carry the module's key, 89
+    carry Claude's labels. That is a weaker standard than the headline and a
+    broader one -- every subtest is represented -- so it is reported as its
+    own number and never substituted for either half.
+    """
+    keys = {}
+    for split in ("with_key", "claude_labeled"):
+        keys.update(load_keys(split))
+
+    rows = []
+    for path in paths:
+        for line in (ROOT / path).read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            rec = json.loads(line)
+            if "error" in rec:
+                continue
+            q = keys[rec["id"]]
+            ok, conf, p_true, flags = grade(rec, q)
+            rows.append({"id": rec["id"], "subtest": q["subtest"], "ok": ok, "conf": conf,
+                         "p_true": p_true, "src": q["answer_source"],
+                         "usage": rec.get("usage", {}), "latency": rec.get("latency_ms")})
+
+    print("== gabungan: %d soal, acuan campuran ==" % len(rows))
+    for s_ in sorted({r["subtest"] for r in rows}):
+        sub = [r for r in rows if r["subtest"] == s_]
+        src = "kunci modul" if sub[0]["src"] == "module" else "label Claude"
+        print("  %-4s %s  (%s)" % (s_, pct(sum(r["ok"] for r in sub), len(sub)), src))
+    print("  %-4s %s" % ("ALL", pct(sum(r["ok"] for r in rows), len(rows))))
+
+    print("\n== per jenis acuan ==")
+    for src, name in (("module", "kunci modul"), ("claude-opus-5", "label Claude")):
+        sub = [r for r in rows if r["src"] == src]
+        if sub:
+            print("  %-13s %s" % (name, pct(sum(r["ok"] for r in sub), len(sub))))
+
+    conf = [r for r in rows if r["conf"] is not None]
+    print("\n== kalibrasi (gabungan) ==")
+    for lo, hi in ((0.0, 0.5), (0.5, 0.7), (0.7, 0.9), (0.9, 1.01)):
+        band = [r for r in conf if lo <= r["conf"] < hi]
+        if band:
+            print("  conf %.1f-%.1f  %s" % (lo, min(hi, 1.0), pct(sum(r["ok"] for r in band), len(band))))
+    pt = [r for r in conf if r["p_true"] is not None]
+    if pt:
+        print("  brier: %.3f  atas %d soal" % (statistics.fmean((1 - r["p_true"]) ** 2 for r in pt), len(pt)))
+
+    print("\n== jika soal paling ragu dikosongkan ==")
+    ranked = sorted(conf, key=lambda r: -r["conf"])
+    for cov in (1.0, 0.9, 0.8, 0.7):
+        k = max(1, int(round(cov * len(ranked))))
+        print("  cakupan %3d%%  %s" % (round(100 * k / len(ranked)), pct(sum(r["ok"] for r in ranked[:k]), k)))
+
+    toks = sum(r["usage"].get("input_tokens", 0) for r in rows)
+    lat = [r["latency"] for r in rows if r["latency"]]
+    print("\n== biaya & latensi ==")
+    print("  %d request, input %d tokens -> $%.4f" % (len(rows), toks, toks / 1e6 * 0.042))
+    print("  latensi p50 %.0f ms, p95 %.0f ms" % (statistics.median(lat), sorted(lat)[int(0.95 * (len(lat) - 1))]))
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--results", default="data/results/with_key.jsonl")
+    ap.add_argument("--combined", action="store_true",
+                    help="score both runs together: all 156 askable items, mixed reference")
     ap.add_argument("--agreement", action="store_true",
                     help="score a claude_labeled run as agreement, not accuracy")
     ap.add_argument("--rate-per-mtok", type=float, default=float(os.environ.get("BENCH_RATE_PER_MTOK", 0.042)),
                     help="USD per 1M input tokens; verify against current pricing")
     args = ap.parse_args()
+
+    if args.combined:
+        combined(["data/results/with_key.jsonl", "data/results/claude_labeled.jsonl"])
+        return
 
     if args.agreement:
         agreement(args.results)

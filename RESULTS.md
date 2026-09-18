@@ -120,6 +120,51 @@ against a label that an earlier re-read had already changed from E to D),
 `LBI-d1s1-q26` and `PPU-d1s1-q04` (both 0.80). The rest are low-confidence on
 at least one side, where disagreement is expected.
 
+## Combined: all 156 askable items
+
+Every item the harness can ask, scored against whatever reference it has: 67
+against the module's key, 89 against Claude's labels. Broader than either half
+— all seven subtests are represented — but the reference is mixed, so this
+figure is weaker than the headline and replaces neither.
+
+| Subtest | Score | Reference |
+| --- | --- | --- |
+| LBE | 100.0% (20/20) | Claude labels |
+| LBI | 89.7% (26/29) | Claude labels |
+| PBM | 75.0% (15/20) | Claude labels |
+| PPU | 75.0% (15/20) | Claude labels |
+| PU | 60.0% (18/30) | module key |
+| PM | 45.0% (9/20) | module key |
+| PK | 29.4% (5/17) | module key |
+| **All** | **69.2%** (108/156) | mixed |
+
+Split by reference: 47.8% against the module's keys, 85.4% against Claude's
+labels. Those two numbers are what the 69.2% is made of, and the gap between
+them is large enough that the combined figure should always be quoted with
+them, never on its own. It also tracks the subject split — the module-keyed
+subtests are the computational ones and the labeled subtests are the language
+ones — so the combined number reflects that mix as much as it reflects Jev.
+
+Calibration over all 156 (154 with a Choice confidence; the two Ya/Tidak items
+return per-statement probabilities instead):
+
+| Confidence | Score |
+| --- | --- |
+| 0.0–0.5 | 34.0% (16/47) |
+| 0.5–0.7 | 68.4% (13/19) |
+| 0.7–0.9 | 75.0% (21/28) |
+| 0.9–1.0 | **96.7%** (58/60) |
+
+Brier 0.253. Coverage: 70.1% at full coverage, 81.3% at 80%, 85.2% at 70%. The
+monotone climb holds across the mixed reference, which is the most useful thing
+in this section: whatever the score, Jev's own confidence orders its answers
+correctly.
+
+Whole run: 156 requests, 106,637 input tokens, **$0.0045**, p50 883 ms, p95
+1187 ms.
+
+Reproduce with `python3 scripts/score.py --combined`.
+
 ## The disputed keys
 
 Jev is a different model family from the auditors, so its answers are a third

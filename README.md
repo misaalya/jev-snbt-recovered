@@ -1,6 +1,6 @@
 # jev-snbt-recovered
 
-**First run: Jev 1.13.0 scores 47.8% (32/67) against the module's keys — 75% on PU's verbal half, 30% on its arithmetic half — and 85.4% (76/89) on the language subtests scored against Claude's labels. Full numbers in [RESULTS.md](RESULTS.md).**
+**First run: Jev 1.13.0 scores 47.8% (32/67) against the module's keys — 75% on PU's verbal half, 30% on its arithmetic half — and 85.4% (76/89) on the language subtests scored against Claude's labels; 69.2% (108/156) over everything, mixed reference. Full numbers in [RESULTS.md](RESULTS.md).**
 
 Benchmark of **TypeSafe Jev** (System One model) on community-recovered
 **SNBT 2025** (Indonesian university entrance test) questions.
