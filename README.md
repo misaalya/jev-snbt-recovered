@@ -45,27 +45,28 @@ sessions, so Day 1 was taken in full.
 | LBI | Literasi Bahasa Indonesia | 29 | Claude labels |
 | LBE | Literasi Bahasa Inggris | 20 | Claude labels |
 
-`scripts/extract.py` converts the PDF into JSON. Beyond plain text extraction
-it performs the following.
+The questions were extracted from the PDF into JSON. Beyond plain text
+extraction, the following was applied.
 
 - **Each question carries its own passage.** A reading passage is printed once
-  in the module and shared by four or five questions; here it is embedded in
-  full into every question that refers to it, so no item requires an external
-  lookup.
+  in the module and shared by four or five questions; in the dataset it is
+  embedded in full into every question that refers to it, so no item requires
+  an external lookup.
 - **Bold and italic are preserved.** Several questions ask about "kata
-  **bercetak tebal**", so extraction reads the PDF's XML representation rather
-  than flat text.
+  **bercetak tebal**", so the extraction read the PDF's XML representation
+  rather than flat text.
 - **Paragraph boundaries are reconstructed**, because some questions refer to a
   specific paragraph. End-of-line hyphenation is rejoined (`me-` + `nang` →
   `menang`).
 - **Mathematics is rendered as plain text**: `x²`, `√29`, `2^(n–1)`, `6 5/7`.
   Every PK and PM item was retyped by hand from the page image, since stacked
   fractions do not survive text extraction.
-- **No correction is applied silently.** Manual corrections are stored in
-  `data/overrides/`, and any irregularity inherited from the source is recorded
-  in a `_source_note`.
+- **No correction was applied silently.** Any irregularity inherited from the
+  source is recorded in a `_source_note` on the item or passage it affects.
 
-Re-running `extract.py` regenerates `data/questions/` exactly.
+The extraction itself is not part of this repository: it depends on the source
+PDF, which cannot be redistributed here. `data/questions/` is the published
+artefact.
 
 ## Treatment of figures
 
@@ -193,11 +194,15 @@ data/questions/claude_labeled/  PPU, PBM, LBI, LBE — Claude's labels
 data/questions/without_key/     the same 89 items, answer: null
 data/labels/                    every labeling pass, per item, with rationales
 data/audit/                     the module-key audit and the disputed items
-data/overrides/                 manual corrections over the automatic extraction
 data/figures/                   the original figure crops
-data/requests/                  the payloads sent to Jev
-scripts/                        extraction, cropping, request building, running, scoring
+scripts/build_requests.py       questions -> System One request payloads
+scripts/run_bench.py            post the payloads, record answers and usage
+scripts/score.py                score a run against the module key or the labels
 ```
+
+`scripts/build_requests.py` writes into `data/requests/` and `run_bench.py`
+into `data/results/`; both directories are generated locally and are not
+tracked.
 
 ## Attribution
 

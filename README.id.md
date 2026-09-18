@@ -44,15 +44,15 @@ sesi, sehingga Hari 1 diambil seluruhnya.
 | LBI | Literasi Bahasa Indonesia | 29 | label Claude |
 | LBE | Literasi Bahasa Inggris | 20 | label Claude |
 
-`scripts/extract.py` mengubah PDF menjadi JSON. Di luar pengambilan teks biasa,
-skrip ini melakukan hal-hal berikut.
+Soal diekstraksi dari PDF menjadi JSON. Di luar pengambilan teks biasa, hal-hal
+berikut diterapkan.
 
 - **Setiap soal membawa bacaannya sendiri.** Satu bacaan dicetak sekali di
-  modul dan dipakai bersama oleh empat sampai lima soal; di sini bacaan itu
-  disematkan utuh ke setiap soal yang merujuknya, sehingga tidak ada soal yang
-  memerlukan rujukan dari luar.
+  modul dan dipakai bersama oleh empat sampai lima soal; di dalam dataset,
+  bacaan itu disematkan utuh ke setiap soal yang merujuknya, sehingga tidak ada
+  soal yang memerlukan rujukan dari luar.
 - **Cetak tebal dan miring dipertahankan.** Beberapa soal menanyakan "kata
-  **bercetak tebal**", sehingga ekstraksi membaca representasi XML dari PDF,
+  **bercetak tebal**", sehingga ekstraksinya membaca representasi XML dari PDF,
   bukan teks polos.
 - **Batas paragraf direkonstruksi**, karena sebagian soal merujuk paragraf
   tertentu. Pemenggalan kata di ujung baris disambung kembali (`me-` + `nang` →
@@ -60,12 +60,13 @@ skrip ini melakukan hal-hal berikut.
 - **Matematika ditulis sebagai teks biasa**: `x²`, `√29`, `2^(n–1)`, `6 5/7`.
   Seluruh soal PK dan PM diketik ulang dengan tangan dari gambar halaman,
   karena pecahan bertingkat tidak bertahan melalui ekstraksi teks.
-- **Tidak ada koreksi yang diterapkan secara senyap.** Koreksi manual disimpan
-  di `data/overrides/`, dan setiap kejanggalan yang diwarisi dari sumbernya
-  dicatat dalam `_source_note`.
+- **Tidak ada koreksi yang diterapkan secara senyap.** Setiap kejanggalan yang
+  diwarisi dari sumbernya dicatat dalam `_source_note` pada soal atau bacaan
+  yang bersangkutan.
 
-Menjalankan ulang `extract.py` menghasilkan kembali `data/questions/` secara
-persis.
+Proses ekstraksinya sendiri tidak disertakan dalam repositori ini karena
+bergantung pada PDF sumber, yang tidak dapat disebarkan ulang di sini. Yang
+diterbitkan adalah hasilnya, `data/questions/`.
 
 ## Penanganan gambar
 
@@ -196,11 +197,15 @@ data/questions/claude_labeled/  PPU, PBM, LBI, LBE — label Claude
 data/questions/without_key/     89 soal yang sama, answer: null
 data/labels/                    tiap tahap pelabelan, per soal, dengan alasannya
 data/audit/                     audit kunci modul dan daftar soal yang disengketakan
-data/overrides/                 koreksi manual atas hasil ekstraksi otomatis
 data/figures/                   potongan gambar aslinya
-data/requests/                  payload yang dikirim ke Jev
-scripts/                        ekstraksi, pemotongan, penyusunan request, eksekusi, penilaian
+scripts/build_requests.py       soal -> payload request System One
+scripts/run_bench.py            mengirim payload, mencatat jawaban dan pemakaian token
+scripts/score.py                menilai satu run terhadap kunci modul atau label
 ```
+
+`scripts/build_requests.py` menulis ke `data/requests/` dan `run_bench.py` ke
+`data/results/`; kedua direktori itu dihasilkan secara lokal dan tidak
+dilacak.
 
 ## Atribusi
 

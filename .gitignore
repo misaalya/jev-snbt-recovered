@@ -4,3 +4,7 @@ data/raw/
 __pycache__/
 .env
 data/results/
+scripts/extract.py
+scripts/crop.py
+data/overrides/
+data/requests/
