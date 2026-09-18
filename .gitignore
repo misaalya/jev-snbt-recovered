@@ -1,10 +1,19 @@
+# Berkas kerja lokal, tidak diterbitkan: bergantung pada PDF sumber yang tidak
+# dapat disebarkan ulang, atau merupakan artefak proses internal.
 dataset/
-data/pages/
 data/raw/
-__pycache__/
-.env
-data/results/
+data/pages/
+data/overrides/
+data/labels/
+data/questions/without_key/
+data/audit/blind_*.json
+data/audit/fill_in_candidates.json
 scripts/extract.py
 scripts/crop.py
-data/overrides/
+
+# Dihasilkan ulang oleh scripts/build_requests.py
 data/requests/
+
+# Kredensial dan sampah runtime
+.env
+__pycache__/

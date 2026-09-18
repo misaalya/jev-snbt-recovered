@@ -153,5 +153,7 @@ returned.
 - One run, one model version, no repetitions. No figure above carries an error
   estimate.
 
-Reproduce with `python3 scripts/run_bench.py && python3 scripts/score.py`, and
-`python3 scripts/score.py --combined` for the combined figures.
+The responses behind every figure above are in `data/results/`, one JSON line
+per question with the answer, its probabilities and the token usage. Recompute
+with `python3 scripts/score.py` and `python3 scripts/score.py --combined`; a
+new run can be produced with `python3 scripts/run_bench.py`.

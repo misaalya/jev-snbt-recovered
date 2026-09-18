@@ -156,5 +156,7 @@ ada respons 429 maupun 5xx.
 - Satu run, satu versi model, tanpa pengulangan. Tidak ada angka di atas yang
   membawa perkiraan galat.
 
-Mengulanginya: `python3 scripts/run_bench.py && python3 scripts/score.py`, dan
-`python3 scripts/score.py --combined` untuk angka gabungan.
+Respons di balik setiap angka di atas tersimpan di `data/results/`, satu baris
+JSON per soal berisi jawaban, peluangnya, dan pemakaian token. Hitung ulang
+dengan `python3 scripts/score.py` dan `python3 scripts/score.py --combined`;
+run baru dapat dibuat dengan `python3 scripts/run_bench.py`.

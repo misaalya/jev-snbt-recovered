@@ -70,11 +70,6 @@ def agreement(results: str) -> None:
     whether the disagreements sit where the label was already unsure.
     """
     keys = load_keys("claude_labeled")
-    conf_of = {}
-    for path in sorted((ROOT / "data/labels").glob("*.json")):
-        for qid, lab in json.loads(path.read_text(encoding="utf-8")).items():
-            if not qid.startswith("_"):
-                conf_of[qid] = lab.get("confidence")
 
     rows = []
     for line in (ROOT / results).read_text(encoding="utf-8").splitlines():
@@ -92,7 +87,7 @@ def agreement(results: str) -> None:
             "same": str(got.get("choice", "")).lower() == label,
             "jev_conf": got.get("confidence"),
             "p_label": (got.get("probabilities") or {}).get(label),
-            "label_conf": q.get("label_confidence") or conf_of.get(rec["id"]),
+            "label_conf": q.get("label_confidence"),
             "usage": rec.get("usage", {}), "latency": rec.get("latency_ms"),
         })
 

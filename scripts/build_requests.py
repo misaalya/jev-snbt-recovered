@@ -5,18 +5,17 @@ One request per question. Nothing is sent here: this writes JSONL that the
 runner posts to https://api.typesafe.ai/v1/systemone, so the exact payload that
 produced a score stays inspectable.
 
-Three item types need three different shapes:
+Two item types need two different shapes:
 
   mcq            -> one Choice, criteria = the item's own options (a..e, or
                     a..d for PK's quantity comparisons). Nothing synthesised.
   table_yes_no   -> one request carrying N Noul questions over the same state,
                     one per statement. The docs recommend exactly this for
                     several independent yes/no labels on one input.
-  fill_in        -> no options in the source, so it cannot be a Choice as-is.
-                    Excluded unless --fill-in is passed, in which case the
-                    candidate set comes from data/audit/fill_in_candidates.json
-                    (documented error paths) plus a no-match option, and the
-                    items are written to a separate file.
+
+PK q01, q02 and q18 print no options in the source. A Choice needs a fixed set
+of criteria, so those three would require invented distractors; they are
+skipped and reported as skipped.
 
 Scoring rules the runner should apply, kept here so they travel with the
 payloads:
@@ -27,7 +26,6 @@ payloads:
                 (baseline 12.5% for 3 statements, comparable to a 5-option mcq
                 at 20%; the per-statement number, baseline 50%, is reported
                 separately and never mixed into the headline)
-  fill_in       separate arm, never in the headline accuracy
 """
 
 import argparse
@@ -43,7 +41,6 @@ _env.load()
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 MODEL = os.environ.get("TYPESAFE_MODEL", "jev-latest")
-NO_MATCH = "tidak_ada_yang_cocok"
 
 
 def build_state(q: dict) -> dict:
@@ -66,7 +63,7 @@ def build_state(q: dict) -> dict:
     return state
 
 
-def build(q: dict, fill_in_candidates: dict) -> dict | None:
+def build(q: dict) -> dict | None:
     state = build_state(q)
 
     if q["type"] == "mcq":
@@ -88,20 +85,6 @@ def build(q: dict, fill_in_candidates: dict) -> dict | None:
                 "criteria": {"true": "Pernyataan sesuai dengan data.", "false": "Pernyataan tidak sesuai dengan data."},
             }
             for i, s in enumerate(q["statements"], 1)
-        }
-    elif q["type"] == "fill_in":
-        cand = fill_in_candidates.get(q["id"])
-        if cand is None:
-            return None
-        criteria = {k: None for k in cand["candidates"]}
-        criteria[NO_MATCH] = "Tidak ada nilai di atas yang benar."
-        questions = {
-            "jawaban": {
-                "type": "choice",
-                "instructions": "Hitung jawaban `soal`, lalu pilih nilai yang sama dengan hasilmu. Pilih "
-                                + NO_MATCH + " bila tidak ada yang sama.",
-                "criteria": criteria,
-            }
         }
     else:
         return None
@@ -161,31 +144,29 @@ def build_group(qs: list, rows_by_id: dict) -> dict:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--split", default="with_key", choices=["with_key", "claude_labeled"])
-    ap.add_argument("--fill-in", action="store_true", help="also build the synthetic-candidate arm")
     ap.add_argument("--group-by-passage", action="store_true",
                     help="also build the batch arm: one request per shared passage")
     ap.add_argument("--out", default="data/requests")
     args = ap.parse_args()
 
-    cand = json.loads((ROOT / "data/audit/fill_in_candidates.json").read_text(encoding="utf-8"))
     out_dir = ROOT / args.out
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    main_rows, fill_rows, group_rows = [], [], []
+    main_rows, group_rows = [], []
     for path in sorted((ROOT / "data/questions" / args.split).glob("*.json")):
         qs_all = json.loads(path.read_text(encoding="utf-8"))["questions"]
         rows_by_id = {}
         for q in qs_all:
-            row = build(q, cand)
+            row = build(q)
             if row is None:
                 print("SKIP %s (%s)" % (q["id"], q["type"]), file=sys.stderr)
                 continue
             rows_by_id[q["id"]] = row
-            (fill_rows if q["type"] == "fill_in" else main_rows).append(row)
+            main_rows.append(row)
         if args.group_by_passage:
             groups: dict = {}
             for q in qs_all:
-                if q["id"] not in rows_by_id or q["type"] == "fill_in":
+                if q["id"] not in rows_by_id:
                     continue
                 key = tuple(q["passage_ids"]) or ("solo", q["id"])
                 groups.setdefault(key, []).append(q)
@@ -201,8 +182,6 @@ def main() -> None:
         print("%-28s %3d requests  %s" % (p.relative_to(ROOT), len(rows), by))
 
     write(main_rows, "%s.jsonl" % args.split)
-    if args.fill_in:
-        write(fill_rows, "%s_fill_in.jsonl" % args.split)
     if args.group_by_passage:
         write(group_rows, "%s_grouped.jsonl" % args.split)
 

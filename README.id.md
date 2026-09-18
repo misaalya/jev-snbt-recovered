@@ -7,7 +7,8 @@ rekonstruksi komunitas.
 
 Dataset ini memuat 159 soal yang mencakup ketujuh subtes. Setiap soal berdiri
 sendiri: bacaan dan transkrip gambar yang dirujuknya disematkan di dalam soal
-itu sendiri. Hasil run pertama tercatat di **[RESULTS.id.md](RESULTS.id.md)**.
+itu sendiri. Hasil run pertama tercatat di **[RESULTS.id.md](RESULTS.id.md)**, dengan
+respons mentahnya di `data/results/`.
 
 ## Sumber soal
 
@@ -98,32 +99,19 @@ tercatat di `data/audit/module_key_audit.json`, dan `PU-d1-q05` serta
 `PU-d1-q24` terdaftar di `data/audit/disputed_items.json` sebagai kemungkinan
 kunci keliru, sehingga akurasi dapat dilaporkan dengan maupun tanpa keduanya.
 
-**PPU, PBM, LBI, dan LBE dilabeli Claude Opus 5**, karena modulnya tidak
-menyediakan kunci untuk keempatnya. Label ini adalah bacaan satu model dan
-bukan kebenaran dasar. Label disimpan terpisah dari jawaban modul sehingga
-keduanya tidak pernah tergabung. Setiap label mencatat alasan dan tingkat
-keyakinan high, medium, atau low (berturut-turut 52, 23, dan 14 soal).
+**PPU, PBM, LBI, dan LBE memakai label yang ditulis Claude Opus 5**, karena
+modulnya tidak menyediakan kunci untuk keempatnya. Label ini adalah bacaan satu
+model dan bukan kebenaran dasar. Label disimpan pada direktori terpisah dari
+jawaban modul sehingga keduanya tidak pernah tergabung, dan setiap soal memuat
+kolom `answer_source` yang menyebut asal jawabannya.
 
-Label dibuat melalui empat tahap.
-
-1. Seluruh 89 soal dijawab dari teks hasil ekstraksi, satu per satu, masing-
-   masing disertai alasan tertulis.
-2. Dua instansi Claude lain menjawab 89 soal yang sama secara buta, hanya
-   melihat soal, bacaannya, dan opsinya. Ketiganya sepakat pada 87 dari 89.
-3. Audit bias membandingkan label terhadap 62 soal lima opsi berkunci modul
-   yang dipakai sebagai kelompok kontrol. Sebaran huruf jawabannya konsisten
-   dengan kebetulan, tetapi label memilih opsi terpanjang pada 28% kasus
-   berbanding 21% pada kontrol. Soal yang terdampak diturunkan ulang dengan
-   tangan.
-4. Dua tahap berikutnya menjawab ulang seluruh soal dari nol dan
-   mengargumenkan kembali setiap perbedaan.
-
-Setiap tahap tercatat per soal di `data/labels/`, sehingga jawaban pada tiap
-ronde dapat diperiksa alih-alih diterima begitu saja. Satu keterbatasan perlu
-dinyatakan terus terang: seluruh penilainya adalah model yang sama, sehingga
-kesepakatan mereka merupakan bukti yang lemah.
-`data/questions/without_key/` memuat 89 soal yang sama dengan `answer: null`
-bagi siapa pun yang lebih memilih melabelinya secara mandiri.
+Setiap label mencatat tingkat keyakinan high, medium, atau low (berturut-turut
+52, 23, dan 14 soal) yang ditetapkan saat pelabelan dan dilaporkan di
+RESULTS.id.md berdampingan dengan tingkat kesepakatan Jev terhadapnya. Yang
+diterbitkan hanya label akhir; tahap-tahap penyusunannya adalah bahan kerja dan
+tidak termasuk dalam repositori ini. Satu keterbatasan perlu dinyatakan terus
+terang: label dan verifikasinya berasal dari keluarga model yang sama, sehingga
+kesepakatan di antara keduanya merupakan bukti yang lemah.
 
 ## Cara Jev ditanya
 
@@ -168,6 +156,13 @@ python3 scripts/score.py --agreement --results data/results/claude_labeled.jsonl
 python3 scripts/score.py --combined      # seluruh 156 soal sekaligus
 ```
 
+`data/results/` sudah memuat run yang diterbitkan, dan runner melewati
+identifier yang ditemukannya di sana, sehingga mengulang perintah di atas akan
+melaporkan semua soal sebagai selesai dan menilai respons yang sudah
+di-commit tanpa perlu kunci API. Untuk membuat run baru, arahkan keluarannya ke
+tempat lain dengan `--out data/results/rerun.jsonl` dan berikan path yang sama
+ke `scripts/score.py --results`.
+
 Runner-nya dapat dilanjutkan: identifier yang sudah ada di berkas keluaran akan
 dilewati, sehingga run yang terputus oleh rate limit berlanjut ketika
 perintahnya diulang. Respons 408, 429, dan 5xx diulang dengan backoff
@@ -194,18 +189,18 @@ Skor per subtes, kalibrasi, perbedaan terhadap label, dan biaya disajikan di
 ```
 data/questions/with_key/        PU, PK, PM — jawaban modul
 data/questions/claude_labeled/  PPU, PBM, LBI, LBE — label Claude
-data/questions/without_key/     89 soal yang sama, answer: null
-data/labels/                    tiap tahap pelabelan, per soal, dengan alasannya
 data/audit/                     audit kunci modul dan daftar soal yang disengketakan
 data/figures/                   potongan gambar aslinya
+data/results/                   run yang dilaporkan di RESULTS.id.md, satu baris per soal
 scripts/build_requests.py       soal -> payload request System One
 scripts/run_bench.py            mengirim payload, mencatat jawaban dan pemakaian token
 scripts/score.py                menilai satu run terhadap kunci modul atau label
 ```
 
-`scripts/build_requests.py` menulis ke `data/requests/` dan `run_bench.py` ke
-`data/results/`; kedua direktori itu dihasilkan secara lokal dan tidak
-dilacak.
+`scripts/build_requests.py` menulis ke `data/requests/` yang dihasilkan secara
+lokal dan tidak dilacak. `data/results/` memuat run yang diterbitkan persis
+seperti dicatat runner, sehingga angka di RESULTS.id.md dapat dihitung ulang dan
+run baru dapat dibandingkan baris per baris terhadapnya.
 
 ## Atribusi
 
