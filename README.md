@@ -25,20 +25,10 @@ The questions are taken from *Modul MMA SNBT 2025*, compiled by Tim Mangkuk Mi
 Ayam: 764 pages of recalled questions, typeset by volunteers
 (`dataset/MMASNBT2025.pdf`, not included in this repository).
 
-Two consequences of that origin determine how the rest of this project is
-organised.
-
 **The answer keys are not official.** They are the work of the module's
 authors, and they exist for three subtests only: PU, PK and PM. The PU key
 carries the authors' own disclaimer, *"bukan jawaban yang pasti"*. PPU, PBM,
 LBI and LBE have no key.
-
-**Some questions were damaged in reconstruction.** `LBI-d1s1-q21` is missing an
-option, and `PPU-d1s1-teks4` reads "kristal udara" where the intended term is
-"kristal es". No such defect is corrected without a record: the item is
-reproduced as printed and carries a `_source_note` describing the problem.
-
-## Scope and preparation
 
 The dataset covers **Day 1, Sesi 1 of every subtest**. PU is not divided into
 sessions, so Day 1 was taken in full.
@@ -53,70 +43,26 @@ sessions, so Day 1 was taken in full.
 | LBI | Literasi Bahasa Indonesia | 29 | Claude labels |
 | LBE | Literasi Bahasa Inggris | 20 | Claude labels |
 
-The questions were extracted from the PDF into JSON. Beyond plain text
-extraction, the following was applied.
+The questions were moved from the PDF into JSON with the help of
+**Claude Code**.
 
-- **Each question carries its own passage.** A reading passage is printed once
-  in the module and shared by four or five questions; in the dataset it is
-  embedded in full into every question that refers to it, so no item requires
-  an external lookup.
-- **Bold and italic are preserved.** Several questions ask about "kata
-  **bercetak tebal**", so the extraction read the PDF's XML representation
-  rather than flat text.
-- **Paragraph boundaries are reconstructed**, because some questions refer to a
-  specific paragraph. End-of-line hyphenation is rejoined (`me-` + `nang` →
-  `menang`).
-- **Mathematics is rendered as plain text**: `x²`, `√29`, `2^(n–1)`, `6 5/7`.
-  Every PK and PM item was retyped by hand from the page image, since stacked
-  fractions do not survive text extraction.
-- **No correction was applied silently.** Any irregularity inherited from the
-  source is recorded in a `_source_note` on the item or passage it affects.
+## Questions with figures
 
-The extraction itself is not part of this repository: it depends on the source
-PDF, which cannot be redistributed here. `data/questions/` is the published
-artefact.
+Jev reads text, not images. The ten figures in the dataset are line charts, a
+pie chart, a geometry diagram and a bracketed operator definition. Each was
+cropped from its page, then **transcribed into text by Claude** and checked
+against the crop by hand. That check changed one transcription: for
+`LBI-d1s1-teks2` the drawn line slopes were measured, which contradicted the
+first transcription's claim that two of the lines were parallel.
 
-## Treatment of figures
+## Where the answers come from
 
-Jev accepts text, not images. Each of the ten figures in the dataset — line
-charts, a pie chart, a geometry diagram and a bracketed operator definition —
-was cropped from the page and **transcribed into text by Claude**, then
-verified against the crop by hand. The verification changed one transcription:
-for `LBI-d1s1-teks2` the drawn line slopes were measured, which showed that the
-first transcription's claim that two lines were parallel was incorrect.
-
-Each transcription is stored in `figure_note` and embedded into every question
-that uses the figure. The original crop remains in `data/figures/` so that the
-transcription can be audited against it. The model therefore receives the same
-text-only input for every question, and the transcription is available for
-inspection rather than performed inside a vision model.
-
-## Derivation of the answers
-
-**PU, PK and PM use the module's key**, reproduced exactly as printed.
-
-The key was nevertheless verified. All 70 items were solved independently from
-scratch, after which three separate Claude instances solved them again blind,
-each receiving only the questions with the answers removed and prohibited from
-opening this repository. PK and PM matched the module 20/20 in both rounds; PU
-matched on 24 of 30 and 23 of 30. The keys were not altered. The disagreements
-are recorded in `data/audit/module_key_audit.json`, and `PU-d1-q05` and
-`PU-d1-q24` are listed in `data/audit/disputed_items.json` as probable key
-errors so that accuracy can be reported both with and without them.
+**PU, PK and PM use the module's key.** The key was nevertheless re-examined,
+since the source itself states that its answers are not certain.
 
 **PPU, PBM, LBI and LBE carry labels written by Claude Opus 5**, since the
-module provides no key for them. These labels are one model's reading and are
-not ground truth. They are stored in a separate directory from the module's
-answers so the two are never combined, and every item carries the field
-`answer_source` naming which of the two it came from.
-
-Each label records a confidence of high, medium or low (52, 23 and 14 items
-respectively), assigned during labeling and reported in RESULTS.md alongside
-the rate at which Jev agrees with it. Only the final label is published; the
-intermediate drafting passes are working material and are not part of this
-repository. One limitation remains stated plainly: the label and its
-verification come from the same model family, so their agreement is weak
-evidence.
+module provides no key for them. These labels come from one model only, so they
+are not settled answers.
 
 ## How Jev is queried
 
@@ -125,21 +71,18 @@ https://api.typesafe.ai/v1/systemone`. `scripts/build_requests.py` writes the
 payloads to disk before anything is transmitted, so the exact request behind
 any score can be examined.
 
-A standard multiple-choice question becomes a single **Choice**, whose criteria
-are the question's own options a–e. Nothing is synthesised. Two categories
-require different handling.
+A standard multiple-choice question becomes a single **Choice** holding the
+item's own options a–e; nothing is invented. Two kinds of question fall outside
+that pattern.
 
-**The two Ya/Tidak tables** (PM q06 and q14) are not a single decision: each
-presents three statements to be marked individually. Each table is sent as one
-request containing three **Noul** judgments over the same passage. Scoring is
-applied to the item as a whole — all three statements must be correct — and the
-per-statement figure is reported separately, since its guessing baseline of 50%
-is not comparable with the 20% of a five-option question.
-
-**The three fill-in questions** (PK q01, q02 and q18) provide no options and
-therefore cannot be expressed as a Choice without inventing the distractors,
-which would measure the distractors rather than the model. They are excluded.
-The scored set consists of 67 items rather than 70.
+- **The two Ya/Tidak tables** (PM q06 and q14) are sent as one request carrying
+  three **Noul** judgments, one per statement. Scoring is applied to the item
+  as a whole, and the per-statement figure is reported separately because its
+  guessing baseline is 50%, not 20%.
+- **The three fill-in questions** (PK q01, q02, q18) print no options at all.
+  Making them a Choice would mean inventing the distractors, and what gets
+  measured then is the distractors rather than the model. They are excluded:
+  67 items are scored, not 70.
 
 ## Running the benchmark
 
@@ -161,19 +104,18 @@ python3 scripts/score.py --agreement --results data/results/claude_labeled.jsonl
 python3 scripts/score.py --combined      # all 156 items together
 ```
 
-`data/results/` already contains the published run, and the runner skips
-identifiers it finds there, so a repeat of the commands above reports every
-item as done and scores the committed responses without an API key. To make a
-new run, direct it elsewhere with `--out data/results/rerun.jsonl` and pass the
-same path to `scripts/score.py --results`.
+`data/results/` already contains the published run, and the runner skips items
+whose answers it finds there. The commands above can therefore be repeated to
+score the committed responses without an API key. For a new run, send the
+output elsewhere with `--out data/results/rerun.jsonl` and give the same path
+to `scripts/score.py --results`.
 
-The runner is resumable: identifiers already present in the output file are
-skipped, so a run interrupted by a rate limit continues when the command is
-repeated. Responses of 408, 429 and 5xx are retried with exponential backoff
-and honour `Retry-After`; failures are recorded as result lines rather than
-aborting the run.
+That skipping is also what makes an interrupted run resumable: simply repeat
+the command. Responses of 408, 429 and 5xx are retried automatically with a
+growing delay, and failures are recorded as result lines rather than aborting
+the run.
 
-`scripts/score.py` reports accuracy per subtest, accuracy by confidence band, a
+`scripts/score.py` reports accuracy per subtest and per confidence band, a
 Brier score, the accuracy obtained when the least confident answers are
 withheld, and token cost and latency.
 
