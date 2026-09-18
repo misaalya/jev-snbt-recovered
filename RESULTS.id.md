@@ -2,11 +2,11 @@
 
 [English](RESULTS.md) · **Bahasa Indonesia**
 
-Model `jev-1.13.0`, diminta sebagai `jev-latest`. Dijalankan 18 September 2026.
-156 soal, satu request per soal, penilaian sekuensial, gambar disediakan
-sebagai transkrip teks. Tidak ada request yang memerlukan pengulangan.
+Model `jev-1.13.0`, dipanggil dengan nama `jev-latest`. Dijalankan 18 September
+2026 atas 156 soal, satu request untuk tiap soal, dengan gambar yang sudah
+diubah menjadi teks. Tidak ada satu pun request yang perlu diulang.
 
-## Skor per subtes
+## Skor tiap subtes
 
 | Subtes | Skor | Soal | Acuan |
 |---|---|---|---|
@@ -18,25 +18,24 @@ sebagai transkrip teks. Tidak ada request yang memerlukan pengulangan.
 | PM — Penalaran Matematika | 45,0% | 9/20 | kunci modul |
 | PK — Pengetahuan Kuantitatif | 29,4% | 5/17 | kunci modul |
 
-## Skor per acuan
+## Skor menurut acuan jawabannya
 
-| Set | Skor | Soal |
+| Kelompok soal | Skor | Soal |
 |---|---|---|
 | Kunci modul | 47,8% | 32/67 |
-| Kunci modul, tanpa dua soal yang disengketakan | 49,2% | 32/65 |
+| Kunci modul, tanpa dua soal yang kuncinya meragukan | 49,2% | 32/65 |
 | Label Claude | 85,4% | 76/89 |
-| Gabungan | 69,2% | 108/156 |
+| Gabungan keduanya | 69,2% | 108/156 |
 
-Kunci modul mencakup PU, PK, dan PM. Empat subtes sisanya tidak punya kunci di
-modul dan dinilai terhadap label Claude Opus 5, yang merupakan bacaan satu
-model, bukan kunci jawaban resmi. Pemilihan acak di antara lima opsi
-menghasilkan 20%; empat soal perbandingan kuantitas di PK menghasilkan 25%;
-tabel Ya/Tidak tiga pernyataan yang dinilai utuh menghasilkan 12,5%.
+Kunci modul hanya menutup PU, PK, dan PM. Empat subtes sisanya tidak berkunci,
+jadi dinilai memakai label Claude Opus 5 — tafsir satu model, bukan kunci
+resmi. Sebagai pembanding, menebak acak di antara lima opsi menghasilkan 20%,
+soal perbandingan kuantitas di PK yang hanya empat opsi menghasilkan 25%, dan
+tabel Ya/Tidak berisi tiga pernyataan yang dinilai utuh menghasilkan 12,5%.
 
-## PU menurut jenis soal
+## PU dipilah menurut jenis soalnya
 
-PU satu-satunya subtes dalam set ini yang memuat soal verbal dan komputasional
-sekaligus.
+PU satu-satunya subtes di sini yang mencampur soal verbal dengan soal hitungan.
 
 | Soal | Skor |
 |---|---|
@@ -45,8 +44,9 @@ sekaligus.
 
 ## Kalibrasi
 
-Atas 154 soal yang dijawab sebagai Choice. Dua soal tabel Ya/Tidak
-mengembalikan peluang per pernyataan dan tidak membawa confidence Choice.
+Dihitung atas 154 soal yang dijawab sebagai Choice. Dua soal tabel Ya/Tidak
+tidak ikut, karena yang dikembalikannya peluang tiap pernyataan, bukan
+keyakinan Choice.
 
 | Keyakinan | Skor | Soal |
 |---|---|---|
@@ -56,9 +56,9 @@ mengembalikan peluang per pernyataan dan tidak membawa confidence Choice.
 | 0,9–1,0 | 96,7% | 58/60 |
 
 Skor Brier atas peluang yang diberikan pada jawaban acuan: 0,253 untuk seluruh
-154 soal, 0,402 pada set berkunci modul, 0,143 pada set berlabel Claude.
+154 soal, 0,402 di soal berkunci modul, dan 0,143 di soal berlabel Claude.
 
-Skor bila jawaban paling ragu ditahan:
+Skor kalau jawaban yang paling ragu dibiarkan kosong:
 
 | Cakupan | Gabungan | Kunci modul | Label Claude |
 |---|---|---|---|
@@ -67,29 +67,28 @@ Skor bila jawaban paling ragu ditahan:
 | 80% | 81,3% | 59,6% | 91,5% |
 | 70% | 85,2% | 63,0% | 91,9% |
 
-## Soal tabel Ya/Tidak
+## Dua soal tabel Ya/Tidak
 
-| Ukuran | Skor |
+| Cara menghitung | Skor |
 |---|---|
-| Soal utuh, ketiga pernyataan benar | 0/2 |
-| Pernyataan satuan | 4/6 |
+| Per soal utuh, ketiga pernyataan harus benar | 0/2 |
+| Per pernyataan | 4/6 |
 
-Dua pernyataan yang salah adalah `PM-d1s1-q06` pernyataan 3, yang acuannya
-"Tidak" sedangkan Jev mengembalikan 0,59, dan `PM-d1s1-q14` pernyataan 1, yang
-acuannya "Ya" sedangkan Jev mengembalikan 0,33.
+Dua pernyataan yang meleset: `PM-d1s1-q06` pernyataan 3, acuannya "Tidak"
+sedangkan Jev menjawab 0,59; dan `PM-d1s1-q14` pernyataan 1, acuannya "Ya"
+sedangkan Jev menjawab 0,33.
 
-## Perbedaan dengan label Claude
+## Beda jawaban dengan label Claude
 
-Kesepakatan pada 89 soal berlabel, menurut keyakinan yang tercatat pada
-labelnya:
+Tingkat kecocokan pada 89 soal berlabel, dipilah menurut keyakinan labelnya:
 
-| Keyakinan label | Kesepakatan | Soal |
+| Keyakinan label | Cocok | Soal |
 |---|---|---|
 | high | 90,4% | 47/52 |
 | medium | 87,0% | 20/23 |
 | low | 64,3% | 9/14 |
 
-13 soal yang jawabannya berbeda:
+Ke-13 soal yang jawabannya berbeda:
 
 | Soal | Label | Keyakinan label | Jev | Keyakinan Jev |
 |---|---|---|---|---|
@@ -107,15 +106,15 @@ labelnya:
 | PPU-d1s1-q16 | A | low | D | 0,12 |
 | PBM-d1s1-q10 | B | high | C | 0,10 |
 
-Tidak ada kolom di tabel ini yang merupakan kunci resmi.
+Tidak ada satu pun kolom di tabel ini yang berisi kunci resmi.
 
-## Soal yang kunci modulnya disengketakan
+## Soal yang kunci modulnya meragukan
 
-Tujuh soal PU sudah ditandai sebelum run ini, dalam audit yang tercatat di
-`data/audit/module_key_audit.json`. Jawaban Jev dicantumkan di sampingnya
-sebagai pembanding. Kuncinya tidak diubah.
+Tujuh soal PU sudah ditandai sebelum run ini lewat pemeriksaan yang tercatat di
+`data/audit/module_key_audit.json`. Jawaban Jev ditaruh berdampingan sekadar
+sebagai pembanding, dan kuncinya sendiri tidak diubah.
 
-| Soal | Kunci modul | Audit | Pemecah buta | Jev | Keyakinan Jev |
+| Soal | Kunci modul | Pemeriksaan | Penjawab buta | Jev | Keyakinan Jev |
 |---|---|---|---|---|---|
 | PU-d1-q05 | A | E | E | E | 0,90 |
 | PU-d1-q24 | E | A | A | A | 0,34 |
@@ -125,38 +124,38 @@ sebagai pembanding. Kuncinya tidak diubah.
 | PU-d1-q15 | B | D | D | A | 0,19 |
 | PU-d1-q20 | A | B | B | B | 0,39 |
 
-`PU-d1-q05` dan `PU-d1-q24` adalah dua soal yang dikecualikan pada angka 49,2%
+`PU-d1-q05` dan `PU-d1-q24` adalah dua soal yang dikeluarkan pada angka 49,2%
 di atas.
 
 ## Biaya dan latensi
 
 | Run | Request | Token input | Token output | Biaya | p50 | p95 |
 |---|---|---|---|---|---|---|
-| Set berkunci modul | 67 | 35.883 | 3.558 | $0,0015 | 884 ms | 1083 ms |
-| Set berlabel Claude | 89 | 70.754 | 4.710 | $0,0030 | 882 ms | 1187 ms |
+| Soal berkunci modul | 67 | 35.883 | 3.558 | $0,0015 | 884 ms | 1083 ms |
+| Soal berlabel Claude | 89 | 70.754 | 4.710 | $0,0030 | 882 ms | 1187 ms |
 | Total | 156 | 106.637 | 8.268 | $0,0045 | 883 ms | 1187 ms |
 
-Biaya dihitung pada $0,042 per satu juta token input dengan output tidak
-ditagih, yaitu tarif default yang dipakai `scripts/score.py`
-(`--rate-per-mtok`); dokumentasinya tidak memuat halaman harga, jadi tarif itu
-perlu diperiksa terhadap harga terkini. Empat request berjalan bersamaan. Tidak
-ada respons 429 maupun 5xx.
+Biayanya dihitung dengan tarif $0,042 per satu juta token input dan output
+tidak ditagih, yaitu tarif bawaan `scripts/score.py` (bisa diubah lewat
+`--rate-per-mtok`). Dokumentasi TypeSafe tidak memuat halaman harga, jadi tarif
+ini sebaiknya dicocokkan dulu dengan harga yang berlaku. Empat request berjalan
+bersamaan, dan tidak ada respons 429 maupun 5xx.
 
-## Ruang lingkup pengukuran
+## Sejauh mana angka ini berlaku
 
-- Soalnya adalah rekonstruksi komunitas atas naskah 2025 dari ingatan peserta,
-  dan kunci modul adalah karya penyusunnya, bukan kunci resmi. Lihat
+- Soalnya rekonstruksi komunitas dari ingatan peserta, dan kunci modulnya
+  buatan penyusun modul, bukan kunci resmi. Selengkapnya di
   [README](README.id.md).
-- Tiga soal isian PK dikecualikan dari seluruh angka di atas, sehingga tersisa
-  67 dari 70 soal berkunci modul. Ketiganya tidak punya opsi jawaban di
+- Tiga soal isian PK tidak masuk hitungan mana pun di atas, jadi yang terpakai
+  67 dari 70 soal berkunci modul. Ketiganya memang tidak punya opsi jawaban di
   sumbernya.
-- Gambar disediakan sebagai transkrip teks yang ditulis tangan; tidak ada
-  gambar yang dikirim ke model. Run tanpa transkrip belum dilakukan, sehingga
-  sumbangan transkrip terhadap skor belum terpisahkan.
-- Satu run, satu versi model, tanpa pengulangan. Tidak ada angka di atas yang
-  membawa perkiraan galat.
+- Gambar dikirim dalam bentuk transkrip teks yang ditulis manual; tidak ada
+  gambar yang dikirim ke model. Run tanpa transkrip belum pernah dicoba,
+  sehingga seberapa besar pengaruh transkrip itu terhadap skor belum terpisah.
+- Semuanya berasal dari satu run pada satu versi model, tanpa pengulangan, jadi
+  tidak ada angka di atas yang disertai perkiraan galat.
 
 Respons di balik setiap angka di atas tersimpan di `data/results/`, satu baris
-JSON per soal berisi jawaban, peluangnya, dan pemakaian token. Hitung ulang
+JSON per soal berisi jawaban, peluangnya, dan pemakaian tokennya. Hitung ulang
 dengan `python3 scripts/score.py` dan `python3 scripts/score.py --combined`;
-run baru dapat dibuat dengan `python3 scripts/run_bench.py`.
+untuk run yang benar-benar baru, jalankan `python3 scripts/run_bench.py`.

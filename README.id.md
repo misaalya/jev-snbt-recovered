@@ -2,48 +2,48 @@
 
 [English](README.md) · **Bahasa Indonesia**
 
-Benchmark **TypeSafe Jev** pada **SNBT 2025**, ujian masuk perguruan tinggi di
-Indonesia.
+Pengujian **TypeSafe Jev** pada soal **SNBT 2025**, ujian masuk perguruan
+tinggi negeri di Indonesia.
 
-> **Soal di sini adalah soal hasil recovery, bukan naskah resmi.** Naskah SNBT
-> tidak dirilis setelah ujian. Setiap soal di repositori ini direkonstruksi
-> komunitas dari ingatan peserta, sehingga redaksinya bisa berbeda dari yang
-> benar-benar diujikan, sebagian soal jelas cacat, dan kunci jawabannya adalah
-> kunci versi rekonstruksi, bukan kunci penyelenggara. Seluruh angka dalam
-> repositori ini adalah pengukuran terhadap rekonstruksi tersebut, bukan
-> terhadap ujian yang sesungguhnya.
+> **Soalnya hasil rekonstruksi, bukan naskah aslinya.** Naskah SNBT tidak
+> pernah dirilis setelah ujian selesai, jadi semua soal di sini disusun ulang
+> oleh komunitas dari ingatan peserta. Redaksinya bisa meleset dari yang
+> benar-benar keluar, beberapa soal cacat, dan kunci jawabannya pun buatan
+> penyusun modul, bukan dari penyelenggara ujian. Artinya seluruh angka di
+> repositori ini mengukur Jev terhadap rekonstruksi tersebut, bukan terhadap
+> SNBT yang sesungguhnya.
 
-Dataset ini memuat 159 soal yang mencakup ketujuh subtes. Setiap soal berdiri
-sendiri: bacaan dan transkrip gambar yang dirujuknya disematkan di dalam soal
-itu sendiri. Hasil run pertama tercatat di **[RESULTS.id.md](RESULTS.id.md)**, dengan
-respons mentahnya di `data/results/`.
+Dataset ini berisi 159 soal dari ketujuh subtes. Tiap soal berdiri sendiri:
+bacaan dan transkrip gambar yang dirujuknya sudah menyatu di dalam soal itu,
+jadi tidak ada yang perlu dicari di tempat lain. Hasil run pertama ada di
+**[RESULTS.id.md](RESULTS.id.md)**, lengkap dengan respons mentahnya di
+`data/results/`.
 
-## Sumber soal
+## Asal soalnya
 
-Soal diambil dari *Modul MMA SNBT 2025* susunan Tim Mangkuk Mi Ayam: 764
-halaman soal hasil ingatan peserta yang ditata ulang oleh relawan
-(`dataset/MMASNBT2025.pdf`, tidak disertakan dalam repositori ini).
+Semua soal berasal dari *Modul MMA SNBT 2025* susunan Tim Mangkuk Mi Ayam:
+764 halaman soal hasil ingatan peserta yang ditata ulang oleh relawan
+(`dataset/MMASNBT2025.pdf`, tidak ikut disertakan di sini).
 
-Dua konsekuensi dari asal-usul itu menentukan bagaimana keseluruhan proyek ini
-disusun.
+Ada dua hal dari sumber itu yang menentukan bentuk seluruh proyek ini.
 
-**Kunci jawabannya bukan kunci resmi.** Kunci itu karya penyusun modul, dan
-hanya tersedia untuk tiga subtes: PU, PK, dan PM. Kunci PU bahkan memuat
-disclaimer dari penyusunnya sendiri, *"bukan jawaban yang pasti"*. PPU, PBM,
-LBI, dan LBE tidak memiliki kunci.
+**Kuncinya bukan kunci resmi.** Kunci jawaban di modul adalah hasil kerja
+penyusunnya sendiri, dan hanya ada untuk tiga subtes: PU, PK, dan PM. Di bagian
+PU, penyusunnya bahkan memasang catatan *"bukan jawaban yang pasti"*. PPU, PBM,
+LBI, dan LBE sama sekali tidak berkunci.
 
-**Sebagian soal rusak dalam proses rekonstruksi.** `LBI-d1s1-q21` kehilangan
-satu opsi, dan `PPU-d1s1-teks4` tertulis "kristal udara" padahal istilah yang
-dimaksud adalah "kristal es". Tidak ada cacat semacam itu yang diperbaiki tanpa
-catatan: soalnya direproduksi sebagaimana tercetak dan membawa `_source_note`
-yang menguraikan masalahnya.
+**Sebagian soal sudah cacat sejak dari sumbernya.** `LBI-d1s1-q21` kehilangan
+satu opsi, dan di `PPU-d1s1-teks4` tertulis "kristal udara" padahal yang
+dimaksud "kristal es". Cacat seperti ini tidak pernah diam-diam dibetulkan:
+soalnya tetap ditampilkan apa adanya, lalu diberi `_source_note` yang
+menjelaskan masalahnya.
 
-## Cakupan dan penyiapan
+## Bagian mana yang diambil, dan apa yang dikerjakan padanya
 
-Dataset ini mencakup **Hari 1, Sesi 1 tiap subtes**. PU tidak terbagi ke dalam
-sesi, sehingga Hari 1 diambil seluruhnya.
+Yang diambil adalah **Hari 1 Sesi 1 dari tiap subtes**. Khusus PU yang memang
+tidak dibagi per sesi, Hari 1 diambil seluruhnya.
 
-| Subtes | | Soal | Jawaban dari |
+| Subtes | | Soal | Sumber jawaban |
 |---|---|---|---|
 | PU | Penalaran Umum | 30 | kunci modul |
 | PK | Pengetahuan Kuantitatif | 20 | kunci modul |
@@ -53,96 +53,95 @@ sesi, sehingga Hari 1 diambil seluruhnya.
 | LBI | Literasi Bahasa Indonesia | 29 | label Claude |
 | LBE | Literasi Bahasa Inggris | 20 | label Claude |
 
-Soal diekstraksi dari PDF menjadi JSON. Di luar pengambilan teks biasa, hal-hal
-berikut diterapkan.
+Soal dipindahkan dari PDF ke JSON. Selain mengambil teksnya, ada beberapa hal
+lain yang dikerjakan.
 
-- **Setiap soal membawa bacaannya sendiri.** Satu bacaan dicetak sekali di
-  modul dan dipakai bersama oleh empat sampai lima soal; di dalam dataset,
-  bacaan itu disematkan utuh ke setiap soal yang merujuknya, sehingga tidak ada
-  soal yang memerlukan rujukan dari luar.
-- **Cetak tebal dan miring dipertahankan.** Beberapa soal menanyakan "kata
-  **bercetak tebal**", sehingga ekstraksinya membaca representasi XML dari PDF,
-  bukan teks polos.
-- **Batas paragraf direkonstruksi**, karena sebagian soal merujuk paragraf
-  tertentu. Pemenggalan kata di ujung baris disambung kembali (`me-` + `nang` →
-  `menang`).
-- **Matematika ditulis sebagai teks biasa**: `x²`, `√29`, `2^(n–1)`, `6 5/7`.
-  Seluruh soal PK dan PM diketik ulang dengan tangan dari gambar halaman,
-  karena pecahan bertingkat tidak bertahan melalui ekstraksi teks.
-- **Tidak ada koreksi yang diterapkan secara senyap.** Setiap kejanggalan yang
-  diwarisi dari sumbernya dicatat dalam `_source_note` pada soal atau bacaan
-  yang bersangkutan.
+- **Tiap soal dibekali bacaannya sendiri.** Di modul, satu bacaan dicetak
+  sekali lalu dipakai bersama oleh empat sampai lima soal. Di dataset, bacaan
+  itu disalin utuh ke setiap soal yang memakainya, supaya tidak ada soal yang
+  menggantung pada teks di luar dirinya.
+- **Cetak tebal dan miring ikut dipertahankan.** Ada soal yang menanyakan
+  "kata **bercetak tebal**", jadi ekstraksinya membaca struktur XML dari PDF,
+  bukan teks polos yang sudah kehilangan format.
+- **Batas paragraf disusun ulang**, karena sebagian soal menunjuk paragraf
+  tertentu. Kata yang terpenggal di ujung baris disambung kembali (`me-` +
+  `nang` → `menang`).
+- **Notasi matematika ditulis sebagai teks biasa**: `x²`, `√29`, `2^(n–1)`,
+  `6 5/7`. Seluruh soal PK dan PM diketik ulang manual dari gambar halamannya,
+  sebab pecahan bertingkat selalu berantakan kalau diambil otomatis.
+- **Tidak ada perbaikan yang dilakukan diam-diam.** Setiap kejanggalan bawaan
+  dari sumbernya dicatat di `_source_note` pada soal atau bacaan yang
+  bersangkutan.
 
-Proses ekstraksinya sendiri tidak disertakan dalam repositori ini karena
-bergantung pada PDF sumber, yang tidak dapat disebarkan ulang di sini. Yang
-diterbitkan adalah hasilnya, `data/questions/`.
+Proses ekstraksinya sendiri tidak ikut diterbitkan karena bergantung pada PDF
+sumber yang tidak boleh disebarkan ulang. Yang dibagikan di sini adalah
+hasilnya, yaitu `data/questions/`.
 
-## Penanganan gambar
+## Soal yang bergambar
 
-Jev menerima teks, bukan gambar. Kesepuluh gambar dalam dataset ini — diagram
-garis, diagram lingkaran, gambar geometri, dan definisi operator dalam kurung
-besar — dipotong dari halamannya lalu **ditranskripsikan menjadi teks oleh
-Claude**, kemudian diverifikasi terhadap potongannya secara manual. Verifikasi
-itu mengubah satu transkrip: pada `LBI-d1s1-teks2`, kemiringan garis yang
-digambar diukur, dan pengukuran itu menunjukkan bahwa klaim transkrip pertama
-bahwa dua garis sejajar tidaklah benar.
+Jev membaca teks, bukan gambar. Kesepuluh gambar di dataset ini — diagram
+garis, diagram lingkaran, bangun geometri, dan satu definisi operator dalam
+kurung besar — dipotong dari halamannya, lalu **diterjemahkan menjadi teks oleh
+Claude** dan dicocokkan ulang secara manual dengan potongan aslinya. Pengecekan
+itu sempat mengubah satu transkrip: di `LBI-d1s1-teks2`, kemiringan garisnya
+diukur, dan hasilnya membantah klaim transkrip pertama bahwa dua garis itu
+sejajar.
 
-Setiap transkrip disimpan dalam `figure_note` dan disematkan ke setiap soal
-yang memakai gambar tersebut. Potongan aslinya tetap berada di `data/figures/`
-sehingga transkripnya dapat diaudit terhadap potongan itu. Dengan begitu model
-menerima masukan berupa teks yang sama untuk setiap soal, dan transkripnya
-tersedia untuk diperiksa alih-alih dikerjakan di dalam model visual.
+Hasil transkripnya disimpan di `figure_note` dan ikut disisipkan ke setiap soal
+yang memakai gambar tersebut, sementara potongan aslinya tetap tersimpan di
+`data/figures/` supaya bisa dibandingkan siapa pun. Dengan cara ini model
+menerima bentuk masukan yang sama untuk semua soal, dan pembacaan gambarnya
+terbuka untuk diperiksa, bukan tersembunyi di dalam model visual.
 
-## Penurunan jawaban
+## Dari mana jawaban acuannya
 
-**PU, PK, dan PM memakai kunci modul**, direproduksi persis sebagaimana
-tercetak.
+**PU, PK, dan PM memakai kunci modul**, disalin apa adanya.
 
-Kunci tersebut tetap diverifikasi. Seluruh 70 soal dikerjakan secara mandiri
-dari nol, setelah itu tiga instansi Claude yang terpisah mengerjakannya kembali
-secara buta, masing-masing hanya menerima soal tanpa jawaban dan dilarang
-membuka repositori ini. PK dan PM cocok dengan modul 20/20 pada kedua ronde; PU
-cocok pada 24 dari 30 dan 23 dari 30. Kuncinya tidak diubah. Ketidaksepakatan
-tercatat di `data/audit/module_key_audit.json`, dan `PU-d1-q05` serta
-`PU-d1-q24` terdaftar di `data/audit/disputed_items.json` sebagai kemungkinan
-kunci keliru, sehingga akurasi dapat dilaporkan dengan maupun tanpa keduanya.
+Meski begitu kuncinya tetap diuji. Ke-70 soalnya dikerjakan ulang dari nol,
+lalu tiga sesi Claude yang terpisah mengerjakannya sekali lagi tanpa melihat
+kunci maupun isi repositori ini. PK dan PM cocok 20/20 pada kedua putaran,
+sedangkan PU cocok 24 dari 30 dan 23 dari 30. Kuncinya tetap tidak diubah.
+Semua ketidakcocokan dicatat di `data/audit/module_key_audit.json`, dan dua
+soal yang kuncinya paling meragukan, `PU-d1-q05` dan `PU-d1-q24`, didaftar di
+`data/audit/disputed_items.json` supaya akurasinya bisa dilaporkan dengan dan
+tanpa keduanya.
 
-**PPU, PBM, LBI, dan LBE memakai label yang ditulis Claude Opus 5**, karena
-modulnya tidak menyediakan kunci untuk keempatnya. Label ini adalah bacaan satu
-model dan bukan kebenaran dasar. Label disimpan pada direktori terpisah dari
-jawaban modul sehingga keduanya tidak pernah tergabung, dan setiap soal memuat
-kolom `answer_source` yang menyebut asal jawabannya.
+**PPU, PBM, LBI, dan LBE memakai label buatan Claude Opus 5**, karena modulnya
+memang tidak menyediakan kunci untuk keempatnya. Label ini tafsir satu model,
+bukan jawaban yang sudah pasti benar. Karena itu label disimpan di direktori
+yang terpisah dari kunci modul, dan tiap soal membawa kolom `answer_source`
+yang menyebutkan asal jawabannya, supaya keduanya tidak pernah tercampur.
 
-Setiap label mencatat tingkat keyakinan high, medium, atau low (berturut-turut
-52, 23, dan 14 soal) yang ditetapkan saat pelabelan dan dilaporkan di
-RESULTS.id.md berdampingan dengan tingkat kesepakatan Jev terhadapnya. Yang
-diterbitkan hanya label akhir; tahap-tahap penyusunannya adalah bahan kerja dan
-tidak termasuk dalam repositori ini. Satu keterbatasan perlu dinyatakan terus
-terang: label dan verifikasinya berasal dari keluarga model yang sama, sehingga
-kesepakatan di antara keduanya merupakan bukti yang lemah.
+Tiap label diberi tingkat keyakinan high, medium, atau low (berturut-turut 52,
+23, dan 14 soal) yang ditetapkan saat pelabelan, dan RESULTS.id.md melaporkan
+tingkat kecocokan Jev untuk masing-masing tingkat itu. Yang diterbitkan hanya
+label akhirnya; tahap-tahap penyusunannya adalah bahan kerja dan tidak ikut
+dibagikan. Satu keterbatasan perlu disebut terus terang: yang membuat label dan
+yang memeriksanya berasal dari keluarga model yang sama, jadi kecocokan di
+antara mereka bukan bukti yang kuat.
 
-## Cara Jev ditanya
+## Cara soal dikirim ke Jev
 
-Satu request dikirim per soal ke `POST https://api.typesafe.ai/v1/systemone`.
-`scripts/build_requests.py` menulis payload-nya ke disk sebelum ada yang
-dikirimkan, sehingga request persis di balik sebuah skor dapat diperiksa.
+Tiap soal dikirim sebagai satu request ke `POST
+https://api.typesafe.ai/v1/systemone`. Sebelum ada yang dikirim,
+`scripts/build_requests.py` menuliskan dulu seluruh payload-nya ke disk,
+sehingga request persis di balik sebuah skor selalu bisa ditengok kembali.
 
-Soal pilihan ganda standar menjadi satu **Choice**, yang kriterianya adalah
-opsi a–e milik soal itu sendiri. Tidak ada yang disintesis. Dua kategori
-memerlukan penanganan berbeda.
+Soal pilihan ganda biasa menjadi satu **Choice** dengan kriteria berupa opsi
+a–e milik soal itu sendiri; tidak ada opsi yang dikarang. Dua jenis soal
+menuntut perlakuan lain.
 
-**Dua soal tabel Ya/Tidak** (PM q06 dan q14) bukan satu keputusan tunggal:
-masing-masing menyajikan tiga pernyataan yang harus ditandai satu per satu.
-Setiap tabel dikirim sebagai satu request berisi tiga penilaian **Noul** atas
-bacaan yang sama. Penilaian diterapkan pada soal secara utuh — ketiga
-pernyataan harus benar — dan angka per pernyataan dilaporkan terpisah, karena
-baseline tebakannya sebesar 50% tidak sebanding dengan 20% milik soal lima
-opsi.
+**Dua soal tabel Ya/Tidak** (PM q06 dan q14) bukan satu keputusan, melainkan
+tiga pernyataan yang masing-masing harus ditandai. Setiap tabel dikirim sebagai
+satu request berisi tiga penilaian **Noul** atas bacaan yang sama. Penilaiannya
+dihitung per soal utuh — ketiga pernyataan harus benar — sedangkan angka per
+pernyataan dilaporkan terpisah, sebab peluang menebak benarnya 50% dan tidak
+sebanding dengan 20% pada soal lima opsi.
 
-**Tiga soal isian** (PK q01, q02, dan q18) tidak menyediakan opsi sehingga
-tidak dapat dinyatakan sebagai Choice tanpa mengarang distraktornya, dan hal
-itu berarti mengukur distraktornya alih-alih modelnya. Ketiganya dikecualikan.
-Set yang dinilai terdiri atas 67 soal, bukan 70.
+**Tiga soal isian** (PK q01, q02, dan q18) tidak punya opsi sama sekali,
+sehingga mustahil dijadikan Choice tanpa mengarang pengecohnya — dan kalau
+begitu yang terukur justru pengecoh karangan itu, bukan modelnya. Ketiganya
+dikeluarkan, jadi yang dinilai 67 soal, bukan 70.
 
 ## Menjalankan benchmark
 
@@ -152,10 +151,10 @@ python3 scripts/run_bench.py --dry-run   # validasi tanpa mengirim
 
 cp .env.example .env                     # lalu isikan kunci API
 python3 scripts/run_bench.py --limit 5   # uji cepat
-python3 scripts/run_bench.py             # 67 soal berkunci modul
+python3 scripts/run_bench.py             # 67 soal yang punya kunci modul
 python3 scripts/score.py
 
-# 89 soal sisanya, dinilai terhadap label Claude
+# 89 soal sisanya, dinilai memakai label Claude
 python3 scripts/build_requests.py --split claude_labeled
 python3 scripts/run_bench.py --requests data/requests/claude_labeled.jsonl \
                              --out data/results/claude_labeled.jsonl
@@ -164,55 +163,57 @@ python3 scripts/score.py --agreement --results data/results/claude_labeled.jsonl
 python3 scripts/score.py --combined      # seluruh 156 soal sekaligus
 ```
 
-`data/results/` sudah memuat run yang diterbitkan, dan runner melewati
-identifier yang ditemukannya di sana, sehingga mengulang perintah di atas akan
-melaporkan semua soal sebagai selesai dan menilai respons yang sudah
-di-commit tanpa perlu kunci API. Untuk membuat run baru, arahkan keluarannya ke
-tempat lain dengan `--out data/results/rerun.jsonl` dan berikan path yang sama
-ke `scripts/score.py --results`.
+Perlu diketahui, `data/results/` sudah berisi run yang diterbitkan, dan runner
+selalu melewati soal yang jawabannya sudah ada di sana. Jadi menjalankan ulang
+perintah di atas akan melaporkan semuanya sudah selesai, dan penilaiannya
+memakai respons yang sudah ikut di-commit — tanpa perlu kunci API sama sekali.
+Kalau memang ingin menjalankan run baru, arahkan keluarannya ke berkas lain
+lewat `--out data/results/rerun.jsonl`, lalu berikan path yang sama ke
+`scripts/score.py --results`.
 
-Runner-nya dapat dilanjutkan: identifier yang sudah ada di berkas keluaran akan
-dilewati, sehingga run yang terputus oleh rate limit berlanjut ketika
-perintahnya diulang. Respons 408, 429, dan 5xx diulang dengan backoff
-eksponensial serta menghormati `Retry-After`; kegagalan dicatat sebagai baris
-hasil alih-alih membatalkan run.
+Run yang terputus bisa dilanjutkan begitu saja: soal yang sudah tercatat akan
+dilewati, jadi cukup ulangi perintahnya kalau sempat kena rate limit. Respons
+408, 429, dan 5xx diulang dengan jeda yang membesar dan mengikuti
+`Retry-After`, sementara kegagalan dicatat sebagai baris hasil, bukan
+membatalkan seluruh run.
 
-`scripts/score.py` melaporkan akurasi per subtes, akurasi per pita keyakinan,
-skor Brier, akurasi yang diperoleh bila jawaban paling ragu ditahan, serta
-biaya token dan latensi.
+`scripts/score.py` melaporkan akurasi per subtes, akurasi menurut rentang
+keyakinan, skor Brier, akurasi bila jawaban yang paling ragu tidak dihitung,
+serta biaya token dan latensinya.
 
 ## Ringkasan hasil
 
-| Set | Skor |
+| Kelompok soal | Skor |
 |---|---|
 | 67 soal, kunci modul | 47,8% |
 | 89 soal, label Claude | 85,4% |
 | 156 soal, acuan campuran | 69,2% |
 
-Skor per subtes, kalibrasi, perbedaan terhadap label, dan biaya disajikan di
-**[RESULTS.id.md](RESULTS.id.md)**.
+Rincian per subtes, kalibrasi, daftar perbedaan dengan label, dan biayanya ada
+di **[RESULTS.id.md](RESULTS.id.md)**.
 
-## Tata letak repositori
+## Isi repositori
 
 ```
-data/questions/with_key/        PU, PK, PM — jawaban modul
-data/questions/claude_labeled/  PPU, PBM, LBI, LBE — label Claude
-data/audit/                     audit kunci modul dan daftar soal yang disengketakan
+data/questions/with_key/        PU, PK, PM — jawaban dari kunci modul
+data/questions/claude_labeled/  PPU, PBM, LBI, LBE — jawaban dari label Claude
+data/audit/                     hasil pemeriksaan kunci modul dan soal yang meragukan
 data/figures/                   potongan gambar aslinya
 data/results/                   run yang dilaporkan di RESULTS.id.md, satu baris per soal
 scripts/build_requests.py       soal -> payload request System One
 scripts/run_bench.py            mengirim payload, mencatat jawaban dan pemakaian token
-scripts/score.py                menilai satu run terhadap kunci modul atau label
+scripts/score.py                menilai satu run memakai kunci modul atau label Claude
 ```
 
-`scripts/build_requests.py` menulis ke `data/requests/` yang dihasilkan secara
-lokal dan tidak dilacak. `data/results/` memuat run yang diterbitkan persis
-seperti dicatat runner, sehingga angka di RESULTS.id.md dapat dihitung ulang dan
-run baru dapat dibandingkan baris per baris terhadapnya.
+`scripts/build_requests.py` menulis ke `data/requests/`, yang dibuat ulang
+secara lokal dan tidak ikut dilacak git. Sementara `data/results/` berisi run
+yang diterbitkan persis seperti dicatat runner, jadi angka di RESULTS.id.md
+bisa dihitung ulang sendiri dan run baru bisa dibandingkan baris per baris
+dengannya.
 
 ## Atribusi
 
 Soal: **Modul MMA SNBT 2025**, Tim Mangkuk Mi Ayam
-(<https://linktr.ee/MangkukMieAyam>). Penataannya berlisensi CC BY-NC 4.0; isi
-soalnya milik penyelenggara ujian dan direproduksi di sini semata untuk riset
-non-komersial.
+(<https://linktr.ee/MangkukMieAyam>). Penataannya berlisensi CC BY-NC 4.0,
+sedangkan isi soalnya milik penyelenggara ujian dan ditampilkan di sini semata
+untuk keperluan riset non-komersial.
