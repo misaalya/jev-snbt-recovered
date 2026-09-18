@@ -1,0 +1,250 @@
+{
+ "_note": "All PM items rewritten by hand from data/pages/p-351..356.png. Answers from the module's 'Pembahasan Penalaran Matematika UTBK (Day 1 Sesi 1)' p.534-558, which states 'Answer : x' per item. Notation: a/b = fraction, x² = squared, 2^n = power.",
+ "PM-d1s1-teks3": {
+  "text": "Pada dinding suatu ruangan dipasang lampu dengan ketinggian 4 m dari lantai ruangan. Sebuah meja berbentuk segitiga ABC ditempatkan di bawah lampu dengan titik A dan B menempel pada dinding. Panjang sisi AB adalah 1 meter dan bayangannya di lantai adalah A'B' dengan panjang 5/3 m.",
+  "figure_path": "data/figures/PM-d1s1-teks3.png",
+  "figure_note": "Ilustrasi 3D sebuah ruangan: dinding tegak di kiri dan lantai mendatar. Sebuah lampu terpasang pada dinding di bagian atas. Di bawah lampu ada lukisan pada dinding. Meja berbentuk segitiga ABC (hijau) berada di bawah lampu dengan sisi AB menempel pada dinding dan titik C menjorok ke ruangan. Bayangan meja di lantai adalah segitiga A'B'C' (abu-abu) dengan A'B' pada garis pertemuan dinding dan lantai. Garis putus-putus dari lampu melewati A, B, C menuju A', B', C'. Di lantai, di depan lampu, terdapat 'alas patung' kecil.",
+  "math": false
+ },
+ "PM-d1s1-teks4": {
+  "figure_path": "data/figures/PM-d1s1-teks4.png",
+  "figure_note": "Diagram garis pasokan dan penjualan gula pasir (kuintal) per hari dalam satu minggu, sumbu Y 0–16. Pasokan: Senin 8, Selasa 14, Rabu 9, Kamis 10, Jumat 8, Sabtu 9, Minggu 11. Terjual: Senin 4, Selasa 12, Rabu 8, Kamis 12, Jumat 8, Sabtu 14, Minggu 12."
+ },
+ "PM-d1s1-teks5": {
+  "text": "Sepetak sawah terdiri atas x petak-petak kecil lahan untuk ditanami tanaman pertanian dengan masing-masing petak berukuran 6 × 6 m²."
+ },
+ "PM-d1s1-q01": {
+  "question": "Banyak cara terpilihnya pengurus dengan sekretaris perempuan adalah …",
+  "options": {
+   "a": "5.400",
+   "b": "5.520",
+   "c": "5.750",
+   "d": "5.760",
+   "e": "6.000"
+  },
+  "answer": "B"
+ },
+ "PM-d1s1-q02": {
+  "question": "Untuk memeriahkan suasana pertemuan, dipilih empat orang untuk menyanyi. Peluang yang terpilih keempatnya perempuan adalah …",
+  "options": {
+   "a": "16/1265",
+   "b": "4/25",
+   "c": "21/1265",
+   "d": "4/15",
+   "e": "10/25"
+  },
+  "answer": "C"
+ },
+ "PM-d1s1-q03": {
+  "question": "Pada pertemuan tersebut juga dipilih tiga orang untuk mewakili RT dalam suatu kegiatan pada tingkat RW. Peluang terpilihnya satu laki-laki dua perempuan atau dua laki-laki satu perempuan adalah …",
+  "options": {
+   "a": "3/4",
+   "b": "2/3",
+   "c": "21/46",
+   "d": "27/92",
+   "e": "52/92"
+  },
+  "answer": "A"
+ },
+ "PM-d1s1-q04": {
+  "question": "Peluang terpilihnya sekretaris perempuan dengan ketua dan bendahara berjenis kelamin berbeda adalah …",
+  "options": {
+   "a": "2/75",
+   "b": "2/25",
+   "c": "9/92",
+   "d": "4/25",
+   "e": "9/46"
+  },
+  "answer": "E"
+ },
+ "PM-d1s1-q05": {
+  "question": "Jika Kn menyatakan bilangan pada petak pertama baris ke-n, maka Kn = …",
+  "options": {
+   "a": "2^(n–1), n = 1, 2, …, 8",
+   "b": "2^(8n–1), n = 1, 2, …, 8",
+   "c": "2n – 1, n = 1, 2, …, 8",
+   "d": "2^(8n–8), n = 1, 2, …, 8",
+   "e": "2n² – 3n + 2, n = 1, 2, …, 8"
+  },
+  "answer": "D"
+ },
+ "PM-d1s1-q06": {
+  "type": "table_yes_no",
+  "question": "Klik pilihan kolom di sebelah kanan pernyataan yang sesuai dengan jawaban (Ya / Tidak).",
+  "statements": [
+   "Bilangan pada petak ke-3 baris ke-2 adalah 512.",
+   "Jumlah bilangan pada petak pertama sampai ke-5 baris pertama adalah 31.",
+   "Bilangan pada baris ke-8 petak ke-8 adalah 2^64."
+  ],
+  "options": {},
+  "answer": [
+   "Tidak",
+   "Ya",
+   "Tidak"
+  ],
+  "_source_note": "Di sumber, batang soal hanya berbunyi 'Klik pilihan kolom di sebelah kanan pernyataan yang sesuai dengan jawaban.'; label 'Ya' dan 'Tidak' berdiri sebagai judul kolom tabel. Keduanya digabung ke batang soal '(Ya / Tidak)' agar item tetap terbaca tanpa tata letak tabel. Pernyataan ketiga ditulis '264' di dump teks karena pangkat hilang; dikembalikan menjadi 2^64 sesuai naskah."
+ },
+ "PM-d1s1-q07": {
+  "question": "Hasil bagi bilangan pada petak pertama baris ketiga dengan bilangan pada petak kelima baris kedua adalah …",
+  "options": {
+   "a": "4",
+   "b": "8",
+   "c": "16",
+   "d": "32",
+   "e": "64"
+  },
+  "answer": "C"
+ },
+ "PM-d1s1-q08": {
+  "question": "Jika bilangan pada petak ke-n baris pertama dibagi dengan 2^(2n–2), untuk n = 1, 2, 3, …, 8, jumlah bilangan pada baris pertama adalah …",
+  "options": {
+   "a": "255/256",
+   "b": "255/128",
+   "c": "127/256",
+   "d": "127/128",
+   "e": "127/64"
+  },
+  "answer": "B"
+ },
+ "PM-d1s1-q09": {
+  "question": "Tinggi meja adalah … meter.",
+  "options": {
+   "a": "1",
+   "b": "1,4",
+   "c": "1,5",
+   "d": "1,6",
+   "e": "2"
+  },
+  "answer": "D"
+ },
+ "PM-d1s1-q10": {
+  "question": "Jika luas meja adalah 0,5 m², luas bayangan meja di lantai adalah …",
+  "options": {
+   "a": "1 5/18",
+   "b": "1 6/18",
+   "c": "1 7/18",
+   "d": "1 8/18",
+   "e": "1 9/18"
+  },
+  "answer": "C"
+ },
+ "PM-d1s1-q11": {
+  "question": "Di depan lampu tersebut, seekor belalang terbang lurus sejajar dengan dinding dan lantai pada ketinggian 2 m dari lantai. Jika bayangan belalang di lantai menempuh jarak 4 m dalam waktu 10 detik, jarak sebenarnya yang ditempuh oleh belalang dalam waktu 5 detik adalah … meter",
+  "options": {
+   "a": "1",
+   "b": "1,25",
+   "c": "1,5",
+   "d": "1,75",
+   "e": "2"
+  },
+  "answer": "A"
+ },
+ "PM-d1s1-q12": {
+  "question": "Alas patung ditempatkan di depan lampu dengan jarak 2 meter dari dinding. Tinggi alas patung tersebut 1 meter. Sebuah patung setinggi 1,5 meter diletakkan di atas alas tersebut. Panjang bayangan patung adalah … meter.",
+  "options": {
+   "a": "14/6",
+   "b": "15/6",
+   "c": "16/6",
+   "d": "17/6",
+   "e": "18/6"
+  },
+  "answer": "C"
+ },
+ "PM-d1s1-q13": {
+  "question": "Dari diagram di atas, stok gula yang terbanyak terjadi pada hari …",
+  "options": {
+   "a": "Senin",
+   "b": "Selasa",
+   "c": "Rabu",
+   "d": "Sabtu",
+   "e": "Minggu"
+  },
+  "answer": "C",
+  "has_figure": true,
+  "figure_path": "data/figures/PM-d1s1-teks4.png",
+  "figure_note": "Diagram garis pasokan dan penjualan gula pasir (kuintal) per hari dalam satu minggu, sumbu Y 0–16. Pasokan: Senin 8, Selasa 14, Rabu 9, Kamis 10, Jumat 8, Sabtu 9, Minggu 11. Terjual: Senin 4, Selasa 12, Rabu 8, Kamis 12, Jumat 8, Sabtu 14, Minggu 12."
+ },
+ "PM-d1s1-q14": {
+  "type": "table_yes_no",
+  "question": "Klik pilihan kolom di sebelah kanan pernyataan yang sesuai dengan jawaban (Ya / Tidak).",
+  "statements": [
+   "Jumlah stok terbanyak dalam toko pada Minggu itu adalah 7 kuintal",
+   "Stok gula dalam satu minggu sebanyak 6 kuintal terjadi pada hari Rabu dan Minggu",
+   "Rata-rata stok gula per hari dalam toko adalah 4 kuintal"
+  ],
+  "options": {},
+  "answer": [
+   "Ya",
+   "Tidak",
+   "Tidak"
+  ],
+  "_source_note": "Di sumber, batang soal hanya berbunyi 'Klik pilihan kolom di sebelah kanan pernyataan yang sesuai dengan jawaban.'; label 'Ya' dan 'Tidak' berdiri sebagai judul kolom tabel. Keduanya digabung ke batang soal '(Ya / Tidak)' agar item tetap terbaca tanpa tata letak tabel."
+ },
+ "PM-d1s1-q15": {
+  "question": "Berdasarkan pengalaman, biaya operasional akan tercukupi jika sudah terjual 40% dalam minggu itu. Jika 1 kuintal gula dijual dengan harga Rp150.000,00, keuntungan pedagang dalam minggu itu adalah … juta rupiah",
+  "options": {
+   "a": "3,15",
+   "b": "4,20",
+   "c": "5,25",
+   "d": "6,30",
+   "e": "7,35"
+  },
+  "answer": "D"
+ },
+ "PM-d1s1-q16": {
+  "question": "Berdasarkan pengalaman pedagang, stok akan aman dalam satu hari jika lebih dari rata-rata stok ditambah 1/4 simpangan baku. Pedagang merasa kurang aman untuk berjualan pada hari …",
+  "options": {
+   "a": "Senin, Selasa, Rabu",
+   "b": "Selasa, Rabu, Kamis",
+   "c": "Rabu, Kamis, Jumat",
+   "d": "Senin, Sabtu, Minggu",
+   "e": "Rabu, Jumat, Minggu"
+  },
+  "answer": "D"
+ },
+ "PM-d1s1-q17": {
+  "question": "Jika f adalah fungsi yang menyatakan luas sawah (dalam hm²), f(x) = …",
+  "options": {
+   "a": "36x",
+   "b": "3,6x",
+   "c": "0,36x",
+   "d": "0,0036x",
+   "e": "0,000036x"
+  },
+  "answer": "D"
+ },
+ "PM-d1s1-q18": {
+  "question": "Jika jumlah petak kecil sebanyak 36 petak dan panjang sisi depan sawah 12 m, panjang sisi samping sawah adalah … m.",
+  "options": {
+   "a": "72",
+   "b": "78",
+   "c": "90",
+   "d": "96",
+   "e": "108"
+  },
+  "answer": "E"
+ },
+ "PM-d1s1-q19": {
+  "question": "Untuk keperluan pengairan tanaman, sawah dilengkapi parit yang letaknya di antara tiap-tiap petak kecil. Jika terdapat dua baris petak sawah, masing-masing terdiri atas 18 petak dan lebar parit 0,5 m, luas sawah beserta parit yang ada di dalamnya adalah … m²",
+  "options": {
+   "a": "12,5 × 116,5",
+   "b": "12,5 × 115,5",
+   "c": "12,5 × 112,5",
+   "d": "12,5 × 110,5",
+   "e": "12,5 × 109,5"
+  },
+  "answer": "A",
+  "_source_note": "The solution states the value 12,5 × 116,5 rather than a letter (its own copy of the options has a typo '1,25'); that value is option (a) on the question page."
+ },
+ "PM-d1s1-q20": {
+  "question": "Petak-petak kecil pada sawah ditanami padi. Biaya pemeliharaan tanaman padi tersebut, mulai dari tanam sampai panen sebesar Rp650.000,00 per petak. Jika biaya pemeliharaan tanaman padi seluruhnya sebesar Rp26.000.000,00, luas daerah yang ditanami padi adalah … m²",
+  "options": {
+   "a": "1.340",
+   "b": "1.440",
+   "c": "1.460",
+   "d": "1.540",
+   "e": "1.560"
+  },
+  "answer": "B"
+ }
+}

@@ -1,0 +1,10 @@
+{
+  "_note": "Manual corrections merged over the automatic extraction. Verified against data/pages/p-0NN.png.",
+  "PPU-d1s1-q20": {
+    "question": "Truk mengangkut brangkas: \"Tabila lam cenai mbos\"\nKereta menarik gerbong: \"Grosean noy seano ndosh\"\nBrangkas ditarik kereta: \"Tabila ndosh noy seano noy\"\nBagaimana mengatakan \"Gerbong diangkut truk\" dengan bahasa tersebut?",
+    "_source_note": "The stem spells the invented word 'mbos' while every option spells it 'mbosh'; the source is inconsistent. It does not change the answer, since only one option has the right word order."
+  },
+  "PPU-d1s1-teks4": {
+    "_source_note": "Kalimat (1) berbunyi 'kristal udara dan air yang seharusnya lebih padat daripada udara'; 'kristal udara' hampir pasti salah rekonstruksi untuk 'kristal es'. Ini menentukan soal q16 (kalimat tidak logis): dengan 'udara' kalimat (1) kontradiktif, dengan 'es' kalimat itu logis dan jawaban yang dimaksud penulis soal mungkin lain. Teks dibiarkan apa adanya."
+  }
+}

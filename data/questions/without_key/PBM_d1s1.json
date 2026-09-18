@@ -1,0 +1,821 @@
+{
+  "section": "PBM_d1s1",
+  "subtest": "PBM",
+  "day": 1,
+  "session": 1,
+  "pages": [
+    128,
+    136
+  ],
+  "source": "MMA SNBT 2025 (Tim Mangkuk Mi Ayam), CC BY-NC 4.0",
+  "answer_key": "none in source",
+  "questions": [
+    {
+      "id": "PBM-d1s1-q01",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 1,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PBM-d1s1-teks1"
+      ],
+      "question": "Penggunaan kata bercetak tebal yang tidak tepat terdapat pada kalimat nomor …",
+      "options": {
+        "a": "(2)",
+        "b": "(3)",
+        "c": "(5)",
+        "d": "(6)",
+        "e": "(8)"
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 128,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PBM-d1s1-teks1",
+          "text": "(1) Lahan sawit menjadi satu dari banyak penyebab deforestasi (alih fungsi lahan dari hutan ke perkebunan). (2) Deforestasi berdampak negatif pada lingkungan, karena berkontribusi pada **pelepasan** emisi karbon. (3) Deforestasi juga menyebabkan degradasi tanah dan **pencemaran** air. (4) Meskipun minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, tetapi sisi negatifnya tidak dapat diabaikan. (5) Situasi itu menunjukkan perlu sinkronisasi antara mengembangkan energi terbarukan yang ramah lingkungan dan **dukungan** ketahanan pangan global. (6) Solusinya adalah **penemuan** alternatif bahan baku untuk produksi biodiesel yang tidak bersaing langsung dengan sektor pangan, misalnya penggunaan limbah. (7) Dengan berfokus pada penggunaan limbah, seperti minyak jelantah (minyak goreng sisa), biofuel menjadi solusi dalam mendukung kebutuhan energi tanpa merusak lingkungan. (8) Untuk itu, diperlukan pendekatan holistik agar **perumusan** kebijakan biofuel mempertimbangkan keselamatan lingkungan.\n_Diadaptasi dari_ https://mediaindonesia.com/",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 128
+        }
+      ],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q02",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 2,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PBM-d1s1-teks1"
+      ],
+      "question": "Kalimat berikut perlu dimasukkan dalam bacaan tersebut. _Pengembangan potensi biodiesel dengan menggunakan bahan baku limbah memerlukan_ _dukungan investasi teknologi bioenergi._ Kalimat tersebut paling tepat ditempatkan setelah kalimat nomor …",
+      "options": {
+        "a": "(2)",
+        "b": "(4)",
+        "c": "(6)",
+        "d": "(7)",
+        "e": "(8)"
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 128,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PBM-d1s1-teks1",
+          "text": "(1) Lahan sawit menjadi satu dari banyak penyebab deforestasi (alih fungsi lahan dari hutan ke perkebunan). (2) Deforestasi berdampak negatif pada lingkungan, karena berkontribusi pada **pelepasan** emisi karbon. (3) Deforestasi juga menyebabkan degradasi tanah dan **pencemaran** air. (4) Meskipun minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, tetapi sisi negatifnya tidak dapat diabaikan. (5) Situasi itu menunjukkan perlu sinkronisasi antara mengembangkan energi terbarukan yang ramah lingkungan dan **dukungan** ketahanan pangan global. (6) Solusinya adalah **penemuan** alternatif bahan baku untuk produksi biodiesel yang tidak bersaing langsung dengan sektor pangan, misalnya penggunaan limbah. (7) Dengan berfokus pada penggunaan limbah, seperti minyak jelantah (minyak goreng sisa), biofuel menjadi solusi dalam mendukung kebutuhan energi tanpa merusak lingkungan. (8) Untuk itu, diperlukan pendekatan holistik agar **perumusan** kebijakan biofuel mempertimbangkan keselamatan lingkungan.\n_Diadaptasi dari_ https://mediaindonesia.com/",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 128
+        }
+      ],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q03",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 3,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PBM-d1s1-teks1"
+      ],
+      "question": "Penggunaan tanda koma yang salah terdapat pada kalimat nomor …",
+      "options": {
+        "a": "(2)",
+        "b": "(4)",
+        "c": "(6)",
+        "d": "(7)",
+        "e": "(8)"
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 129,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PBM-d1s1-teks1",
+          "text": "(1) Lahan sawit menjadi satu dari banyak penyebab deforestasi (alih fungsi lahan dari hutan ke perkebunan). (2) Deforestasi berdampak negatif pada lingkungan, karena berkontribusi pada **pelepasan** emisi karbon. (3) Deforestasi juga menyebabkan degradasi tanah dan **pencemaran** air. (4) Meskipun minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, tetapi sisi negatifnya tidak dapat diabaikan. (5) Situasi itu menunjukkan perlu sinkronisasi antara mengembangkan energi terbarukan yang ramah lingkungan dan **dukungan** ketahanan pangan global. (6) Solusinya adalah **penemuan** alternatif bahan baku untuk produksi biodiesel yang tidak bersaing langsung dengan sektor pangan, misalnya penggunaan limbah. (7) Dengan berfokus pada penggunaan limbah, seperti minyak jelantah (minyak goreng sisa), biofuel menjadi solusi dalam mendukung kebutuhan energi tanpa merusak lingkungan. (8) Untuk itu, diperlukan pendekatan holistik agar **perumusan** kebijakan biofuel mempertimbangkan keselamatan lingkungan.\n_Diadaptasi dari_ https://mediaindonesia.com/",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 128
+        }
+      ],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q04",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 4,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PBM-d1s1-teks1"
+      ],
+      "question": "Kalimat manakah yang merupakan kalimat efektif dari kalimat (4)?",
+      "options": {
+        "a": "Meskipun minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, tetapi sisi negatifnya tidak dapat diabaikan.",
+        "b": "Minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, meskipun sisi negatifnya tidak dapat diabaikan.",
+        "c": "Minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, tetapi sisi negatifnya tidak dapat diabaikan.",
+        "d": "Meskipun minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, sisi negatifnya juga tidak dapat diabaikan.",
+        "e": "Meskipun minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, sisi negatifnya tidak dapat diabaikan"
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 129,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PBM-d1s1-teks1",
+          "text": "(1) Lahan sawit menjadi satu dari banyak penyebab deforestasi (alih fungsi lahan dari hutan ke perkebunan). (2) Deforestasi berdampak negatif pada lingkungan, karena berkontribusi pada **pelepasan** emisi karbon. (3) Deforestasi juga menyebabkan degradasi tanah dan **pencemaran** air. (4) Meskipun minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, tetapi sisi negatifnya tidak dapat diabaikan. (5) Situasi itu menunjukkan perlu sinkronisasi antara mengembangkan energi terbarukan yang ramah lingkungan dan **dukungan** ketahanan pangan global. (6) Solusinya adalah **penemuan** alternatif bahan baku untuk produksi biodiesel yang tidak bersaing langsung dengan sektor pangan, misalnya penggunaan limbah. (7) Dengan berfokus pada penggunaan limbah, seperti minyak jelantah (minyak goreng sisa), biofuel menjadi solusi dalam mendukung kebutuhan energi tanpa merusak lingkungan. (8) Untuk itu, diperlukan pendekatan holistik agar **perumusan** kebijakan biofuel mempertimbangkan keselamatan lingkungan.\n_Diadaptasi dari_ https://mediaindonesia.com/",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 128
+        }
+      ],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q05",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 5,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [],
+      "question": "(1) Dalam rangka memperingati Hari Pahlawan, banyak kegiatan yang dilakukan. (2) Pemuda Kecamatan Jagir Surabaya mengadakan lokakarya yang diikuti pemuda dari dua puluh negara. (3) Kegiatan Lokakarya Internasional tersebut membahas peran pemuda dalam mencegah pencemaran. (4) Hadir dalam kegiatan tersebut Menteri Pemuda dan Olahraga Republik Indonesia. (5) Dalam sambutannya Menpora menegaskan pentingnya pemuda sebagai penggerak bangsa. Penulisan huruf kapital yang salah terdapat pada kalimat nomor …",
+      "options": {
+        "a": "(1)",
+        "b": "(2)",
+        "c": "(3)",
+        "d": "(4)",
+        "e": "(5)"
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 129,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q06",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 6,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PBM-d1s1-teks2"
+      ],
+      "question": "Kata yang harus dihilangkan pada kalimat (5) adalah …",
+      "options": {
+        "a": "Dari",
+        "b": "Dinilai",
+        "c": "Dengan",
+        "d": "Untuk",
+        "e": "Setara"
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 130,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PBM-d1s1-teks2",
+          "text": "(1) Tujuan pendidikan adalah mengembangkan dan mengoptimalkan daya anak didik agar siap menyongsong masa depan sesuai dengan zamannya.(2) Saat ini teknologi yang berkembang dengan pesat memicu pada perubahan yang cepat pula, bahkan tidak terduga.(3) Laporan Dell Technology menyebutkan bahwa 85 persen pekerjaan pada 2030 yang akan dimasuki Generasi Z dan Alpha belum ditemukan.(4) Sementara itu, konsep otomasi di era 4.0 juga akan mengubah struktur dan lapangan pekerjaan.( 5) Padahal, institusi dari pendidikan formal saat ini dinilai belum optimal membekali siswa dengan keterampilan praktis yang menjadi modal siswa untuk mengembangkan diri secara mandiri atau masuk dunia kerja.(6) Paradigma pendidikan sudah bergeser mengikuti perkembangan zaman, tetapi sistem pendidikan belum …\n_Diadaptasi dari_ https://mediaindonesia.com/",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 130
+        }
+      ],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q07",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 7,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PBM-d1s1-teks2"
+      ],
+      "question": "Kata **daya** dalam kalimat (1) seharusnya …",
+      "options": {
+        "a": "dihilangkan",
+        "b": "didahului kata _semua_",
+        "c": "diikuti kata _upaya_",
+        "d": "dibiarkan saja (sudah benar)",
+        "e": "diganti kata _potensi_"
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 130,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PBM-d1s1-teks2",
+          "text": "(1) Tujuan pendidikan adalah mengembangkan dan mengoptimalkan daya anak didik agar siap menyongsong masa depan sesuai dengan zamannya.(2) Saat ini teknologi yang berkembang dengan pesat memicu pada perubahan yang cepat pula, bahkan tidak terduga.(3) Laporan Dell Technology menyebutkan bahwa 85 persen pekerjaan pada 2030 yang akan dimasuki Generasi Z dan Alpha belum ditemukan.(4) Sementara itu, konsep otomasi di era 4.0 juga akan mengubah struktur dan lapangan pekerjaan.( 5) Padahal, institusi dari pendidikan formal saat ini dinilai belum optimal membekali siswa dengan keterampilan praktis yang menjadi modal siswa untuk mengembangkan diri secara mandiri atau masuk dunia kerja.(6) Paradigma pendidikan sudah bergeser mengikuti perkembangan zaman, tetapi sistem pendidikan belum …\n_Diadaptasi dari_ https://mediaindonesia.com/",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 130
+        }
+      ],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q08",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 8,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PBM-d1s1-teks2"
+      ],
+      "question": "Kalimat (2) perlu disempurnakan dengan cara …",
+      "options": {
+        "a": "menambahkan kata _pada_ sebelum saat",
+        "b": "menghilangkan kata _yang_",
+        "c": "mengganti kata _dengan_ dengan _secara_",
+        "d": "menghilangkan kata _pada_",
+        "e": "menyingkat kata _tidak_ menjadi _tak_"
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 130,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PBM-d1s1-teks2",
+          "text": "(1) Tujuan pendidikan adalah mengembangkan dan mengoptimalkan daya anak didik agar siap menyongsong masa depan sesuai dengan zamannya.(2) Saat ini teknologi yang berkembang dengan pesat memicu pada perubahan yang cepat pula, bahkan tidak terduga.(3) Laporan Dell Technology menyebutkan bahwa 85 persen pekerjaan pada 2030 yang akan dimasuki Generasi Z dan Alpha belum ditemukan.(4) Sementara itu, konsep otomasi di era 4.0 juga akan mengubah struktur dan lapangan pekerjaan.( 5) Padahal, institusi dari pendidikan formal saat ini dinilai belum optimal membekali siswa dengan keterampilan praktis yang menjadi modal siswa untuk mengembangkan diri secara mandiri atau masuk dunia kerja.(6) Paradigma pendidikan sudah bergeser mengikuti perkembangan zaman, tetapi sistem pendidikan belum …\n_Diadaptasi dari_ https://mediaindonesia.com/",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 130
+        }
+      ],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q09",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 9,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PBM-d1s1-teks2"
+      ],
+      "question": "Agar sesuai dengan konteks bacaan, pernyataan yang paling tepat untuk melengkapi kalimat (6) adalah …",
+      "options": {
+        "a": "memungkinkan mengubah kurikulum",
+        "b": "cukup responsif terhadap tuntutan zaman",
+        "c": "adaptif sesuai dengan zaman sekarang",
+        "d": "siap menghadapi tuntutan era 4.0",
+        "e": "memasukan kurikulum pendidikan keterampilan"
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 131,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PBM-d1s1-teks2",
+          "text": "(1) Tujuan pendidikan adalah mengembangkan dan mengoptimalkan daya anak didik agar siap menyongsong masa depan sesuai dengan zamannya.(2) Saat ini teknologi yang berkembang dengan pesat memicu pada perubahan yang cepat pula, bahkan tidak terduga.(3) Laporan Dell Technology menyebutkan bahwa 85 persen pekerjaan pada 2030 yang akan dimasuki Generasi Z dan Alpha belum ditemukan.(4) Sementara itu, konsep otomasi di era 4.0 juga akan mengubah struktur dan lapangan pekerjaan.( 5) Padahal, institusi dari pendidikan formal saat ini dinilai belum optimal membekali siswa dengan keterampilan praktis yang menjadi modal siswa untuk mengembangkan diri secara mandiri atau masuk dunia kerja.(6) Paradigma pendidikan sudah bergeser mengikuti perkembangan zaman, tetapi sistem pendidikan belum …\n_Diadaptasi dari_ https://mediaindonesia.com/",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 130
+        }
+      ],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q10",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 10,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [],
+      "question": "(1) **Kerja sama** sekolah satu dengan sekolah lainnya menjadi hal yang sangat penting.(2) Apalagi untuk mengelola kegiatan **ekstra kurikuler** yang sangat beragam.(3) Sekolah harus menyiapkan **infrastruktur** yang sangat banyak karena banyaknya kegiatan.(4) Dengan cara itu, **tanggung jawab** pengadaannya menjadi lebih ringan.(5) Jadi, hubungan **antarsekolah** harus terjalin baik. Penulisan kata bercetak tebal yang salah terdapat pada kalimat nomor …",
+      "options": {
+        "a": "(1)",
+        "b": "(2)",
+        "c": "(3)",
+        "d": "(4)",
+        "e": "(5)"
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 131,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q11",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 11,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PBM-d1s1-teks3"
+      ],
+      "question": "Kata yang paling tepat menggantikan faktor dalam kalimat (1) adalah …",
+      "options": {
+        "a": "unsur",
+        "b": "elemen",
+        "c": "aspek",
+        "d": "bagian",
+        "e": "sisi"
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 132,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PBM-d1s1-teks3",
+          "text": "(1) Di tengah kekhawatiran global tentang dampak perubahan iklim terhadap lingkungan dan satwa liar, faktor yang sering kali terlupakan adalah bagaimana perubahan iklim memengaruhi otak manusia dan hewan. (2) Penelitian baru-baru ini menyoroti hubungan yang kompleks antara perubahan iklim dan fungsi otak.(3) Dalam penelitian tersebut diuraikan bagaimana [...], perubahan musim yang singkat, dan asam laut dapat memengaruhi perkembangan otak hewan dan reaksi terhadap lingkungan sekitarnya.(4) Suhu tinggi dapat memengaruhi perkembangan otak hewan. (5) Suhu tinggi dapat mengubah fitur sistem saraf, termasuk di dalamnya adalah efek pada ekspresi gen dalam neuron (sel saraf), struktur neuron, dan organisasi otak.(6) Selain itu, suhu juga dapat memengaruhi pembentukan neuron baru dalam otak hewan dewasa.\n_Diadaptasi dari_ https://www.kompas.com/",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 132
+        }
+      ],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q12",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 12,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PBM-d1s1-teks3"
+      ],
+      "question": "Pernyataan yang paling tepat untuk melengkapi kalimat (3) adalah …",
+      "options": {
+        "a": "perubahan iklim",
+        "b": "peningkatan suhu",
+        "c": "sistem saraf",
+        "d": "ekspresi gen",
+        "e": "pembentukan neuron"
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 132,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PBM-d1s1-teks3",
+          "text": "(1) Di tengah kekhawatiran global tentang dampak perubahan iklim terhadap lingkungan dan satwa liar, faktor yang sering kali terlupakan adalah bagaimana perubahan iklim memengaruhi otak manusia dan hewan. (2) Penelitian baru-baru ini menyoroti hubungan yang kompleks antara perubahan iklim dan fungsi otak.(3) Dalam penelitian tersebut diuraikan bagaimana [...], perubahan musim yang singkat, dan asam laut dapat memengaruhi perkembangan otak hewan dan reaksi terhadap lingkungan sekitarnya.(4) Suhu tinggi dapat memengaruhi perkembangan otak hewan. (5) Suhu tinggi dapat mengubah fitur sistem saraf, termasuk di dalamnya adalah efek pada ekspresi gen dalam neuron (sel saraf), struktur neuron, dan organisasi otak.(6) Selain itu, suhu juga dapat memengaruhi pembentukan neuron baru dalam otak hewan dewasa.\n_Diadaptasi dari_ https://www.kompas.com/",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 132
+        }
+      ],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q13",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 13,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PBM-d1s1-teks3"
+      ],
+      "question": "Apa judul yang paling tepat untuk teks tersebut?",
+      "options": {
+        "a": "Pengaruh Perubahan Iklim terhadap Hewan",
+        "b": "Pengaruh Iklim terhadap Otak Manusia dan Hewan",
+        "c": "Dampak Iklim terhadap Otak Manusia dan Hewan",
+        "d": "Dampak Perubahan Iklim terhadap Otak Hewan",
+        "e": "Kerusakan Otak Hewan Akibat Perubahan Iklim"
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 132,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PBM-d1s1-teks3",
+          "text": "(1) Di tengah kekhawatiran global tentang dampak perubahan iklim terhadap lingkungan dan satwa liar, faktor yang sering kali terlupakan adalah bagaimana perubahan iklim memengaruhi otak manusia dan hewan. (2) Penelitian baru-baru ini menyoroti hubungan yang kompleks antara perubahan iklim dan fungsi otak.(3) Dalam penelitian tersebut diuraikan bagaimana [...], perubahan musim yang singkat, dan asam laut dapat memengaruhi perkembangan otak hewan dan reaksi terhadap lingkungan sekitarnya.(4) Suhu tinggi dapat memengaruhi perkembangan otak hewan. (5) Suhu tinggi dapat mengubah fitur sistem saraf, termasuk di dalamnya adalah efek pada ekspresi gen dalam neuron (sel saraf), struktur neuron, dan organisasi otak.(6) Selain itu, suhu juga dapat memengaruhi pembentukan neuron baru dalam otak hewan dewasa.\n_Diadaptasi dari_ https://www.kompas.com/",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 132
+        }
+      ],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q14",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 14,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PBM-d1s1-teks3"
+      ],
+      "question": "Kalimat manakah yang paling efektif sebagai hasil penggabungan kalimat (4) dan (5)?",
+      "options": {
+        "a": "Suhu tinggi dapat memengaruhi perkembangan otak hewan, seperti mengubah fitur sistem saraf, termasuk efek pada ekspresi gen dalam neuron (sel saraf), struktur neuron, dan organisasi otak.",
+        "b": "Suhu tinggi dapat memengaruhi perkembangan otak hewan yang mengubah fitur sistem saraf, termasuk efek pada ekspresi gen dalam neuron (sel saraf), struktur neuron, dan organisasi otak.",
+        "c": "Suhu tinggi dapat memengaruhi perkembangan otak hewan, khususnya mengubah fitur sistem saraf, termasuk efek pada ekspresi gen dalam neuron (sel saraf), struktur neuron, dan organisasi otak.",
+        "d": "Suhu tinggi dapat memengaruhi perkembangan otak hewan sehingga mengubah fitur sistem saraf, termasuk efek pada ekspresi gen dalam neuron (sel saraf), struktur neuron, dan organisasi otak.",
+        "e": "Suhu tinggi dapat memengaruhi perkembangan otak hewan untuk mengubah fitur sistem saraf, termasuk efek pada ekspresi gen dalam neuron (sel saraf), struktur neuron, dan organisasi otak."
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 133,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PBM-d1s1-teks3",
+          "text": "(1) Di tengah kekhawatiran global tentang dampak perubahan iklim terhadap lingkungan dan satwa liar, faktor yang sering kali terlupakan adalah bagaimana perubahan iklim memengaruhi otak manusia dan hewan. (2) Penelitian baru-baru ini menyoroti hubungan yang kompleks antara perubahan iklim dan fungsi otak.(3) Dalam penelitian tersebut diuraikan bagaimana [...], perubahan musim yang singkat, dan asam laut dapat memengaruhi perkembangan otak hewan dan reaksi terhadap lingkungan sekitarnya.(4) Suhu tinggi dapat memengaruhi perkembangan otak hewan. (5) Suhu tinggi dapat mengubah fitur sistem saraf, termasuk di dalamnya adalah efek pada ekspresi gen dalam neuron (sel saraf), struktur neuron, dan organisasi otak.(6) Selain itu, suhu juga dapat memengaruhi pembentukan neuron baru dalam otak hewan dewasa.\n_Diadaptasi dari_ https://www.kompas.com/",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 132
+        }
+      ],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q15",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 15,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PBM-d1s1-teks3"
+      ],
+      "question": "Apa informasi utama kalimat (6)?",
+      "options": {
+        "a": "Suhu dapat memengaruhi pembentukan neuron baru dalam otak.",
+        "b": "Suhu memengaruhi pembentukan neuron baru dalam otak hewan.",
+        "c": "Suhu dapat memengaruhi pembentukan neuron dalam otak.",
+        "d": "Suhu memengaruhi pembentukan neuron baru.",
+        "e": "Suhu memengaruhi pembentukan neuron."
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 133,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PBM-d1s1-teks3",
+          "text": "(1) Di tengah kekhawatiran global tentang dampak perubahan iklim terhadap lingkungan dan satwa liar, faktor yang sering kali terlupakan adalah bagaimana perubahan iklim memengaruhi otak manusia dan hewan. (2) Penelitian baru-baru ini menyoroti hubungan yang kompleks antara perubahan iklim dan fungsi otak.(3) Dalam penelitian tersebut diuraikan bagaimana [...], perubahan musim yang singkat, dan asam laut dapat memengaruhi perkembangan otak hewan dan reaksi terhadap lingkungan sekitarnya.(4) Suhu tinggi dapat memengaruhi perkembangan otak hewan. (5) Suhu tinggi dapat mengubah fitur sistem saraf, termasuk di dalamnya adalah efek pada ekspresi gen dalam neuron (sel saraf), struktur neuron, dan organisasi otak.(6) Selain itu, suhu juga dapat memengaruhi pembentukan neuron baru dalam otak hewan dewasa.\n_Diadaptasi dari_ https://www.kompas.com/",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 132
+        }
+      ],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q16",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 16,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PBM-d1s1-teks4"
+      ],
+      "question": "Penulisan kata bercetak tebal yang salah pada teks tersebut terdapat pada kalimat nomor",
+      "options": {
+        "a": "(2)",
+        "b": "(3)",
+        "c": "(4)",
+        "d": "(6)",
+        "e": "(7)"
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 134,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PBM-d1s1-teks4",
+          "text": "(1) Sekarang Pemerintah Indonesia menghadapi arus balik kedua dalam badai teknologi pendidikan dengan terbitnya laporan pemantauan pendidikan global UNESCO.(2) Hasil pemantauan itu bertolak belakang dengan kebijakan **teknologis-sentris** pendidikan Indonesia.(3) Semua negara miskin di dunia, membutuhkan satu miliar dolar AS per hari untuk menjaga **konektivitas** jaringan internetnya.(4) Teknologi pendidikan telah berhasil **diakses** satu miliar anak selama pembelajaran online.(5) [...], pada saat yang sama teknologi juga gagal menjangkau setengah miliar anak di dunia.(6) Menurut laporan itu menunjukkan bahwa penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif karena lebih sering **mendistraksi** pembelajaran.(7) Di negara maju hanya sepuluh persen pelajar di bawah usia lima belas tahun menggunakan perangkat digital lebih dari satu jam per minggu di bidang matematika dan **sain**.\n_Diadaptasi dari_ https://www.kompas.id/",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Module prints no new 'Teks' header after this block, so the range of questions it serves is stated here: q16-q19. The later questions each carry their own stimulus.",
+          "source_page": 134
+        }
+      ],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q17",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 17,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PBM-d1s1-teks4"
+      ],
+      "question": "Kata penghubung yang paling tepat untuk melengkapi kalimat (5) adalah . . .",
+      "options": {
+        "a": "selain itu",
+        "b": "selanjutnya",
+        "c": "bahkan",
+        "d": "untuk itu",
+        "e": "namun"
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 134,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PBM-d1s1-teks4",
+          "text": "(1) Sekarang Pemerintah Indonesia menghadapi arus balik kedua dalam badai teknologi pendidikan dengan terbitnya laporan pemantauan pendidikan global UNESCO.(2) Hasil pemantauan itu bertolak belakang dengan kebijakan **teknologis-sentris** pendidikan Indonesia.(3) Semua negara miskin di dunia, membutuhkan satu miliar dolar AS per hari untuk menjaga **konektivitas** jaringan internetnya.(4) Teknologi pendidikan telah berhasil **diakses** satu miliar anak selama pembelajaran online.(5) [...], pada saat yang sama teknologi juga gagal menjangkau setengah miliar anak di dunia.(6) Menurut laporan itu menunjukkan bahwa penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif karena lebih sering **mendistraksi** pembelajaran.(7) Di negara maju hanya sepuluh persen pelajar di bawah usia lima belas tahun menggunakan perangkat digital lebih dari satu jam per minggu di bidang matematika dan **sain**.\n_Diadaptasi dari_ https://www.kompas.id/",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Module prints no new 'Teks' header after this block, so the range of questions it serves is stated here: q16-q19. The later questions each carry their own stimulus.",
+          "source_page": 134
+        }
+      ],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q18",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 18,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PBM-d1s1-teks4"
+      ],
+      "question": "Kalimat manakah yang merupakan perbaikan kalimat (6)?",
+      "options": {
+        "a": "Menurut laporan itu, bahwa penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif karena lebih sering mendistraksi pembelajaran.",
+        "b": "Menurut laporan itu menunjukkan penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif karena lebih sering mendistraksi pembelajaran.",
+        "c": "Laporan itu menunjukkan penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif karena lebih sering mendistraksi pembelajaran",
+        "d": "Laporan itu menunjukkan bahwa penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif karena lebih sering mendistraksi pembelajaran.",
+        "e": "Menurut laporan itu menunjukkan bahwa penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif karena lebih sering mendistraksi pembelajaran."
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 135,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PBM-d1s1-teks4",
+          "text": "(1) Sekarang Pemerintah Indonesia menghadapi arus balik kedua dalam badai teknologi pendidikan dengan terbitnya laporan pemantauan pendidikan global UNESCO.(2) Hasil pemantauan itu bertolak belakang dengan kebijakan **teknologis-sentris** pendidikan Indonesia.(3) Semua negara miskin di dunia, membutuhkan satu miliar dolar AS per hari untuk menjaga **konektivitas** jaringan internetnya.(4) Teknologi pendidikan telah berhasil **diakses** satu miliar anak selama pembelajaran online.(5) [...], pada saat yang sama teknologi juga gagal menjangkau setengah miliar anak di dunia.(6) Menurut laporan itu menunjukkan bahwa penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif karena lebih sering **mendistraksi** pembelajaran.(7) Di negara maju hanya sepuluh persen pelajar di bawah usia lima belas tahun menggunakan perangkat digital lebih dari satu jam per minggu di bidang matematika dan **sain**.\n_Diadaptasi dari_ https://www.kompas.id/",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Module prints no new 'Teks' header after this block, so the range of questions it serves is stated here: q16-q19. The later questions each carry their own stimulus.",
+          "source_page": 134
+        }
+      ],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q19",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 19,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PBM-d1s1-teks4"
+      ],
+      "question": "Kalimat manakah yang maknanya sama dengan kalimat (1)?",
+      "options": {
+        "a": "Pemerintah Indonesia yang sekarang menghadapi arus balik kedua dalam badai teknologi pendidikan dengan terbitnya laporan pemantauan pendidikan global UNESCO.",
+        "b": "Dengan terbitnya laporan pemantauan pendidikan global UNESCO, sekarang Pemerintah Indonesia menghadapi arus balik kedua dalam badai teknologi pendidikan.",
+        "c": "Arus balik kedua dalam badai teknologi pendidikan dengan terbitnya laporan pemantauan pendidikan global UNESCO dihadapi Pemerintah Indonesia sekarang.",
+        "d": "Sekarang arus balik kedua dalam badai teknologi pendidikan dengan terbitnya laporan pemantauan pendidikan global UNESCO dihadapi Pemerintah Indonesia.",
+        "e": "Arus balik kedua dalam badai teknologi pendidikan dengan terbitnya laporan pemantauan pendidikan global UNESCO sekarang dihadapi Pemerintah Indonesia."
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 135,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PBM-d1s1-teks4",
+          "text": "(1) Sekarang Pemerintah Indonesia menghadapi arus balik kedua dalam badai teknologi pendidikan dengan terbitnya laporan pemantauan pendidikan global UNESCO.(2) Hasil pemantauan itu bertolak belakang dengan kebijakan **teknologis-sentris** pendidikan Indonesia.(3) Semua negara miskin di dunia, membutuhkan satu miliar dolar AS per hari untuk menjaga **konektivitas** jaringan internetnya.(4) Teknologi pendidikan telah berhasil **diakses** satu miliar anak selama pembelajaran online.(5) [...], pada saat yang sama teknologi juga gagal menjangkau setengah miliar anak di dunia.(6) Menurut laporan itu menunjukkan bahwa penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif karena lebih sering **mendistraksi** pembelajaran.(7) Di negara maju hanya sepuluh persen pelajar di bawah usia lima belas tahun menggunakan perangkat digital lebih dari satu jam per minggu di bidang matematika dan **sain**.\n_Diadaptasi dari_ https://www.kompas.id/",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Module prints no new 'Teks' header after this block, so the range of questions it serves is stated here: q16-q19. The later questions each carry their own stimulus.",
+          "source_page": 134
+        }
+      ],
+      "has_answer": false
+    },
+    {
+      "id": "PBM-d1s1-q20",
+      "subtest": "PBM",
+      "day": 1,
+      "session": 1,
+      "number": 20,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [],
+      "question": "Perhatikan kalimat berikut.\n(1) Penemuan antibiotik dan vaksin meningkatkan usia harapan hidup manusia dari hanya 30–40 tahun hingga sekarang mencapai lebih dari 70 tahun.\n(2) Berkat teknologi, manusia meninggalkan cara hidup berburu-meramu dan mengalami Revolusi Pertanian pada 10.000 tahun silam.\n(3) Tidak diragukan bahwa teknologi membuat manusia lebih sehat, makmur, dan sejahtera.\n(4) Selanjutnya, teknologi pembuatan kapal dan pemanfaatan kompas penunjuk arah juga membantu orang mulai menjelajah samudra pada lebih dari 500 tahun silam.\n(5) Revolusi ini terjadi karena ada teknologi pengairan, pengolahan hasil panen, dan pengembangbiakan hewan.\nJika lima kalimat tersebut disusun menjadi paragraf, urutan kalimat yang tepat adalah …",
+      "options": {
+        "a": "3, 2, 5, 1, 4",
+        "b": "3, 2, 5, 4, 1",
+        "c": "3, 2, 4, 5, 1",
+        "d": "3, 2, 1, 4, 5",
+        "e": "3, 2, 4, 1, 5"
+      },
+      "statements": [],
+      "answer": null,
+      "answer_source": null,
+      "label_confidence": null,
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 136,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [],
+      "has_answer": false
+    }
+  ]
+}

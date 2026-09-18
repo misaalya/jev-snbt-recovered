@@ -1,0 +1,37 @@
+{
+  "_note": "Manual corrections merged over the automatic extraction. Verified against data/pages/p-0NN.png.",
+  "PU-d1-q12": {
+    "options": {
+      "a": "Memperkuat pernyataan Ahli Pendidikan 1.",
+      "b": "Memperlemah pernyataan Ahli Pendidikan 1.",
+      "c": "Memperkuat pernyataan Ahli Pendidikan 2.",
+      "d": "Memperlemah pernyataan Ahli Pendidikan 2.",
+      "e": "Tidak relevan dengan pernyataan Ahli Pendidikan 1 dan Ahli Pendidikan 2."
+    }
+  },
+  "PU-d1-q23": {
+    "question": "Bilangan yang PALING MENDEKATI hasil pengurangan 7,79 – 87% adalah …",
+    "options": {
+      "a": "6 5/7",
+      "b": "6 1/8",
+      "c": "6 5/9",
+      "d": "7 7/9",
+      "e": "7 1/10"
+    }
+  },
+  "PU-d1-q24": {
+    "has_figure": true,
+    "figure_path": "data/figures/PU-d1-q24.png",
+    "figure_note": "Diagram garis, sumbu X = Tahun (2018–2024), sumbu Y = M & H (juta rupiah). Dua garis: Modal (M) dan Hasil (H). Titik data hanya ada untuk 2019–2023; tidak ada data untuk 2018 dan 2024. Gambar sumber adalah hasil pindaian dan sebagian titik tidak tepat pada garis kisi, sehingga nilai dibaca mendekati: Modal (M): 2019 ≈ 5, 2020 ≈ 14–15, 2021 ≈ 19–20, 2022 ≈ 34–35, 2023 ≈ 39–40. Hasil (H): 2019 ≈ 10, 2020 ≈ 24–25, 2021 ≈ 14–15, 2022 ≈ 29–30, 2023 ≈ 34–35."
+  },
+  "PU-d1-q25": {
+    "has_figure": true,
+    "figure_path": "data/figures/PU-d1-q25.png",
+    "figure_note": "Diagram garis, sumbu X = Tahun (2018–2024), sumbu Y = Jumlah D & T (orang). Dua garis: Diterima (D) dan Ditolak (T). Titik data hanya untuk 2019–2023. Diterima (D): 2019 = 20, 2020 = 25, 2021 = 15, 2022 = 25, 2023 = 30. Ditolak (T): 2019 = 5, 2020 = 15, 2021 = 10, 2022 = 20, 2023 = 15."
+  },
+  "PU-d1-q26": {
+    "has_figure": true,
+    "figure_path": "data/figures/PU-d1-q26.png",
+    "figure_note": "Diagram lingkaran peserta lomba senam per RW: RW 1 = 13%, RW 2 = 19%, RW 3 = 23%, RW 4 = 28%, RW 5 = 17%."
+  }
+}

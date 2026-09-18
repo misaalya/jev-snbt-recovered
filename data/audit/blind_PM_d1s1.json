@@ -1,0 +1,22 @@
+{
+  "1": {"answer": "b", "confidence": "high", "reason": "Sekretaris perempuan: 10 pilihan, lalu ketua dan bendahara dari 24 sisa secara terurut = 24x23=552; total 10x552 = 5.520."},
+  "2": {"answer": "c", "confidence": "high", "reason": "C(10,4)/C(25,4) = 210/12.650 = 21/1265."},
+  "3": {"answer": "a", "confidence": "high", "reason": "[C(15,1)C(10,2) + C(15,2)C(10,1)]/C(25,3) = (675+1050)/2300 = 1725/2300 = 3/4."},
+  "4": {"answer": "e", "confidence": "high", "reason": "Susunan terurut: sekretaris perempuan 10 cara, ketua-bendahara beda jenis kelamin 2x15x9=270; 2700/(25x24x23)=2700/13800 = 9/46."},
+  "5": {"answer": "d", "confidence": "high", "reason": "Baris 1 mulai 1=2^0, baris 2 mulai 256=2^8, jadi petak pertama baris ke-n = 2^(8n-8)."},
+  "6": {"answer": ["Tidak", "Ya", "Tidak"], "confidence": "high", "reason": "Petak ke-3 baris ke-2 = 256x4 = 1024 (bukan 512); 1+2+4+8+16 = 31 benar; petak ke-8 baris ke-8 = 2^56 x 2^7 = 2^63, bukan 2^64."},
+  "7": {"answer": "c", "confidence": "high", "reason": "Petak 1 baris 3 = 2^16; petak 5 baris 2 = 2^8 x 2^4 = 2^12; hasil bagi = 2^4 = 16."},
+  "8": {"answer": "b", "confidence": "high", "reason": "2^(n-1)/2^(2n-2) = 2^(1-n); jumlah n=1..8 = 1+1/2+...+1/128 = 2 - 1/128 = 255/128."},
+  "9": {"answer": "d", "confidence": "high", "reason": "Proyeksi dari lampu setinggi 4 m memperbesar dengan faktor 4/(4-h); 4/(4-h) = (5/3)/1 memberi h = 1,6 m."},
+  "10": {"answer": "c", "confidence": "high", "reason": "Faktor skala panjang 5/3 sehingga skala luas (5/3)^2 = 25/9; 0,5 x 25/9 = 25/18 = 1 7/18 m^2."},
+  "11": {"answer": "a", "confidence": "high", "reason": "Pada ketinggian 2 m faktor perbesaran bayangan = 4/(4-2) = 2, jadi bayangan 4 m dalam 10 detik berarti belalang menempuh 2 m per 10 detik, atau 1 m dalam 5 detik."},
+  "12": {"answer": "c", "confidence": "high", "reason": "Lampu (0,4); kaki patung (2 m; tinggi 1) -> bayangan di 8/(4-1)=8/3, puncak patung (tinggi 2,5) -> 8/(4-2,5)=16/3; panjang bayangan patung = 16/3 - 8/3 = 8/3 = 16/6 m."},
+  "13": {"answer": "c", "confidence": "high", "reason": "Stok kumulatif (pasokan dikurangi terjual): Sen 4, Sel 6, Rab 7, Kam 5, Jum 5, Sab 0, Min -1; terbanyak 7 kuintal pada hari Rabu."},
+  "14": {"answer": ["Ya", "Tidak", "Tidak"], "confidence": "medium", "reason": "Stok maksimum memang 7 kuintal (Rabu); stok 6 kuintal hanya terjadi Selasa, bukan Rabu dan Minggu; rata-rata stok = 26/7 = 3,71 kuintal, bukan 4. Pernyataan ke-3 rawan ambigu karena 3,71 membulat menjadi 4, dan datanya sendiri cacat (total terjual 70 > total pasokan 69 sehingga stok Minggu negatif)."},
+  "15": {"answer": "d", "confidence": "medium", "reason": "Total terjual 70 kuintal -> omzet 70 x Rp150.000 = Rp10,5 juta; biaya tertutup oleh 40%, sehingga untung 60% x 10,5 = Rp6,3 juta. Tafsiran '40% menutup biaya' memang tidak sepenuhnya eksplisit, tetapi hanya tafsiran ini yang menghasilkan salah satu opsi."},
+  "16": {"answer": "d", "confidence": "medium", "reason": "Rata-rata stok 3,71 dengan simpangan baku 2,81 (populasi) atau 3,04 (sampel); ambang = rata-rata + 1/4 s = 4,42 atau 4,47, dan stok yang tidak melebihi ambang terjadi pada Senin (4), Sabtu (0), dan Minggu (-1). Hasilnya sama untuk kedua rumus simpangan baku."},
+  "17": {"answer": "d", "confidence": "high", "reason": "Luas x petak = 36x m^2; 1 hm^2 = 10.000 m^2, jadi f(x) = 36x/10.000 = 0,0036x hm^2."},
+  "18": {"answer": "e", "confidence": "high", "reason": "Sisi depan 12 m = 2 petak, jadi ada 36/2 = 18 petak ke samping, panjangnya 18 x 6 = 108 m."},
+  "19": {"answer": "a", "confidence": "high", "reason": "Lebar: 2 petak (12 m) + 1 parit 0,5 m = 12,5 m; panjang: 18 petak (108 m) + 17 parit x 0,5 = 8,5 m, total 116,5 m."},
+  "20": {"answer": "b", "confidence": "high", "reason": "Rp26.000.000 / Rp650.000 = 40 petak; luasnya 40 x 36 = 1.440 m^2."}
+}

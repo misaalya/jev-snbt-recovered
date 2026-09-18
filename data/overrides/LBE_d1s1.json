@@ -1,0 +1,25 @@
+{
+  "_note": "Manual corrections merged over the automatic extraction. Verified against data/pages/p-3NN.png.",
+  "LBE-d1s1-teks0": {
+    "text": "[Forum thread]\n\nStormy (04-08-2024): Social media can be a tempting distraction. It's a pretty common experience to want to pick up your phone whenever you can't focus or need a quick break. But you **may** find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?\n\nDewgong (05-08-2024): This is a great question! I'm going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!\n\nLightning (07-08-2024): I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I'm not bombarded with information.\n\nInfinity (16-08-2024): For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.\n\nIronman (20-08-2024): Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven't found time for myself during the day. It definitely has had impacts on my sleep schedule and I'm not proud of it, but I have been able to reduce the use of social media in the past few months.\n\nGolden (28-08-2024): This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress",
+    "_source_note": "The source prints this passage as an untitled forum thread (no 'Text N' heading). The line '[Forum thread]' and the blank line between posts are editorial: added here so the six posts stay separable in plain text. The posts themselves are verbatim."
+  },
+  "LBE-d1s1-q09": {
+    "_source_note": "The recovered stem ends '…an urgent need.' while the options are bare adjectives ('A practical', …, 'An urgent'); the recollector apparently wrote the remembered answer into the stem. Kept verbatim."
+  },
+  "LBE-d1s1-q13": {
+    "_source_note": "The sentence 'I doubt that it will be sold at this high price.' (option b, the first-person evaluation) sits inside an otherwise reported news text and may be a reconstruction insertion; the passage also has typos ('meaning of fart', 'announced 1 million'). Kept verbatim."
+  },
+  "LBE-d1s1-teks2": {
+    "_source_note": "Text 2 carries several reconstruction errors: 'the meaning of fart' (for 'art'), and 'Sotheby's announced 1 million to $1.5 million' (words missing, no '$' on the first figure). Note that q13 option (a) quotes this sentence with 'art', so the option and the passage do not match. Kept verbatim."
+  },
+  "LBE-d1s1-teks3": {
+    "_source_note": "Text 3 contains the typos 'seperate' (separate) and 'line how' (like how). Kept verbatim."
+  },
+  "LBE-d1s1-q11": {
+    "_source_note": "The stem quotes the sentence as 'certificate of authority' while Text 2 and q12 both read 'certificate of authenticity'. Kept verbatim; the intended quotation is the passage's."
+  },
+  "LBE-d1s1-q12": {
+    "_source_note": "Option (e) names the artwork ”Comedy”; Text 2 and the rest of the item call it ”Comedian”. Kept verbatim."
+  }
+}

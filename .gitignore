@@ -1,0 +1,6 @@
+dataset/
+data/pages/
+data/raw/
+__pycache__/
+.env
+data/results/

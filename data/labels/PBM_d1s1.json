@@ -1,0 +1,343 @@
+{
+  "_note": "Answers labeled by Claude (claude-opus-5) on 2026-09-18 from the extracted text. NOT from the source module. blind_check / blind_check2 = answers of two independent Claude Opus 5 agents that each saw only the question, passage and options (never these labels or each other's answers); all three agree on 20/20 items in this file. reread = the answer produced by reading every question again from scratch (2026-09-18), after the blind checks; where it differed, the item was re-argued and the label follows the re-reading. review3 = a fourth pass that answered blind and only then compared with these labels; it matched on 17/20 in this file.",
+  "PBM-d1s1-q01": {
+    "answer": "C",
+    "confidence": "medium",
+    "rationale": "Kalimat (5) tidak sejajar: 'antara mengembangkan … dan dukungan …' seharusnya 'mendukung'.",
+    "blind_check": {
+      "answer": "C",
+      "confidence": "medium",
+      "alternative": "D"
+    },
+    "blind_check2": {
+      "answer": "C",
+      "confidence": "medium",
+      "alternative": "D"
+    },
+    "reread": "C",
+    "review3": "C"
+  },
+  "PBM-d1s1-q02": {
+    "answer": "D",
+    "confidence": "medium",
+    "rationale": "Kalimat tentang kebutuhan investasi paling pas setelah (7) yang membahas limbah sebagai solusi, sebelum (8) 'Untuk itu…'.",
+    "blind_check": {
+      "answer": "D",
+      "confidence": "medium",
+      "alternative": "C"
+    },
+    "blind_check2": {
+      "answer": "D",
+      "confidence": "medium",
+      "alternative": "E"
+    },
+    "reread": "D",
+    "review3": "D"
+  },
+  "PBM-d1s1-q03": {
+    "answer": "A",
+    "confidence": "high",
+    "rationale": "Koma sebelum 'karena' pada induk–anak kalimat (2) salah.",
+    "blind_check": {
+      "answer": "A",
+      "confidence": "high",
+      "alternative": null
+    },
+    "blind_check2": {
+      "answer": "A",
+      "confidence": "high",
+      "alternative": null
+    },
+    "reread": "A",
+    "review3": "A"
+  },
+  "PBM-d1s1-q04": {
+    "answer": "C",
+    "confidence": "low",
+    "rationale": "Kalimat (4) memakai pasangan 'Meskipun…, tetapi…'; (c) dan (e) sama-sama membuang salah satunya. Sumber memang menulis (e) tanpa titik akhir (sudah diperiksa ke PDF). Karena soal ujian harus berkunci tunggal, titik itulah satu-satunya pembeda yang tersisa, sehingga (c). Bila titik tersebut ternyata derau rekonstruksi, soal ini tidak punya kunci tunggal. Alternatif: E.",
+    "blind_check": {
+      "answer": "C",
+      "confidence": "low",
+      "alternative": "E"
+    },
+    "blind_check2": {
+      "answer": "C",
+      "confidence": "medium",
+      "alternative": "E"
+    },
+    "reread": "C",
+    "review3": "C"
+  },
+  "PBM-d1s1-q05": {
+    "answer": "C",
+    "confidence": "medium",
+    "rationale": "'Lokakarya Internasional' bukan nama diri (di kalimat 2 ditulis 'lokakarya'), seharusnya huruf kecil.",
+    "blind_check": {
+      "answer": "C",
+      "confidence": "high",
+      "alternative": null
+    },
+    "blind_check2": {
+      "answer": "C",
+      "confidence": "medium",
+      "alternative": null
+    },
+    "reread": "C",
+    "review3": "C"
+  },
+  "PBM-d1s1-q06": {
+    "answer": "A",
+    "confidence": "high",
+    "rationale": "'institusi dari pendidikan formal' → 'institusi pendidikan formal'.",
+    "blind_check": {
+      "answer": "A",
+      "confidence": "high",
+      "alternative": null
+    },
+    "blind_check2": {
+      "answer": "A",
+      "confidence": "high",
+      "alternative": null
+    },
+    "reread": "A",
+    "review3": "A"
+  },
+  "PBM-d1s1-q07": {
+    "answer": "E",
+    "confidence": "high",
+    "rationale": "'mengoptimalkan potensi anak didik'.",
+    "blind_check": {
+      "answer": "E",
+      "confidence": "high",
+      "alternative": null
+    },
+    "blind_check2": {
+      "answer": "E",
+      "confidence": "medium",
+      "alternative": null
+    },
+    "reread": "E",
+    "review3": "E"
+  },
+  "PBM-d1s1-q08": {
+    "answer": "D",
+    "confidence": "high",
+    "rationale": "'memicu pada perubahan' → 'memicu perubahan'.",
+    "blind_check": {
+      "answer": "D",
+      "confidence": "high",
+      "alternative": null
+    },
+    "blind_check2": {
+      "answer": "D",
+      "confidence": "high",
+      "alternative": null
+    },
+    "reread": "D",
+    "review3": "D"
+  },
+  "PBM-d1s1-q09": {
+    "answer": "B",
+    "confidence": "low",
+    "rationale": "Kontras dengan 'bergeser mengikuti perkembangan zaman': sistem 'belum cukup responsif terhadap tuntutan zaman'. Alternatif D (era 4.0).",
+    "blind_check": {
+      "answer": "B",
+      "confidence": "medium",
+      "alternative": "D"
+    },
+    "blind_check2": {
+      "answer": "B",
+      "confidence": "low",
+      "alternative": "D"
+    },
+    "reread": "B",
+    "review3": "D"
+  },
+  "PBM-d1s1-q10": {
+    "answer": "B",
+    "confidence": "high",
+    "rationale": "'ekstra kurikuler' seharusnya 'ekstrakurikuler'.",
+    "blind_check": {
+      "answer": "B",
+      "confidence": "high",
+      "alternative": null
+    },
+    "blind_check2": {
+      "answer": "B",
+      "confidence": "high",
+      "alternative": null
+    },
+    "reread": "B",
+    "review3": "B"
+  },
+  "PBM-d1s1-q11": {
+    "answer": "C",
+    "confidence": "medium",
+    "rationale": "'aspek yang sering kali terlupakan'.",
+    "blind_check": {
+      "answer": "C",
+      "confidence": "medium",
+      "alternative": "E"
+    },
+    "blind_check2": {
+      "answer": "C",
+      "confidence": "medium",
+      "alternative": "E"
+    },
+    "reread": "C",
+    "review3": "C"
+  },
+  "PBM-d1s1-q12": {
+    "answer": "B",
+    "confidence": "high",
+    "rationale": "Daftar efek perubahan iklim: 'peningkatan suhu, perubahan musim yang singkat, dan asam laut'; kalimat 4–6 membahas suhu tinggi.",
+    "blind_check": {
+      "answer": "B",
+      "confidence": "high",
+      "alternative": null
+    },
+    "blind_check2": {
+      "answer": "B",
+      "confidence": "high",
+      "alternative": null
+    },
+    "reread": "B",
+    "review3": "B"
+  },
+  "PBM-d1s1-q13": {
+    "answer": "D",
+    "confidence": "medium",
+    "rationale": "Isi teks: dampak perubahan iklim pada otak, dibahas khusus pada hewan (kalimat 3–6). Opsi B/C memakai 'iklim' bukan 'perubahan iklim'.",
+    "blind_check": {
+      "answer": "D",
+      "confidence": "medium",
+      "alternative": "B"
+    },
+    "blind_check2": {
+      "answer": "D",
+      "confidence": "medium",
+      "alternative": null
+    },
+    "reread": "D",
+    "review3": "D"
+  },
+  "PBM-d1s1-q14": {
+    "answer": "A",
+    "confidence": "low",
+    "rationale": "Kalimat (5) memerinci bentuk pengaruh pada (4) → 'seperti'. Alternatif D ('sehingga') jika dibaca sebagai akibat.",
+    "blind_check": {
+      "answer": "A",
+      "confidence": "low",
+      "alternative": "C"
+    },
+    "blind_check2": {
+      "answer": "A",
+      "confidence": "low",
+      "alternative": "C"
+    },
+    "reread": "A",
+    "review3": "D"
+  },
+  "PBM-d1s1-q15": {
+    "answer": "D",
+    "confidence": "medium",
+    "rationale": "Informasi utama = inti kalimat setelah membuang konjungsi antarkalimat ('Selain itu'), partikel ('juga'), modalitas ('dapat'), dan keterangan ('dalam otak hewan dewasa'): 'Suhu memengaruhi pembentukan neuron baru.' = (d). Opsi (e) ikut membuang 'baru', padahal itu atribut di dalam objek, bukan keterangan, dan menghilangkannya mengubah isi (neurogenesis). Diubah dari E saat baca ulang; E hanya benar bila 'baru' dianggap mubazir. Alternatif: E.",
+    "blind_check": {
+      "answer": "E",
+      "confidence": "medium",
+      "alternative": "D"
+    },
+    "blind_check2": {
+      "answer": "E",
+      "confidence": "medium",
+      "alternative": "D"
+    },
+    "reread": "D",
+    "review3": "A"
+  },
+  "PBM-d1s1-q16": {
+    "answer": "E",
+    "confidence": "high",
+    "rationale": "'sain' seharusnya 'sains'.",
+    "blind_check": {
+      "answer": "E",
+      "confidence": "high",
+      "alternative": null
+    },
+    "blind_check2": {
+      "answer": "E",
+      "confidence": "high",
+      "alternative": null
+    },
+    "reread": "E",
+    "review3": "E"
+  },
+  "PBM-d1s1-q17": {
+    "answer": "E",
+    "confidence": "high",
+    "rationale": "Kontras keberhasilan (4) vs kegagalan (5) → 'Namun'.",
+    "blind_check": {
+      "answer": "E",
+      "confidence": "high",
+      "alternative": null
+    },
+    "blind_check2": {
+      "answer": "E",
+      "confidence": "high",
+      "alternative": null
+    },
+    "reread": "E",
+    "review3": "E"
+  },
+  "PBM-d1s1-q18": {
+    "answer": "D",
+    "confidence": "high",
+    "rationale": "'Menurut laporan itu menunjukkan' rancu; perbaikan: 'Laporan itu menunjukkan bahwa …'.",
+    "blind_check": {
+      "answer": "D",
+      "confidence": "high",
+      "alternative": null
+    },
+    "blind_check2": {
+      "answer": "D",
+      "confidence": "high",
+      "alternative": null
+    },
+    "reread": "D",
+    "review3": "D"
+  },
+  "PBM-d1s1-q19": {
+    "answer": "B",
+    "confidence": "high",
+    "rationale": "Pemindahan keterangan ke depan tanpa mengubah makna; A fragmen, C–E mengubah relasi 'dengan terbitnya'.",
+    "blind_check": {
+      "answer": "B",
+      "confidence": "medium",
+      "alternative": "E"
+    },
+    "blind_check2": {
+      "answer": "B",
+      "confidence": "medium",
+      "alternative": null
+    },
+    "reread": "B",
+    "review3": "B"
+  },
+  "PBM-d1s1-q20": {
+    "answer": "B",
+    "confidence": "high",
+    "rationale": "3 (tesis) → 2 (Revolusi Pertanian) → 5 ('Revolusi ini terjadi karena…') → 4 ('Selanjutnya', 500 tahun silam) → 1 (antibiotik, modern).",
+    "blind_check": {
+      "answer": "B",
+      "confidence": "high",
+      "alternative": null
+    },
+    "blind_check2": {
+      "answer": "B",
+      "confidence": "high",
+      "alternative": null
+    },
+    "reread": "B",
+    "review3": "B"
+  }
+}

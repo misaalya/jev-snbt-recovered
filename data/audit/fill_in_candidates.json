@@ -1,0 +1,33 @@
+{
+  "_note": "Tiga soal isian PK tidak punya opsi di sumbernya, sehingga tidak bisa ditanyakan sebagai Choice apa adanya. Berkas ini memberi himpunan kandidat buatan agar soal tetap bisa dijalankan sebagai arm terpisah. Distraktor TIDAK dipilih berdasarkan selera: masing-masing adalah hasil dari satu jalur kesalahan yang bisa dituliskan, dicatat di 'derivation'. Arm ini tidak boleh digabung ke angka utama karena tingkat kesulitannya ditentukan oleh daftar ini, bukan oleh modul.",
+  "PK-d1s1-q01": {
+    "answer": "64",
+    "candidates": {
+      "4": "mengalikan alih-alih membagi: 4 x 1/2 = 2, lalu t = 2^2",
+      "8": "berhenti di akar: 4 : 1/2 = 8 lalu menjawab t = 8 tanpa mengkuadratkan",
+      "16": "mengkuadratkan angka 4 pada soal, bukan hasil 8",
+      "32": "mengkuadratkan sebagian: 4^2 : 1/2 = 32",
+      "64": "benar: 4 : 1/2 = 8, akar t = 8, t = 64"
+    }
+  },
+  "PK-d1s1-q02": {
+    "answer": "10",
+    "candidates": {
+      "-10": "salah tanda: 17 = 4 + 2r + 33",
+      "5": "membagi dua sekali lagi setelah mendapat 2r = 20",
+      "10": "benar: 17 = 4 - 2r + 33, 2r = 20, r = 10",
+      "20": "lupa membagi dua: berhenti di 2r = 20",
+      "27": "menjumlahkan alih-alih mengurangi 17: (4 + 33 + 17)/2"
+    }
+  },
+  "PK-d1s1-q18": {
+    "answer": "40",
+    "candidates": {
+      "25": "memakai 8 sebagai nilai terbesar (lupa b = 9), jangkauan 7, (7 - 16/3) x 15",
+      "40": "benar: b = 9, jangkauan 9 - 1 = 8, (8 - 16/3) x 15 = 40",
+      "45": "membulatkan rata-rata 5 1/3 menjadi 5, (8 - 5) x 15",
+      "55": "memakai nilai terkecil 0, jangkauan 9, (9 - 16/3) x 15",
+      "60": "membulatkan rata-rata ke bawah menjadi 4, (8 - 4) x 15"
+    }
+  }
+}

@@ -1,0 +1,843 @@
+{
+  "section": "PPU_d1s1",
+  "subtest": "PPU",
+  "day": 1,
+  "session": 1,
+  "pages": [
+    87,
+    96
+  ],
+  "source": "MMA SNBT 2025 (Tim Mangkuk Mi Ayam), CC BY-NC 4.0",
+  "answer_key": "labeled by claude-opus-5 (data/labels/), NOT from the source",
+  "questions": [
+    {
+      "id": "PPU-d1s1-q01",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 1,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks1"
+      ],
+      "question": "Kelompok kata dalam bacaan tersebut yang memiliki pola makna dengan _bengkel_ _mobil_ adalah …",
+      "options": {
+        "a": "kedai kopi (kalimat 1)",
+        "b": "desain interior (kalimat 2)",
+        "c": "kaum urban (kalimat 3)",
+        "d": "peran penting (kalimat 7)",
+        "e": "sejarah panjang (kalimat 9)"
+      },
+      "statements": [],
+      "answer": "A",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 87,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks1",
+          "text": "(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.\n(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 87
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q02",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 2,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks1"
+      ],
+      "question": "Fungsi kata penghubung _serta_ dalam kalimat (2) adalah …",
+      "options": {
+        "a": "menjelaskan hubungan sebab-akibat",
+        "b": "menunjukkan alasan",
+        "c": "memberikan informasi tambahan",
+        "d": "memerinci pernyataan",
+        "e": "menandai hubungan logis"
+      },
+      "statements": [],
+      "answer": "C",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 87,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks1",
+          "text": "(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.\n(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 87
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q03",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 3,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks1"
+      ],
+      "question": "Hubungan kata _kopi_ dan kata _petani_ sama dengan hubungan kata _emas_ dan kata …",
+      "options": {
+        "a": "perajin",
+        "b": "pedagang",
+        "c": "pengoleksi",
+        "d": "penambang",
+        "e": "pembeli"
+      },
+      "statements": [],
+      "answer": "D",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 88,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks1",
+          "text": "(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.\n(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 87
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q04",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 4,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks1"
+      ],
+      "question": "Kelompok kata _menyumbang devisa_ dalam kalimat (6) memiliki makna paling dekat dengan kelompok kata …",
+      "options": {
+        "a": "memberikan keuntungan",
+        "b": "mendatangkan kebaikan",
+        "c": "membagikan laba",
+        "d": "mendukung pembangunan",
+        "e": "menyediakan kontribusi"
+      },
+      "statements": [],
+      "answer": "A",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "medium",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 88,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks1",
+          "text": "(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.\n(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 87
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q05",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 5,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks2"
+      ],
+      "question": "Kata yang memiliki makna lebih luas dari kata _remaja_ dalam kalimat (2) adalah …",
+      "options": {
+        "a": "Dewasa",
+        "b": "Anak",
+        "c": "Usia",
+        "d": "Manusia",
+        "e": "Masyarakat"
+      },
+      "statements": [],
+      "answer": "D",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "medium",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 89,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks2",
+          "text": "(1) Sebuah studi terbaru mengungkapkan fakta mengejutkan bahwa kelelahan pada remaja memiliki dampak yang lebih luas dari sekadar kesulitan berkonsentrasi saat belajar. (2) Sekitar 40% remaja melaporkan bahwa mereka mengalami rasa kantuk yang cukup sering. (3) Kondisi ini tidak hanya mengganggu aktivitas belajar mereka di sekolah, tetapi juga berpotensi memicu perilaku yang tidak diinginkan. (4) Penelitian tersebut menunjukkan adanya hubungan antara kelelahan pada remaja dan peningkatan kecenderungan melakukan tindakan antisosial.\n(5) Remaja yang sering merasa lelah akan cenderung lebih sering berbohong, menipu, mencuri, bahkan terlibat dalam perkelahian. (6) Meskipun banyak penelitian menyoroti kesulitan tidur pada remaja, studi ini memberikan pemahaman yang lebih mendalam dan menggali lebih jauh dampak kelelahan terhadap perilaku remaja. (7) Hasilnya sangat…dan menggarisbawahi…mengatasi kondisi kelelahan pada remaja secara serius.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 89
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q06",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 6,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks2"
+      ],
+      "question": "Kata _kesulitan_ pada kalimat (1) dalam bacaan tersebut paling dekat maknanya dengan kata …",
+      "options": {
+        "a": "Kekurangan",
+        "b": "Batasan",
+        "c": "Urusan",
+        "d": "Masalah",
+        "e": "Penyakit"
+      },
+      "statements": [],
+      "answer": "D",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 89,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks2",
+          "text": "(1) Sebuah studi terbaru mengungkapkan fakta mengejutkan bahwa kelelahan pada remaja memiliki dampak yang lebih luas dari sekadar kesulitan berkonsentrasi saat belajar. (2) Sekitar 40% remaja melaporkan bahwa mereka mengalami rasa kantuk yang cukup sering. (3) Kondisi ini tidak hanya mengganggu aktivitas belajar mereka di sekolah, tetapi juga berpotensi memicu perilaku yang tidak diinginkan. (4) Penelitian tersebut menunjukkan adanya hubungan antara kelelahan pada remaja dan peningkatan kecenderungan melakukan tindakan antisosial.\n(5) Remaja yang sering merasa lelah akan cenderung lebih sering berbohong, menipu, mencuri, bahkan terlibat dalam perkelahian. (6) Meskipun banyak penelitian menyoroti kesulitan tidur pada remaja, studi ini memberikan pemahaman yang lebih mendalam dan menggali lebih jauh dampak kelelahan terhadap perilaku remaja. (7) Hasilnya sangat…dan menggarisbawahi…mengatasi kondisi kelelahan pada remaja secara serius.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 89
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q07",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 7,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks2"
+      ],
+      "question": "Perumpamaan pada bacaan tersebut dapat ditemukan pada kata …",
+      "options": {
+        "a": "Berkonsentrasi (kalimat 1)",
+        "b": "Belajar (kalimat 3)",
+        "c": "Melakukan (kalimat 4)",
+        "d": "Mencuri (kalimat 5)",
+        "e": "Menggali (kalimat 6)"
+      },
+      "statements": [],
+      "answer": "E",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 90,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks2",
+          "text": "(1) Sebuah studi terbaru mengungkapkan fakta mengejutkan bahwa kelelahan pada remaja memiliki dampak yang lebih luas dari sekadar kesulitan berkonsentrasi saat belajar. (2) Sekitar 40% remaja melaporkan bahwa mereka mengalami rasa kantuk yang cukup sering. (3) Kondisi ini tidak hanya mengganggu aktivitas belajar mereka di sekolah, tetapi juga berpotensi memicu perilaku yang tidak diinginkan. (4) Penelitian tersebut menunjukkan adanya hubungan antara kelelahan pada remaja dan peningkatan kecenderungan melakukan tindakan antisosial.\n(5) Remaja yang sering merasa lelah akan cenderung lebih sering berbohong, menipu, mencuri, bahkan terlibat dalam perkelahian. (6) Meskipun banyak penelitian menyoroti kesulitan tidur pada remaja, studi ini memberikan pemahaman yang lebih mendalam dan menggali lebih jauh dampak kelelahan terhadap perilaku remaja. (7) Hasilnya sangat…dan menggarisbawahi…mengatasi kondisi kelelahan pada remaja secara serius.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 89
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q08",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 8,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks2"
+      ],
+      "question": "Kalimat (7) dalam bacaan tersebut akan menjadi bermakna bila dilengkapi dengan kata-kata …",
+      "options": {
+        "a": "Berdampak ; keharusan",
+        "b": "Nyata ; wajibnya",
+        "c": "Berarti; potensi",
+        "d": "Jelas ; kemungkinan",
+        "e": "Signifikan ; pentingnya"
+      },
+      "statements": [],
+      "answer": "E",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 90,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks2",
+          "text": "(1) Sebuah studi terbaru mengungkapkan fakta mengejutkan bahwa kelelahan pada remaja memiliki dampak yang lebih luas dari sekadar kesulitan berkonsentrasi saat belajar. (2) Sekitar 40% remaja melaporkan bahwa mereka mengalami rasa kantuk yang cukup sering. (3) Kondisi ini tidak hanya mengganggu aktivitas belajar mereka di sekolah, tetapi juga berpotensi memicu perilaku yang tidak diinginkan. (4) Penelitian tersebut menunjukkan adanya hubungan antara kelelahan pada remaja dan peningkatan kecenderungan melakukan tindakan antisosial.\n(5) Remaja yang sering merasa lelah akan cenderung lebih sering berbohong, menipu, mencuri, bahkan terlibat dalam perkelahian. (6) Meskipun banyak penelitian menyoroti kesulitan tidur pada remaja, studi ini memberikan pemahaman yang lebih mendalam dan menggali lebih jauh dampak kelelahan terhadap perilaku remaja. (7) Hasilnya sangat…dan menggarisbawahi…mengatasi kondisi kelelahan pada remaja secara serius.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 89
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q09",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 9,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks3"
+      ],
+      "question": "Bentuk _pe-an_ pada kata _perawatan_ dalam kalimat (2) mempunyai makna yang sama dengan bentuk pe-an pada kalimat",
+      "options": {
+        "a": "Di _pelabuhan_ itu, banyak kapal pesiar singgah dalam waktu yang cukup lama.",
+        "b": "Ikan-ikan yang ditangkap para nelayan dijual di _pelelangan_ ikan.",
+        "c": "Para petani modern sudah menerapkan teknologi _pembenihan_.",
+        "d": "_Perumahan_ yang ramah lingkungan harus disiapkan oleh pemerintah.",
+        "e": "Sebenarnya cerita _pewayangan_ menggambarkan peristiwa dunia nyata."
+      },
+      "statements": [],
+      "answer": "C",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "medium",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 91,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks3",
+          "text": "(1) Saat ini kecerdasan buatan atau _artificial intelligence_(AI) bukan hanya tentang robot atau sistem otomatisasi yang biasa digunakan dalam aktivitas sehari-hari. (2) AI juga menjadi sahabat terbaik dalam perawatan kulit. (3) Tren AI dalam industri kecantikan merupakan revolusi kecantikan yang menggabungkan kecerdasan buatan dengan ilmu perawatan kulit. (4) Melalui teknologi cerdas dalam pemrosesan data, AI mampu menganalisis kondisi kulit secara cepat _(real-time)_, mengidentifikasi masalah kulit secara spesifik, dan memberikan rekomendasi perawatan yang disesuaikan dengan tipe kulit setiap individu. (5) Tidak hanya itu, AI dalam dunia kecantikan juga membantu mengembangkan formula baru yang inovatif, memprediksi tren kecantikan, dan menyesuaikan pengalaman konsumen dengan kebutuhan kulit masing-masing. (6) Dengan demikian, tren AI tidak hanya mengubah cara pembuatan dan penjualan produk kecantikan, tetapi juga membangun interaksi konsumen dengan AI untuk perawatan kecantikan mereka sehari-hari.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 91
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q10",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 10,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks3"
+      ],
+      "question": "Kelompok kata yang berpasangan tetap dalam bacaan tersebut adalah …",
+      "options": {
+        "a": "Sahabat terbaik (kalimat 2)",
+        "b": "Kecerdasan buatan (kalimat 3)",
+        "c": "Tipe kulit (kalimat 4)",
+        "d": "Formula baru (kalimat 5)",
+        "e": "Produk kecantikan (kalimat 6)"
+      },
+      "statements": [],
+      "answer": "B",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 91,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks3",
+          "text": "(1) Saat ini kecerdasan buatan atau _artificial intelligence_(AI) bukan hanya tentang robot atau sistem otomatisasi yang biasa digunakan dalam aktivitas sehari-hari. (2) AI juga menjadi sahabat terbaik dalam perawatan kulit. (3) Tren AI dalam industri kecantikan merupakan revolusi kecantikan yang menggabungkan kecerdasan buatan dengan ilmu perawatan kulit. (4) Melalui teknologi cerdas dalam pemrosesan data, AI mampu menganalisis kondisi kulit secara cepat _(real-time)_, mengidentifikasi masalah kulit secara spesifik, dan memberikan rekomendasi perawatan yang disesuaikan dengan tipe kulit setiap individu. (5) Tidak hanya itu, AI dalam dunia kecantikan juga membantu mengembangkan formula baru yang inovatif, memprediksi tren kecantikan, dan menyesuaikan pengalaman konsumen dengan kebutuhan kulit masing-masing. (6) Dengan demikian, tren AI tidak hanya mengubah cara pembuatan dan penjualan produk kecantikan, tetapi juga membangun interaksi konsumen dengan AI untuk perawatan kecantikan mereka sehari-hari.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 91
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q11",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 11,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks3"
+      ],
+      "question": "Sesuai dengan konteks dalam bacaan tersebut, kata _cerdas_ (kalimat 4) memiliki makna yang berlawanan dengan kata …",
+      "options": {
+        "a": "Bodoh",
+        "b": "Kolot",
+        "c": "Lambat",
+        "d": "Kuno",
+        "e": "Manual"
+      },
+      "statements": [],
+      "answer": "E",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "low",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 91,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks3",
+          "text": "(1) Saat ini kecerdasan buatan atau _artificial intelligence_(AI) bukan hanya tentang robot atau sistem otomatisasi yang biasa digunakan dalam aktivitas sehari-hari. (2) AI juga menjadi sahabat terbaik dalam perawatan kulit. (3) Tren AI dalam industri kecantikan merupakan revolusi kecantikan yang menggabungkan kecerdasan buatan dengan ilmu perawatan kulit. (4) Melalui teknologi cerdas dalam pemrosesan data, AI mampu menganalisis kondisi kulit secara cepat _(real-time)_, mengidentifikasi masalah kulit secara spesifik, dan memberikan rekomendasi perawatan yang disesuaikan dengan tipe kulit setiap individu. (5) Tidak hanya itu, AI dalam dunia kecantikan juga membantu mengembangkan formula baru yang inovatif, memprediksi tren kecantikan, dan menyesuaikan pengalaman konsumen dengan kebutuhan kulit masing-masing. (6) Dengan demikian, tren AI tidak hanya mengubah cara pembuatan dan penjualan produk kecantikan, tetapi juga membangun interaksi konsumen dengan AI untuk perawatan kecantikan mereka sehari-hari.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 91
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q12",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 12,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks3"
+      ],
+      "question": "Kata dalam bacaan tersebut yang mengacu pada makna yang sebenarnya adalah …",
+      "options": {
+        "a": "Sahabat (kalimat 2)",
+        "b": "Revolusi (kalimat 3)",
+        "c": "Perawatan (kalimat 4)",
+        "d": "Dunia (kalimat 5)",
+        "e": "Membangun (kalimat 6)"
+      },
+      "statements": [],
+      "answer": "C",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 92,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks3",
+          "text": "(1) Saat ini kecerdasan buatan atau _artificial intelligence_(AI) bukan hanya tentang robot atau sistem otomatisasi yang biasa digunakan dalam aktivitas sehari-hari. (2) AI juga menjadi sahabat terbaik dalam perawatan kulit. (3) Tren AI dalam industri kecantikan merupakan revolusi kecantikan yang menggabungkan kecerdasan buatan dengan ilmu perawatan kulit. (4) Melalui teknologi cerdas dalam pemrosesan data, AI mampu menganalisis kondisi kulit secara cepat _(real-time)_, mengidentifikasi masalah kulit secara spesifik, dan memberikan rekomendasi perawatan yang disesuaikan dengan tipe kulit setiap individu. (5) Tidak hanya itu, AI dalam dunia kecantikan juga membantu mengembangkan formula baru yang inovatif, memprediksi tren kecantikan, dan menyesuaikan pengalaman konsumen dengan kebutuhan kulit masing-masing. (6) Dengan demikian, tren AI tidak hanya mengubah cara pembuatan dan penjualan produk kecantikan, tetapi juga membangun interaksi konsumen dengan AI untuk perawatan kecantikan mereka sehari-hari.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 91
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q13",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 13,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks4"
+      ],
+      "question": "Kata yang tepat di awal paragraf dua untuk menghubungkan kedua paragraf pada bacaan adalah …",
+      "options": {
+        "a": "Sementara itu",
+        "b": "Lebih jauh lagi",
+        "c": "Oleh karena itu",
+        "d": "Berbeda dengan hal di atas",
+        "e": "Berkaitan dengan hal tersebut"
+      },
+      "statements": [],
+      "answer": "E",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "low",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 93,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks4",
+          "text": "(1) Awan terbentuk dari kristal udara dan air yang seharusnya lebih padat daripada udara. (2) Namun, awan terlihat melayang bebas, mengapung tinggi, dan perlawanan gravitasi. (3) Mengapa awan tidak jatuh? (4) Hal itu terjadi karena awan tersebut tenggelam di dalam udara sekitarnya. (5) Hanya saja awan tersebut tenggelam dengan kecepatan yang sangat lambat sehingga terlihat mengapung.\n(6) Galileo galilei, jauh sebelum abad ke-16 menjelaskan bahwa semua benda jatuh bebas dengan kecepatan yang sama terlepas dari massanya. (7) Gaya gravitasi yang mendorong benda ke bawah dan memaksanya jatuh ke permukaan bumi. (8) Sebaliknya, penerjun payung dapat mendarat dengan aman karena parasut mendistribusikan massa ke area permukaan yang luas. (9) Karena tersebar di area yang luas, hambatan udaranya sangat besar pada awan.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Kalimat (1) berbunyi 'kristal udara dan air yang seharusnya lebih padat daripada udara'; 'kristal udara' hampir pasti salah rekonstruksi untuk 'kristal es'. Ini menentukan soal q16 (kalimat tidak logis): dengan 'udara' kalimat (1) kontradiktif, dengan 'es' kalimat itu logis dan jawaban yang dimaksud penulis soal mungkin lain. Teks dibiarkan apa adanya.",
+          "source_page": 93
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q14",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 14,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks4"
+      ],
+      "question": "Ungkapan _hambatan udaranya sangat besar pada awan_ pada kalimat (9) dapat disempurnakan menjadi …",
+      "options": {
+        "a": "awan mendapat hambatan udara yang sangat besar",
+        "b": "udara yang sangat besar menghambat awan",
+        "c": "besarnya udara mendapat hambatan dari awan",
+        "d": "dari awan udara mendapat hambatan yang sangat besar",
+        "e": "yang sangat besar adalah hambatan udara"
+      },
+      "statements": [],
+      "answer": "A",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 93,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks4",
+          "text": "(1) Awan terbentuk dari kristal udara dan air yang seharusnya lebih padat daripada udara. (2) Namun, awan terlihat melayang bebas, mengapung tinggi, dan perlawanan gravitasi. (3) Mengapa awan tidak jatuh? (4) Hal itu terjadi karena awan tersebut tenggelam di dalam udara sekitarnya. (5) Hanya saja awan tersebut tenggelam dengan kecepatan yang sangat lambat sehingga terlihat mengapung.\n(6) Galileo galilei, jauh sebelum abad ke-16 menjelaskan bahwa semua benda jatuh bebas dengan kecepatan yang sama terlepas dari massanya. (7) Gaya gravitasi yang mendorong benda ke bawah dan memaksanya jatuh ke permukaan bumi. (8) Sebaliknya, penerjun payung dapat mendarat dengan aman karena parasut mendistribusikan massa ke area permukaan yang luas. (9) Karena tersebar di area yang luas, hambatan udaranya sangat besar pada awan.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Kalimat (1) berbunyi 'kristal udara dan air yang seharusnya lebih padat daripada udara'; 'kristal udara' hampir pasti salah rekonstruksi untuk 'kristal es'. Ini menentukan soal q16 (kalimat tidak logis): dengan 'udara' kalimat (1) kontradiktif, dengan 'es' kalimat itu logis dan jawaban yang dimaksud penulis soal mungkin lain. Teks dibiarkan apa adanya.",
+          "source_page": 93
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q15",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 15,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks4"
+      ],
+      "question": "Frasa _melayang bebas, mengapung tinggi, dan perlawanan gravitasi_ pada kalimat (2) dapat diperbaiki menjadi …",
+      "options": {
+        "a": "kata _gravitasi_ seharusnya _bergravitasi_",
+        "b": "kata _tinggi_ seharusnya _ketinggian_",
+        "c": "kata _mengapung_ seharusnya _terapung_",
+        "d": "kata _perlawanan_ seharusnya _melawan_",
+        "e": "kata _melayang_ seharusnya _layangan_"
+      },
+      "statements": [],
+      "answer": "D",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 94,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks4",
+          "text": "(1) Awan terbentuk dari kristal udara dan air yang seharusnya lebih padat daripada udara. (2) Namun, awan terlihat melayang bebas, mengapung tinggi, dan perlawanan gravitasi. (3) Mengapa awan tidak jatuh? (4) Hal itu terjadi karena awan tersebut tenggelam di dalam udara sekitarnya. (5) Hanya saja awan tersebut tenggelam dengan kecepatan yang sangat lambat sehingga terlihat mengapung.\n(6) Galileo galilei, jauh sebelum abad ke-16 menjelaskan bahwa semua benda jatuh bebas dengan kecepatan yang sama terlepas dari massanya. (7) Gaya gravitasi yang mendorong benda ke bawah dan memaksanya jatuh ke permukaan bumi. (8) Sebaliknya, penerjun payung dapat mendarat dengan aman karena parasut mendistribusikan massa ke area permukaan yang luas. (9) Karena tersebar di area yang luas, hambatan udaranya sangat besar pada awan.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Kalimat (1) berbunyi 'kristal udara dan air yang seharusnya lebih padat daripada udara'; 'kristal udara' hampir pasti salah rekonstruksi untuk 'kristal es'. Ini menentukan soal q16 (kalimat tidak logis): dengan 'udara' kalimat (1) kontradiktif, dengan 'es' kalimat itu logis dan jawaban yang dimaksud penulis soal mungkin lain. Teks dibiarkan apa adanya.",
+          "source_page": 93
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q16",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 16,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks4"
+      ],
+      "question": "Kalimat yang tidak logis dalam bacaan di atas adalah …",
+      "options": {
+        "a": "Kalimat (1)",
+        "b": "Kalimat (3)",
+        "c": "Kalimat (4)",
+        "d": "Kalimat (7)",
+        "e": "Kalimat (8)"
+      },
+      "statements": [],
+      "answer": "A",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "low",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 94,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks4",
+          "text": "(1) Awan terbentuk dari kristal udara dan air yang seharusnya lebih padat daripada udara. (2) Namun, awan terlihat melayang bebas, mengapung tinggi, dan perlawanan gravitasi. (3) Mengapa awan tidak jatuh? (4) Hal itu terjadi karena awan tersebut tenggelam di dalam udara sekitarnya. (5) Hanya saja awan tersebut tenggelam dengan kecepatan yang sangat lambat sehingga terlihat mengapung.\n(6) Galileo galilei, jauh sebelum abad ke-16 menjelaskan bahwa semua benda jatuh bebas dengan kecepatan yang sama terlepas dari massanya. (7) Gaya gravitasi yang mendorong benda ke bawah dan memaksanya jatuh ke permukaan bumi. (8) Sebaliknya, penerjun payung dapat mendarat dengan aman karena parasut mendistribusikan massa ke area permukaan yang luas. (9) Karena tersebar di area yang luas, hambatan udaranya sangat besar pada awan.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Kalimat (1) berbunyi 'kristal udara dan air yang seharusnya lebih padat daripada udara'; 'kristal udara' hampir pasti salah rekonstruksi untuk 'kristal es'. Ini menentukan soal q16 (kalimat tidak logis): dengan 'udara' kalimat (1) kontradiktif, dengan 'es' kalimat itu logis dan jawaban yang dimaksud penulis soal mungkin lain. Teks dibiarkan apa adanya.",
+          "source_page": 93
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q17",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 17,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks5"
+      ],
+      "question": "Kalimat _Rumah mungil tempat ibu pernah tinggal bersama adik perempuannya_ _itu milik negara_ memiliki pola kalimat yang sama dengan kalimat …",
+      "options": {
+        "a": "(1)",
+        "b": "(3)",
+        "c": "(4)",
+        "d": "(7)",
+        "e": "(8)"
+      },
+      "statements": [],
+      "answer": "D",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 95,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks5",
+          "text": "(1) Upaya penanaman lahan kering dengan tanaman hijau sangat menantang karena berhadapan dengan tiga masalah, yaitu kekurangan air, tanah yang tandus, dan perubahan iklim. (2) Tanah kurang air, layaknya spons yang haus, kesulitan menyerap dan menyimpan kelembapan. (3) Hal tersebut membuat vegetasi sulit bertahan hidup. (4) Kekurangan air bahkan dapat menghambat pertumbuhan akar sehingga mencegah tanaman untuk mencengkram tanah dengan kuat. (5) Selain itu, kondisi tanah yang miskin unsur hara makin memperburuk keadaan. (6) Tanah kering sering kekurangan nutrisi penting yang dibutuhkan tanaman untuk tumbuh. (7) Masalah lain yang dapat mengganjal upaya penghijauan adalah perubahan iklim. (8) Curah hujan yang tidak menentu dan kekeringan yang berkepanjangan menghambat tanaman untuk bertahan hidup di bawah kondisi yang tidak menguntungkan.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 95
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q18",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 18,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks5"
+      ],
+      "question": "Tujuan penggunaan kata dapat pada kalimat (4) adalah …",
+      "options": {
+        "a": "Mewajibkan",
+        "b": "Memungkinkan",
+        "c": "Membolehkan",
+        "d": "Memastikan",
+        "e": "Menganjurkan"
+      },
+      "statements": [],
+      "answer": "B",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 95,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks5",
+          "text": "(1) Upaya penanaman lahan kering dengan tanaman hijau sangat menantang karena berhadapan dengan tiga masalah, yaitu kekurangan air, tanah yang tandus, dan perubahan iklim. (2) Tanah kurang air, layaknya spons yang haus, kesulitan menyerap dan menyimpan kelembapan. (3) Hal tersebut membuat vegetasi sulit bertahan hidup. (4) Kekurangan air bahkan dapat menghambat pertumbuhan akar sehingga mencegah tanaman untuk mencengkram tanah dengan kuat. (5) Selain itu, kondisi tanah yang miskin unsur hara makin memperburuk keadaan. (6) Tanah kering sering kekurangan nutrisi penting yang dibutuhkan tanaman untuk tumbuh. (7) Masalah lain yang dapat mengganjal upaya penghijauan adalah perubahan iklim. (8) Curah hujan yang tidak menentu dan kekeringan yang berkepanjangan menghambat tanaman untuk bertahan hidup di bawah kondisi yang tidak menguntungkan.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 95
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q19",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 19,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "PPU-d1s1-teks5"
+      ],
+      "question": "Pandangan penulis terhadap penanaman lahan kering adalah",
+      "options": {
+        "a": "cukup khawatir",
+        "b": "cenderung apatis",
+        "c": "sangat menentang",
+        "d": "terlalu pesimis",
+        "e": "tidak berpihak"
+      },
+      "statements": [],
+      "answer": "A",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "low",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 96,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "PPU-d1s1-teks5",
+          "text": "(1) Upaya penanaman lahan kering dengan tanaman hijau sangat menantang karena berhadapan dengan tiga masalah, yaitu kekurangan air, tanah yang tandus, dan perubahan iklim. (2) Tanah kurang air, layaknya spons yang haus, kesulitan menyerap dan menyimpan kelembapan. (3) Hal tersebut membuat vegetasi sulit bertahan hidup. (4) Kekurangan air bahkan dapat menghambat pertumbuhan akar sehingga mencegah tanaman untuk mencengkram tanah dengan kuat. (5) Selain itu, kondisi tanah yang miskin unsur hara makin memperburuk keadaan. (6) Tanah kering sering kekurangan nutrisi penting yang dibutuhkan tanaman untuk tumbuh. (7) Masalah lain yang dapat mengganjal upaya penghijauan adalah perubahan iklim. (8) Curah hujan yang tidak menentu dan kekeringan yang berkepanjangan menghambat tanaman untuk bertahan hidup di bawah kondisi yang tidak menguntungkan.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 95
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "PPU-d1s1-q20",
+      "subtest": "PPU",
+      "day": 1,
+      "session": 1,
+      "number": 20,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [],
+      "question": "Truk mengangkut brangkas: \"Tabila lam cenai mbos\"\nKereta menarik gerbong: \"Grosean noy seano ndosh\"\nBrangkas ditarik kereta: \"Tabila ndosh noy seano noy\"\nBagaimana mengatakan \"Gerbong diangkut truk\" dengan bahasa tersebut?",
+      "options": {
+        "a": "Grosean mbosh lam cenai lam",
+        "b": "Grosean ndosh lam cenai lam",
+        "c": "Tabila mbosh lam cenai lam",
+        "d": "Tabila ndosh lam cenai lam",
+        "e": "Seano mbosh noy seano noy"
+      },
+      "statements": [],
+      "answer": "A",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 96,
+      "_source_note": "The stem spells the invented word 'mbos' while every option spells it 'mbosh'; the source is inconsistent. It does not change the answer, since only one option has the right word order.",
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [],
+      "has_answer": true
+    }
+  ]
+}

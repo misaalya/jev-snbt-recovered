@@ -1,0 +1,971 @@
+{
+  "section": "LBE_d1s1",
+  "subtest": "LBE",
+  "day": 1,
+  "session": 1,
+  "pages": [
+    306,
+    314
+  ],
+  "source": "MMA SNBT 2025 (Tim Mangkuk Mi Ayam), CC BY-NC 4.0",
+  "answer_key": "labeled by claude-opus-5 (data/labels/), NOT from the source",
+  "questions": [
+    {
+      "id": "LBE-d1s1-q01",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 1,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks0"
+      ],
+      "question": "Who posted the negative effect of social media on their lives?",
+      "options": {
+        "a": "Dewgong and Golden",
+        "b": "Lightning and Ironman",
+        "c": "Lightning and Dewgong",
+        "d": "Infinity and Golden",
+        "e": "Ironman and Golden"
+      },
+      "statements": [],
+      "answer": "B",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "medium",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 306,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks0",
+          "text": "[Forum thread]\n\nStormy (04-08-2024): Social media can be a tempting distraction. It's a pretty common experience to want to pick up your phone whenever you can't focus or need a quick break. But you **may** find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?\n\nDewgong (05-08-2024): This is a great question! I'm going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!\n\nLightning (07-08-2024): I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I'm not bombarded with information.\n\nInfinity (16-08-2024): For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.\n\nIronman (20-08-2024): Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven't found time for myself during the day. It definitely has had impacts on my sleep schedule and I'm not proud of it, but I have been able to reduce the use of social media in the past few months.\n\nGolden (28-08-2024): This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "The source prints this passage as an untitled forum thread (no 'Text N' heading). The line '[Forum thread]' and the blank line between posts are editorial: added here so the six posts stay separable in plain text. The posts themselves are verbatim.",
+          "source_page": 306
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q02",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 2,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks0"
+      ],
+      "question": "The word **may** in Stormy’s post is used to express a",
+      "options": {
+        "a": "Possibility",
+        "b": "Permission",
+        "c": "Wish",
+        "d": "Suggestion",
+        "e": "Request"
+      },
+      "statements": [],
+      "answer": "A",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 307,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks0",
+          "text": "[Forum thread]\n\nStormy (04-08-2024): Social media can be a tempting distraction. It's a pretty common experience to want to pick up your phone whenever you can't focus or need a quick break. But you **may** find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?\n\nDewgong (05-08-2024): This is a great question! I'm going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!\n\nLightning (07-08-2024): I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I'm not bombarded with information.\n\nInfinity (16-08-2024): For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.\n\nIronman (20-08-2024): Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven't found time for myself during the day. It definitely has had impacts on my sleep schedule and I'm not proud of it, but I have been able to reduce the use of social media in the past few months.\n\nGolden (28-08-2024): This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "The source prints this passage as an untitled forum thread (no 'Text N' heading). The line '[Forum thread]' and the blank line between posts are editorial: added here so the six posts stay separable in plain text. The posts themselves are verbatim.",
+          "source_page": 306
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q03",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 3,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks0"
+      ],
+      "question": "Which of the following issues is stated at the beginning of the thread?",
+      "options": {
+        "a": "Talking about experiences on handling distractions",
+        "b": "Asking for a suggestion to focus on work",
+        "c": "Finding a solution for not comparing oneself to others",
+        "d": "Sharing tips on limiting the use of social media",
+        "e": "Discussing issues related to the use of social media"
+      },
+      "statements": [],
+      "answer": "E",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "medium",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 307,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks0",
+          "text": "[Forum thread]\n\nStormy (04-08-2024): Social media can be a tempting distraction. It's a pretty common experience to want to pick up your phone whenever you can't focus or need a quick break. But you **may** find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?\n\nDewgong (05-08-2024): This is a great question! I'm going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!\n\nLightning (07-08-2024): I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I'm not bombarded with information.\n\nInfinity (16-08-2024): For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.\n\nIronman (20-08-2024): Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven't found time for myself during the day. It definitely has had impacts on my sleep schedule and I'm not proud of it, but I have been able to reduce the use of social media in the past few months.\n\nGolden (28-08-2024): This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "The source prints this passage as an untitled forum thread (no 'Text N' heading). The line '[Forum thread]' and the blank line between posts are editorial: added here so the six posts stay separable in plain text. The posts themselves are verbatim.",
+          "source_page": 306
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q04",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 4,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks0"
+      ],
+      "question": "Who shared the positive impact of disconnecting from social media by giving evidence?",
+      "options": {
+        "a": "Dewgong",
+        "b": "Lightning",
+        "c": "Infinity",
+        "d": "Ironman",
+        "e": "Golden"
+      },
+      "statements": [],
+      "answer": "B",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 307,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks0",
+          "text": "[Forum thread]\n\nStormy (04-08-2024): Social media can be a tempting distraction. It's a pretty common experience to want to pick up your phone whenever you can't focus or need a quick break. But you **may** find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?\n\nDewgong (05-08-2024): This is a great question! I'm going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!\n\nLightning (07-08-2024): I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I'm not bombarded with information.\n\nInfinity (16-08-2024): For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.\n\nIronman (20-08-2024): Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven't found time for myself during the day. It definitely has had impacts on my sleep schedule and I'm not proud of it, but I have been able to reduce the use of social media in the past few months.\n\nGolden (28-08-2024): This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "The source prints this passage as an untitled forum thread (no 'Text N' heading). The line '[Forum thread]' and the blank line between posts are editorial: added here so the six posts stay separable in plain text. The posts themselves are verbatim.",
+          "source_page": 306
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q05",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 5,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks0"
+      ],
+      "question": "The aim of Golden’s response to Stormy’s post is to …",
+      "options": {
+        "a": "Find other solutions to disconnect from social media",
+        "b": "Talk about his/her experience in using social media",
+        "c": "Share one effective way to limit social media use",
+        "d": "Introduce an app to maximize social media use",
+        "e": "Show how to create a social media apps"
+      },
+      "statements": [],
+      "answer": "A",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "low",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 307,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks0",
+          "text": "[Forum thread]\n\nStormy (04-08-2024): Social media can be a tempting distraction. It's a pretty common experience to want to pick up your phone whenever you can't focus or need a quick break. But you **may** find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?\n\nDewgong (05-08-2024): This is a great question! I'm going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!\n\nLightning (07-08-2024): I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I'm not bombarded with information.\n\nInfinity (16-08-2024): For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.\n\nIronman (20-08-2024): Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven't found time for myself during the day. It definitely has had impacts on my sleep schedule and I'm not proud of it, but I have been able to reduce the use of social media in the past few months.\n\nGolden (28-08-2024): This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "The source prints this passage as an untitled forum thread (no 'Text N' heading). The line '[Forum thread]' and the blank line between posts are editorial: added here so the six posts stay separable in plain text. The posts themselves are verbatim.",
+          "source_page": 306
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q06",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 6,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks0"
+      ],
+      "question": "Who posted the most relevant answer to Stormy’s question?",
+      "options": {
+        "a": "Dewgong and Lightning",
+        "b": "Dewgong and Infinity",
+        "c": "Lightning and Golden",
+        "d": "Infinity and Ironman",
+        "e": "Ironman and Golden"
+      },
+      "statements": [],
+      "answer": "C",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "medium",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 307,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks0",
+          "text": "[Forum thread]\n\nStormy (04-08-2024): Social media can be a tempting distraction. It's a pretty common experience to want to pick up your phone whenever you can't focus or need a quick break. But you **may** find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?\n\nDewgong (05-08-2024): This is a great question! I'm going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!\n\nLightning (07-08-2024): I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I'm not bombarded with information.\n\nInfinity (16-08-2024): For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.\n\nIronman (20-08-2024): Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven't found time for myself during the day. It definitely has had impacts on my sleep schedule and I'm not proud of it, but I have been able to reduce the use of social media in the past few months.\n\nGolden (28-08-2024): This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "The source prints this passage as an untitled forum thread (no 'Text N' heading). The line '[Forum thread]' and the blank line between posts are editorial: added here so the six posts stay separable in plain text. The posts themselves are verbatim.",
+          "source_page": 306
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q07",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 7,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks0"
+      ],
+      "question": "What is the tone of the thread?",
+      "options": {
+        "a": "Professional",
+        "b": "Emotional",
+        "c": "Sarcastic",
+        "d": "Provocative",
+        "e": "Introspective"
+      },
+      "statements": [],
+      "answer": "E",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "medium",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 308,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks0",
+          "text": "[Forum thread]\n\nStormy (04-08-2024): Social media can be a tempting distraction. It's a pretty common experience to want to pick up your phone whenever you can't focus or need a quick break. But you **may** find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?\n\nDewgong (05-08-2024): This is a great question! I'm going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!\n\nLightning (07-08-2024): I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I'm not bombarded with information.\n\nInfinity (16-08-2024): For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.\n\nIronman (20-08-2024): Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven't found time for myself during the day. It definitely has had impacts on my sleep schedule and I'm not proud of it, but I have been able to reduce the use of social media in the past few months.\n\nGolden (28-08-2024): This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "The source prints this passage as an untitled forum thread (no 'Text N' heading). The line '[Forum thread]' and the blank line between posts are editorial: added here so the six posts stay separable in plain text. The posts themselves are verbatim.",
+          "source_page": 306
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q08",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 8,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks1",
+        "LBE-d1s1-teks2"
+      ],
+      "question": "According to Text 1, which of the following is NOT the reason why _sanyan_ is used by Nengi Omuku? It …",
+      "options": {
+        "a": "is a high-quality canvas",
+        "b": "is a thick Nigerian fabric",
+        "c": "gives soul to the painting",
+        "d": "is a pre-colonial textile from Nigeria",
+        "e": "has a better quality compared to linen"
+      },
+      "statements": [],
+      "answer": "A",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "low",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 310,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks1",
+          "text": "At Frieze London this year, three large artworks by the artist Nengi Omuku were hung away from the walls so viewers could walk around them. With each work, one side offered a vibrant nature-filled painting. The other presented strips of _sanyan_, a thick traditional Nigerian fabric that Omuku uses to replace the usual canvas fabric painters often used as their base. ”The fact I’m painting on a vintage surface gives soul to my work,” Omuku said over Zoom two days before the fair opened. For the 37-year-old, the fabric she works on has become as crucial as her paintings themselves. ”Even when it’s not a vintage surface, it is a surface that has been made collaboratively with craftsmen from Nigeria.”\nOmuku’s reason to use _sanyan_ initially came from **a place of necessity**, but has now become an integral part of her practice. ”I worked on canvas for a little while, but eventually shifted to working on _sanyan_, which is a pre-colonial Yoruba textile,” she told CNN in a video call, adding that she ”made the switch” after eight years of studying in the UK. ”I was trying to rediscover myself and my identity,” she said. ”When I moved back to Nigeria, I couldn’t find high-quality canvas, and I was also really fascinated by how, as Nigerians, we identify ourselves through our clothes.” However, she found _sanyan_ more appealing than other more contemporary fabrics. ”I’d never seen a pre-colonial Nigerian textile before, and it looked quite similar to linen.”",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 309
+        },
+        {
+          "id": "LBE-d1s1-teks2",
+          "text": "When a banana duct-taped to a wall sold for $120,000 in 2019, social media uproar and an age-old debate about the meaning of fart ensued. However, artist Maurizio Cattelan’s surreal creation, titled ”Comedian”, may yet prove a sound investment. On Friday, auction house Sotheby’s announced 1 million to $1.5 million. I doubt that it will be sold at this high price.\nFor their money, the winning bidder will receive a roll of duct tape and one banana. They will also receive a certificate of authenticity and official instructions for installing the work. Sotheby’s confirmed to CNN that neither the tape nor the banana are the originals. ”Comedian” is a conceptual artwork, and the physical materials are replaced with every installation,” an auction spokesperson said via email.\nCattelan and French art gallery Perrotin made headlines around the world five years ago when they displayed ”Comedian” with a six-figure asking price at the Art Basel Miami Beach fair. The original was created using a banana bought in a Miami grocery store, though the gallery said it could be replaced, as per the artist’s instruction’s.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Text 2 carries several reconstruction errors: 'the meaning of fart' (for 'art'), and 'Sotheby's announced 1 million to $1.5 million' (words missing, no '$' on the first figure). Note that q13 option (a) quotes this sentence with 'art', so the option and the passage do not match. Kept verbatim.",
+          "source_page": 309
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q09",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 9,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks1",
+        "LBE-d1s1-teks2"
+      ],
+      "question": "The phrase **a place of necessity** in Text 1 Paragraph 2 is closest in meaning to …an urgent need.",
+      "options": {
+        "a": "A practical",
+        "b": "A long-term",
+        "c": "A high-quality",
+        "d": "A possible",
+        "e": "An urgent"
+      },
+      "statements": [],
+      "answer": "E",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "low",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 310,
+      "_source_note": "The recovered stem ends '…an urgent need.' while the options are bare adjectives ('A practical', …, 'An urgent'); the recollector apparently wrote the remembered answer into the stem. Kept verbatim.",
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks1",
+          "text": "At Frieze London this year, three large artworks by the artist Nengi Omuku were hung away from the walls so viewers could walk around them. With each work, one side offered a vibrant nature-filled painting. The other presented strips of _sanyan_, a thick traditional Nigerian fabric that Omuku uses to replace the usual canvas fabric painters often used as their base. ”The fact I’m painting on a vintage surface gives soul to my work,” Omuku said over Zoom two days before the fair opened. For the 37-year-old, the fabric she works on has become as crucial as her paintings themselves. ”Even when it’s not a vintage surface, it is a surface that has been made collaboratively with craftsmen from Nigeria.”\nOmuku’s reason to use _sanyan_ initially came from **a place of necessity**, but has now become an integral part of her practice. ”I worked on canvas for a little while, but eventually shifted to working on _sanyan_, which is a pre-colonial Yoruba textile,” she told CNN in a video call, adding that she ”made the switch” after eight years of studying in the UK. ”I was trying to rediscover myself and my identity,” she said. ”When I moved back to Nigeria, I couldn’t find high-quality canvas, and I was also really fascinated by how, as Nigerians, we identify ourselves through our clothes.” However, she found _sanyan_ more appealing than other more contemporary fabrics. ”I’d never seen a pre-colonial Nigerian textile before, and it looked quite similar to linen.”",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 309
+        },
+        {
+          "id": "LBE-d1s1-teks2",
+          "text": "When a banana duct-taped to a wall sold for $120,000 in 2019, social media uproar and an age-old debate about the meaning of fart ensued. However, artist Maurizio Cattelan’s surreal creation, titled ”Comedian”, may yet prove a sound investment. On Friday, auction house Sotheby’s announced 1 million to $1.5 million. I doubt that it will be sold at this high price.\nFor their money, the winning bidder will receive a roll of duct tape and one banana. They will also receive a certificate of authenticity and official instructions for installing the work. Sotheby’s confirmed to CNN that neither the tape nor the banana are the originals. ”Comedian” is a conceptual artwork, and the physical materials are replaced with every installation,” an auction spokesperson said via email.\nCattelan and French art gallery Perrotin made headlines around the world five years ago when they displayed ”Comedian” with a six-figure asking price at the Art Basel Miami Beach fair. The original was created using a banana bought in a Miami grocery store, though the gallery said it could be replaced, as per the artist’s instruction’s.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Text 2 carries several reconstruction errors: 'the meaning of fart' (for 'art'), and 'Sotheby's announced 1 million to $1.5 million' (words missing, no '$' on the first figure). Note that q13 option (a) quotes this sentence with 'art', so the option and the passage do not match. Kept verbatim.",
+          "source_page": 309
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q10",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 10,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks1",
+        "LBE-d1s1-teks2"
+      ],
+      "question": "Which of the following is the best main idea of Text 1",
+      "options": {
+        "a": "There are some reasons why _sanyan_ is selected by Nengi Omuku as the fabric of her paintings.",
+        "b": "The artist Nengi Omuku prefers to use materials from her own country because of its quality.",
+        "c": "For Nengi Omuku, the fabric chosen is less important compared to the painting itself.",
+        "d": "The use of _sanyan_ by Nengi Omuku is meant to popularize it among painters.",
+        "e": "_Sanyan_ is as good as canvas to be used as the base of painting."
+      },
+      "statements": [],
+      "answer": "A",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 310,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks1",
+          "text": "At Frieze London this year, three large artworks by the artist Nengi Omuku were hung away from the walls so viewers could walk around them. With each work, one side offered a vibrant nature-filled painting. The other presented strips of _sanyan_, a thick traditional Nigerian fabric that Omuku uses to replace the usual canvas fabric painters often used as their base. ”The fact I’m painting on a vintage surface gives soul to my work,” Omuku said over Zoom two days before the fair opened. For the 37-year-old, the fabric she works on has become as crucial as her paintings themselves. ”Even when it’s not a vintage surface, it is a surface that has been made collaboratively with craftsmen from Nigeria.”\nOmuku’s reason to use _sanyan_ initially came from **a place of necessity**, but has now become an integral part of her practice. ”I worked on canvas for a little while, but eventually shifted to working on _sanyan_, which is a pre-colonial Yoruba textile,” she told CNN in a video call, adding that she ”made the switch” after eight years of studying in the UK. ”I was trying to rediscover myself and my identity,” she said. ”When I moved back to Nigeria, I couldn’t find high-quality canvas, and I was also really fascinated by how, as Nigerians, we identify ourselves through our clothes.” However, she found _sanyan_ more appealing than other more contemporary fabrics. ”I’d never seen a pre-colonial Nigerian textile before, and it looked quite similar to linen.”",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 309
+        },
+        {
+          "id": "LBE-d1s1-teks2",
+          "text": "When a banana duct-taped to a wall sold for $120,000 in 2019, social media uproar and an age-old debate about the meaning of fart ensued. However, artist Maurizio Cattelan’s surreal creation, titled ”Comedian”, may yet prove a sound investment. On Friday, auction house Sotheby’s announced 1 million to $1.5 million. I doubt that it will be sold at this high price.\nFor their money, the winning bidder will receive a roll of duct tape and one banana. They will also receive a certificate of authenticity and official instructions for installing the work. Sotheby’s confirmed to CNN that neither the tape nor the banana are the originals. ”Comedian” is a conceptual artwork, and the physical materials are replaced with every installation,” an auction spokesperson said via email.\nCattelan and French art gallery Perrotin made headlines around the world five years ago when they displayed ”Comedian” with a six-figure asking price at the Art Basel Miami Beach fair. The original was created using a banana bought in a Miami grocery store, though the gallery said it could be replaced, as per the artist’s instruction’s.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Text 2 carries several reconstruction errors: 'the meaning of fart' (for 'art'), and 'Sotheby's announced 1 million to $1.5 million' (words missing, no '$' on the first figure). Note that q13 option (a) quotes this sentence with 'art', so the option and the passage do not match. Kept verbatim.",
+          "source_page": 309
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q11",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 11,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks1",
+        "LBE-d1s1-teks2"
+      ],
+      "question": "Which of the following best restates the statement ”They will also receive a certificate of authority and official instructions for installing the work.” in Text 2 Paragraph 2?",
+      "options": {
+        "a": "The work should be installed by paying attention to the original guidelines received and the original certification issued.",
+        "b": "A certificate of authenticity will also be given, and to install the work, they should ask the official who writes the manual.",
+        "c": "A document of originality and authorized directions for putting the work in place will also be given to them.",
+        "d": "A letter of originality that contains the formal directions to build the work will also be given to them.",
+        "e": "To set the work in place, formal instructions and license will also be provided."
+      },
+      "statements": [],
+      "answer": "C",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 310,
+      "_source_note": "The stem quotes the sentence as 'certificate of authority' while Text 2 and q12 both read 'certificate of authenticity'. Kept verbatim; the intended quotation is the passage's.",
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks1",
+          "text": "At Frieze London this year, three large artworks by the artist Nengi Omuku were hung away from the walls so viewers could walk around them. With each work, one side offered a vibrant nature-filled painting. The other presented strips of _sanyan_, a thick traditional Nigerian fabric that Omuku uses to replace the usual canvas fabric painters often used as their base. ”The fact I’m painting on a vintage surface gives soul to my work,” Omuku said over Zoom two days before the fair opened. For the 37-year-old, the fabric she works on has become as crucial as her paintings themselves. ”Even when it’s not a vintage surface, it is a surface that has been made collaboratively with craftsmen from Nigeria.”\nOmuku’s reason to use _sanyan_ initially came from **a place of necessity**, but has now become an integral part of her practice. ”I worked on canvas for a little while, but eventually shifted to working on _sanyan_, which is a pre-colonial Yoruba textile,” she told CNN in a video call, adding that she ”made the switch” after eight years of studying in the UK. ”I was trying to rediscover myself and my identity,” she said. ”When I moved back to Nigeria, I couldn’t find high-quality canvas, and I was also really fascinated by how, as Nigerians, we identify ourselves through our clothes.” However, she found _sanyan_ more appealing than other more contemporary fabrics. ”I’d never seen a pre-colonial Nigerian textile before, and it looked quite similar to linen.”",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 309
+        },
+        {
+          "id": "LBE-d1s1-teks2",
+          "text": "When a banana duct-taped to a wall sold for $120,000 in 2019, social media uproar and an age-old debate about the meaning of fart ensued. However, artist Maurizio Cattelan’s surreal creation, titled ”Comedian”, may yet prove a sound investment. On Friday, auction house Sotheby’s announced 1 million to $1.5 million. I doubt that it will be sold at this high price.\nFor their money, the winning bidder will receive a roll of duct tape and one banana. They will also receive a certificate of authenticity and official instructions for installing the work. Sotheby’s confirmed to CNN that neither the tape nor the banana are the originals. ”Comedian” is a conceptual artwork, and the physical materials are replaced with every installation,” an auction spokesperson said via email.\nCattelan and French art gallery Perrotin made headlines around the world five years ago when they displayed ”Comedian” with a six-figure asking price at the Art Basel Miami Beach fair. The original was created using a banana bought in a Miami grocery store, though the gallery said it could be replaced, as per the artist’s instruction’s.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Text 2 carries several reconstruction errors: 'the meaning of fart' (for 'art'), and 'Sotheby's announced 1 million to $1.5 million' (words missing, no '$' on the first figure). Note that q13 option (a) quotes this sentence with 'art', so the option and the passage do not match. Kept verbatim.",
+          "source_page": 309
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q12",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 12,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks1",
+        "LBE-d1s1-teks2"
+      ],
+      "question": "According to Text 2, the purpose of providing a certificate of authenticity is to …",
+      "options": {
+        "a": "State that the artwork is genuine",
+        "b": "Provide directions to install the artwork",
+        "c": "Inform that the artwork uses real materials",
+        "d": "Help the owner get a new buyer in the future",
+        "e": "Explain that ”Comedy” is a conceptual artwork"
+      },
+      "statements": [],
+      "answer": "A",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 311,
+      "_source_note": "Option (e) names the artwork ”Comedy”; Text 2 and the rest of the item call it ”Comedian”. Kept verbatim.",
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks1",
+          "text": "At Frieze London this year, three large artworks by the artist Nengi Omuku were hung away from the walls so viewers could walk around them. With each work, one side offered a vibrant nature-filled painting. The other presented strips of _sanyan_, a thick traditional Nigerian fabric that Omuku uses to replace the usual canvas fabric painters often used as their base. ”The fact I’m painting on a vintage surface gives soul to my work,” Omuku said over Zoom two days before the fair opened. For the 37-year-old, the fabric she works on has become as crucial as her paintings themselves. ”Even when it’s not a vintage surface, it is a surface that has been made collaboratively with craftsmen from Nigeria.”\nOmuku’s reason to use _sanyan_ initially came from **a place of necessity**, but has now become an integral part of her practice. ”I worked on canvas for a little while, but eventually shifted to working on _sanyan_, which is a pre-colonial Yoruba textile,” she told CNN in a video call, adding that she ”made the switch” after eight years of studying in the UK. ”I was trying to rediscover myself and my identity,” she said. ”When I moved back to Nigeria, I couldn’t find high-quality canvas, and I was also really fascinated by how, as Nigerians, we identify ourselves through our clothes.” However, she found _sanyan_ more appealing than other more contemporary fabrics. ”I’d never seen a pre-colonial Nigerian textile before, and it looked quite similar to linen.”",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 309
+        },
+        {
+          "id": "LBE-d1s1-teks2",
+          "text": "When a banana duct-taped to a wall sold for $120,000 in 2019, social media uproar and an age-old debate about the meaning of fart ensued. However, artist Maurizio Cattelan’s surreal creation, titled ”Comedian”, may yet prove a sound investment. On Friday, auction house Sotheby’s announced 1 million to $1.5 million. I doubt that it will be sold at this high price.\nFor their money, the winning bidder will receive a roll of duct tape and one banana. They will also receive a certificate of authenticity and official instructions for installing the work. Sotheby’s confirmed to CNN that neither the tape nor the banana are the originals. ”Comedian” is a conceptual artwork, and the physical materials are replaced with every installation,” an auction spokesperson said via email.\nCattelan and French art gallery Perrotin made headlines around the world five years ago when they displayed ”Comedian” with a six-figure asking price at the Art Basel Miami Beach fair. The original was created using a banana bought in a Miami grocery store, though the gallery said it could be replaced, as per the artist’s instruction’s.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Text 2 carries several reconstruction errors: 'the meaning of fart' (for 'art'), and 'Sotheby's announced 1 million to $1.5 million' (words missing, no '$' on the first figure). Note that q13 option (a) quotes this sentence with 'art', so the option and the passage do not match. Kept verbatim.",
+          "source_page": 309
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q13",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 13,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks1",
+        "LBE-d1s1-teks2"
+      ],
+      "question": "Which of the following statements from Text 2 shows the author’s negative attitude toward the value of the artwork",
+      "options": {
+        "a": "When a banana duct-taped to a wall sold for $120,000 in 2019, social media uproar and an age-old debate about the meaning of art ensued. (Paragraph 1)",
+        "b": "I doubt that it will be sold at this high price. (Paragraph 1)",
+        "c": "For their money, the winning bidder will receive a roll of duct tape and one banana. (Paragraph 2)",
+        "d": "Sotheby’s confirmed to CNN that neither the tape nor the banana are the originals. (Paragraph 2)",
+        "e": "Cattelan and French art gallery Perrotin made headlines around the world five years ago when they displayed ”Comedian” with a six-figure asking price at the Art Basel Miami Beach fair. (Paragraph 3)"
+      },
+      "statements": [],
+      "answer": "B",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 311,
+      "_source_note": "The sentence 'I doubt that it will be sold at this high price.' (option b, the first-person evaluation) sits inside an otherwise reported news text and may be a reconstruction insertion; the passage also has typos ('meaning of fart', 'announced 1 million'). Kept verbatim.",
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks1",
+          "text": "At Frieze London this year, three large artworks by the artist Nengi Omuku were hung away from the walls so viewers could walk around them. With each work, one side offered a vibrant nature-filled painting. The other presented strips of _sanyan_, a thick traditional Nigerian fabric that Omuku uses to replace the usual canvas fabric painters often used as their base. ”The fact I’m painting on a vintage surface gives soul to my work,” Omuku said over Zoom two days before the fair opened. For the 37-year-old, the fabric she works on has become as crucial as her paintings themselves. ”Even when it’s not a vintage surface, it is a surface that has been made collaboratively with craftsmen from Nigeria.”\nOmuku’s reason to use _sanyan_ initially came from **a place of necessity**, but has now become an integral part of her practice. ”I worked on canvas for a little while, but eventually shifted to working on _sanyan_, which is a pre-colonial Yoruba textile,” she told CNN in a video call, adding that she ”made the switch” after eight years of studying in the UK. ”I was trying to rediscover myself and my identity,” she said. ”When I moved back to Nigeria, I couldn’t find high-quality canvas, and I was also really fascinated by how, as Nigerians, we identify ourselves through our clothes.” However, she found _sanyan_ more appealing than other more contemporary fabrics. ”I’d never seen a pre-colonial Nigerian textile before, and it looked quite similar to linen.”",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 309
+        },
+        {
+          "id": "LBE-d1s1-teks2",
+          "text": "When a banana duct-taped to a wall sold for $120,000 in 2019, social media uproar and an age-old debate about the meaning of fart ensued. However, artist Maurizio Cattelan’s surreal creation, titled ”Comedian”, may yet prove a sound investment. On Friday, auction house Sotheby’s announced 1 million to $1.5 million. I doubt that it will be sold at this high price.\nFor their money, the winning bidder will receive a roll of duct tape and one banana. They will also receive a certificate of authenticity and official instructions for installing the work. Sotheby’s confirmed to CNN that neither the tape nor the banana are the originals. ”Comedian” is a conceptual artwork, and the physical materials are replaced with every installation,” an auction spokesperson said via email.\nCattelan and French art gallery Perrotin made headlines around the world five years ago when they displayed ”Comedian” with a six-figure asking price at the Art Basel Miami Beach fair. The original was created using a banana bought in a Miami grocery store, though the gallery said it could be replaced, as per the artist’s instruction’s.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Text 2 carries several reconstruction errors: 'the meaning of fart' (for 'art'), and 'Sotheby's announced 1 million to $1.5 million' (words missing, no '$' on the first figure). Note that q13 option (a) quotes this sentence with 'art', so the option and the passage do not match. Kept verbatim.",
+          "source_page": 309
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q14",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 14,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks1",
+        "LBE-d1s1-teks2"
+      ],
+      "question": "Which of the following is the best synthesis of the two texts?",
+      "options": {
+        "a": "Materials can be so important in artworks like Nengi Omuku’s paintings, that they are not replaceable, but in the case of ”Comedian” by Maurizio Cattelan, the material can be replaced with every installation.",
+        "b": "Nengi Omuku spent a lot of time looking for appropriate fabric for her artwork while Maurizio Cattelan did not really think of it as something which is important.",
+        "c": "Nengi Omuku and Maurizio Cattelan believe that physical materials of their works should always be of high-quality to produce excellent artworks.",
+        "d": "Nengi Omuku and Maurizio Cattelan used different tools in producing their artworks, but both share an attachment to their ethnic identities.",
+        "e": "Both Text 1 and Text 2 discuss the value of integrating excellent physical materials in creating beautiful artworks."
+      },
+      "statements": [],
+      "answer": "A",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 311,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks1",
+          "text": "At Frieze London this year, three large artworks by the artist Nengi Omuku were hung away from the walls so viewers could walk around them. With each work, one side offered a vibrant nature-filled painting. The other presented strips of _sanyan_, a thick traditional Nigerian fabric that Omuku uses to replace the usual canvas fabric painters often used as their base. ”The fact I’m painting on a vintage surface gives soul to my work,” Omuku said over Zoom two days before the fair opened. For the 37-year-old, the fabric she works on has become as crucial as her paintings themselves. ”Even when it’s not a vintage surface, it is a surface that has been made collaboratively with craftsmen from Nigeria.”\nOmuku’s reason to use _sanyan_ initially came from **a place of necessity**, but has now become an integral part of her practice. ”I worked on canvas for a little while, but eventually shifted to working on _sanyan_, which is a pre-colonial Yoruba textile,” she told CNN in a video call, adding that she ”made the switch” after eight years of studying in the UK. ”I was trying to rediscover myself and my identity,” she said. ”When I moved back to Nigeria, I couldn’t find high-quality canvas, and I was also really fascinated by how, as Nigerians, we identify ourselves through our clothes.” However, she found _sanyan_ more appealing than other more contemporary fabrics. ”I’d never seen a pre-colonial Nigerian textile before, and it looked quite similar to linen.”",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 309
+        },
+        {
+          "id": "LBE-d1s1-teks2",
+          "text": "When a banana duct-taped to a wall sold for $120,000 in 2019, social media uproar and an age-old debate about the meaning of fart ensued. However, artist Maurizio Cattelan’s surreal creation, titled ”Comedian”, may yet prove a sound investment. On Friday, auction house Sotheby’s announced 1 million to $1.5 million. I doubt that it will be sold at this high price.\nFor their money, the winning bidder will receive a roll of duct tape and one banana. They will also receive a certificate of authenticity and official instructions for installing the work. Sotheby’s confirmed to CNN that neither the tape nor the banana are the originals. ”Comedian” is a conceptual artwork, and the physical materials are replaced with every installation,” an auction spokesperson said via email.\nCattelan and French art gallery Perrotin made headlines around the world five years ago when they displayed ”Comedian” with a six-figure asking price at the Art Basel Miami Beach fair. The original was created using a banana bought in a Miami grocery store, though the gallery said it could be replaced, as per the artist’s instruction’s.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Text 2 carries several reconstruction errors: 'the meaning of fart' (for 'art'), and 'Sotheby's announced 1 million to $1.5 million' (words missing, no '$' on the first figure). Note that q13 option (a) quotes this sentence with 'art', so the option and the passage do not match. Kept verbatim.",
+          "source_page": 309
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q15",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 15,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks3",
+        "LBE-d1s1-teks4"
+      ],
+      "question": "According to Text 3, a triboelectric nanogenerator (TENG) generates electricity when the nanogenerator materials …",
+      "options": {
+        "a": "Produce electrical power from sensors like a balloon sticks to hair",
+        "b": "Work like an open door and collect energy using laser technique",
+        "c": "Are driven by regular daily movements",
+        "d": "Come into contact and separate",
+        "e": "Use the laser technique"
+      },
+      "statements": [],
+      "answer": "D",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 313,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks3",
+          "text": "Scientists have made a new type of nanogenerator. These devices are very energy-efficient and flexible. It can increase power density 140 times more than regular ones. They think this could make small devices as good as today’s solar panel. The new nanogenerator can turn small movements, like walking or opening a door, into a lot of electricity. For example, if a regular nanogenerator makes 10 milliwatts, this one can make over 1,000 milliwatts.\nThe nanogenerator works like a relay race. Instead of one part passing energy atoms, each part collects and adds energy before passing it on. This boosts the total energy collected. This process is called the charge regeneration effect. The lead researcher said they wanted to capture energy from everyday movements, like running, walking, or waves. Their device uses 34 tiny energy collectors, improved with a laser technique, which can be made in large numbers.\nThis type of nanogenerator is called a triboelectric nanogenerator (TENG). It turns simple movements into electricity by using special materials. These special materials get electrically charged when they touch and seperate, line how a balloon sticks to hair. The researchers said they would start a company to make healthcare sensors using this technology.\nIt is also said that with more technology, soon there would be over 50 billion devices needing power. Local green energy solutions are important to ensure sustainable future. This technology can use mechanical movements to power small devices. It could be used in smart homes, security systems, and healthcare to help patients.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Text 3 contains the typos 'seperate' (separate) and 'line how' (like how). Kept verbatim.",
+          "source_page": 312
+        },
+        {
+          "id": "LBE-d1s1-teks4",
+          "text": "The triboelectric effect happens when two materials touch and then separate. It is like when you rub a balloon on your hair and it sticks because of static electricity. When two different things touch, electrons move from one to the other. This makes one thing positively charged and the other negatively charged. This effect builds up these charges.\nTriboelectric devices, also called triboelectric nanogenerator (TENG), use this effect to make energy. They use the static charge made when materials touch and then separate. TENG can change mechanical energy from movement or vibration into electrical energy. These devices are made of pairs of materials with opposite triboelectric properties. When they touch and then separate, they create voltage and current, which can be used to make energy.\nTriboelectric devices have many uses. **They** can turn energy from everyday activities, like walking, into power for small gadgets. TENG can also change body movements into electricity for small usable devices. By using energy from wind or water, they can help sensors monitor the movements.\nThis technology can run gadgets that power themselves. The use of TENG in various devices can reduce or even replace the use of conventional batteries. Furthermore, this means reducing the waste from conventional battery products.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 312
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q16",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 16,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks3",
+        "LBE-d1s1-teks4"
+      ],
+      "question": "The word **They** in Text 4 Paragraph 3 refers to …",
+      "options": {
+        "a": "Small wearable devices",
+        "b": "Triboelectrical devices",
+        "c": "Everyday activities",
+        "d": "Body movements",
+        "e": "Small gadgets"
+      },
+      "statements": [],
+      "answer": "B",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 313,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks3",
+          "text": "Scientists have made a new type of nanogenerator. These devices are very energy-efficient and flexible. It can increase power density 140 times more than regular ones. They think this could make small devices as good as today’s solar panel. The new nanogenerator can turn small movements, like walking or opening a door, into a lot of electricity. For example, if a regular nanogenerator makes 10 milliwatts, this one can make over 1,000 milliwatts.\nThe nanogenerator works like a relay race. Instead of one part passing energy atoms, each part collects and adds energy before passing it on. This boosts the total energy collected. This process is called the charge regeneration effect. The lead researcher said they wanted to capture energy from everyday movements, like running, walking, or waves. Their device uses 34 tiny energy collectors, improved with a laser technique, which can be made in large numbers.\nThis type of nanogenerator is called a triboelectric nanogenerator (TENG). It turns simple movements into electricity by using special materials. These special materials get electrically charged when they touch and seperate, line how a balloon sticks to hair. The researchers said they would start a company to make healthcare sensors using this technology.\nIt is also said that with more technology, soon there would be over 50 billion devices needing power. Local green energy solutions are important to ensure sustainable future. This technology can use mechanical movements to power small devices. It could be used in smart homes, security systems, and healthcare to help patients.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Text 3 contains the typos 'seperate' (separate) and 'line how' (like how). Kept verbatim.",
+          "source_page": 312
+        },
+        {
+          "id": "LBE-d1s1-teks4",
+          "text": "The triboelectric effect happens when two materials touch and then separate. It is like when you rub a balloon on your hair and it sticks because of static electricity. When two different things touch, electrons move from one to the other. This makes one thing positively charged and the other negatively charged. This effect builds up these charges.\nTriboelectric devices, also called triboelectric nanogenerator (TENG), use this effect to make energy. They use the static charge made when materials touch and then separate. TENG can change mechanical energy from movement or vibration into electrical energy. These devices are made of pairs of materials with opposite triboelectric properties. When they touch and then separate, they create voltage and current, which can be used to make energy.\nTriboelectric devices have many uses. **They** can turn energy from everyday activities, like walking, into power for small gadgets. TENG can also change body movements into electricity for small usable devices. By using energy from wind or water, they can help sensors monitor the movements.\nThis technology can run gadgets that power themselves. The use of TENG in various devices can reduce or even replace the use of conventional batteries. Furthermore, this means reducing the waste from conventional battery products.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 312
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q17",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 17,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks3",
+        "LBE-d1s1-teks4"
+      ],
+      "question": "Information about how the triboelectric nanogenerator can produce electricity can be found in …",
+      "options": {
+        "a": "Text 3 Paragraph 1 and Text 4 Paragraph 1",
+        "b": "Text 3 Paragraph 1 and Text 4 Paragraph 2",
+        "c": "Text 3 Paragraph 2 and Text 4 Paragraph 4",
+        "d": "Text 3 Paragraph 3 and Text 4 Paragraph 1",
+        "e": "Text 3 Paragraph 3 and Text 4 Paragraph 4"
+      },
+      "statements": [],
+      "answer": "D",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "medium",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 313,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks3",
+          "text": "Scientists have made a new type of nanogenerator. These devices are very energy-efficient and flexible. It can increase power density 140 times more than regular ones. They think this could make small devices as good as today’s solar panel. The new nanogenerator can turn small movements, like walking or opening a door, into a lot of electricity. For example, if a regular nanogenerator makes 10 milliwatts, this one can make over 1,000 milliwatts.\nThe nanogenerator works like a relay race. Instead of one part passing energy atoms, each part collects and adds energy before passing it on. This boosts the total energy collected. This process is called the charge regeneration effect. The lead researcher said they wanted to capture energy from everyday movements, like running, walking, or waves. Their device uses 34 tiny energy collectors, improved with a laser technique, which can be made in large numbers.\nThis type of nanogenerator is called a triboelectric nanogenerator (TENG). It turns simple movements into electricity by using special materials. These special materials get electrically charged when they touch and seperate, line how a balloon sticks to hair. The researchers said they would start a company to make healthcare sensors using this technology.\nIt is also said that with more technology, soon there would be over 50 billion devices needing power. Local green energy solutions are important to ensure sustainable future. This technology can use mechanical movements to power small devices. It could be used in smart homes, security systems, and healthcare to help patients.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Text 3 contains the typos 'seperate' (separate) and 'line how' (like how). Kept verbatim.",
+          "source_page": 312
+        },
+        {
+          "id": "LBE-d1s1-teks4",
+          "text": "The triboelectric effect happens when two materials touch and then separate. It is like when you rub a balloon on your hair and it sticks because of static electricity. When two different things touch, electrons move from one to the other. This makes one thing positively charged and the other negatively charged. This effect builds up these charges.\nTriboelectric devices, also called triboelectric nanogenerator (TENG), use this effect to make energy. They use the static charge made when materials touch and then separate. TENG can change mechanical energy from movement or vibration into electrical energy. These devices are made of pairs of materials with opposite triboelectric properties. When they touch and then separate, they create voltage and current, which can be used to make energy.\nTriboelectric devices have many uses. **They** can turn energy from everyday activities, like walking, into power for small gadgets. TENG can also change body movements into electricity for small usable devices. By using energy from wind or water, they can help sensors monitor the movements.\nThis technology can run gadgets that power themselves. The use of TENG in various devices can reduce or even replace the use of conventional batteries. Furthermore, this means reducing the waste from conventional battery products.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 312
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q18",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 18,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks3",
+        "LBE-d1s1-teks4"
+      ],
+      "question": "What is the relationship between Text 3 and Text 4?",
+      "options": {
+        "a": "Text 3 explains the development of energy source devices whose energy generation mechanism is further described in Text 4.",
+        "b": "Text 3 illustrates various daily activities that can generate electricity through the triboelectric effect elaborated in Text 4.",
+        "c": "Text 3 describes the potential use of energy sources from triboelectric materials with the development process discussed in Text 4.",
+        "d": "Both texts predict the success of the development of electrically generated materials from the triboelectric effect.",
+        "e": "Both texts explain the development of electrical instruments that are produced from the triboelectric effect"
+      },
+      "statements": [],
+      "answer": "A",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "medium",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 313,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks3",
+          "text": "Scientists have made a new type of nanogenerator. These devices are very energy-efficient and flexible. It can increase power density 140 times more than regular ones. They think this could make small devices as good as today’s solar panel. The new nanogenerator can turn small movements, like walking or opening a door, into a lot of electricity. For example, if a regular nanogenerator makes 10 milliwatts, this one can make over 1,000 milliwatts.\nThe nanogenerator works like a relay race. Instead of one part passing energy atoms, each part collects and adds energy before passing it on. This boosts the total energy collected. This process is called the charge regeneration effect. The lead researcher said they wanted to capture energy from everyday movements, like running, walking, or waves. Their device uses 34 tiny energy collectors, improved with a laser technique, which can be made in large numbers.\nThis type of nanogenerator is called a triboelectric nanogenerator (TENG). It turns simple movements into electricity by using special materials. These special materials get electrically charged when they touch and seperate, line how a balloon sticks to hair. The researchers said they would start a company to make healthcare sensors using this technology.\nIt is also said that with more technology, soon there would be over 50 billion devices needing power. Local green energy solutions are important to ensure sustainable future. This technology can use mechanical movements to power small devices. It could be used in smart homes, security systems, and healthcare to help patients.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Text 3 contains the typos 'seperate' (separate) and 'line how' (like how). Kept verbatim.",
+          "source_page": 312
+        },
+        {
+          "id": "LBE-d1s1-teks4",
+          "text": "The triboelectric effect happens when two materials touch and then separate. It is like when you rub a balloon on your hair and it sticks because of static electricity. When two different things touch, electrons move from one to the other. This makes one thing positively charged and the other negatively charged. This effect builds up these charges.\nTriboelectric devices, also called triboelectric nanogenerator (TENG), use this effect to make energy. They use the static charge made when materials touch and then separate. TENG can change mechanical energy from movement or vibration into electrical energy. These devices are made of pairs of materials with opposite triboelectric properties. When they touch and then separate, they create voltage and current, which can be used to make energy.\nTriboelectric devices have many uses. **They** can turn energy from everyday activities, like walking, into power for small gadgets. TENG can also change body movements into electricity for small usable devices. By using energy from wind or water, they can help sensors monitor the movements.\nThis technology can run gadgets that power themselves. The use of TENG in various devices can reduce or even replace the use of conventional batteries. Furthermore, this means reducing the waste from conventional battery products.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 312
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q19",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 19,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks3",
+        "LBE-d1s1-teks4"
+      ],
+      "question": "Based on the two texts, which of the following will most likely happen in the future? Scientists will …",
+      "options": {
+        "a": "find a cheaper triboelectric effect mechanism that can be an alternative for conventional batteries.",
+        "b": "be able to explain the mechanism of generating electrical energy from the environment.",
+        "c": "develop solar panels that work as an environmentally friendly energy source.",
+        "d": "produce conventional batteries that use greater electrical power and are environmentally friendly.",
+        "e": "be able to develop a triboelectric nanogenerator that produces greater electrical power for use in a variety of devices."
+      },
+      "statements": [],
+      "answer": "E",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 314,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks3",
+          "text": "Scientists have made a new type of nanogenerator. These devices are very energy-efficient and flexible. It can increase power density 140 times more than regular ones. They think this could make small devices as good as today’s solar panel. The new nanogenerator can turn small movements, like walking or opening a door, into a lot of electricity. For example, if a regular nanogenerator makes 10 milliwatts, this one can make over 1,000 milliwatts.\nThe nanogenerator works like a relay race. Instead of one part passing energy atoms, each part collects and adds energy before passing it on. This boosts the total energy collected. This process is called the charge regeneration effect. The lead researcher said they wanted to capture energy from everyday movements, like running, walking, or waves. Their device uses 34 tiny energy collectors, improved with a laser technique, which can be made in large numbers.\nThis type of nanogenerator is called a triboelectric nanogenerator (TENG). It turns simple movements into electricity by using special materials. These special materials get electrically charged when they touch and seperate, line how a balloon sticks to hair. The researchers said they would start a company to make healthcare sensors using this technology.\nIt is also said that with more technology, soon there would be over 50 billion devices needing power. Local green energy solutions are important to ensure sustainable future. This technology can use mechanical movements to power small devices. It could be used in smart homes, security systems, and healthcare to help patients.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Text 3 contains the typos 'seperate' (separate) and 'line how' (like how). Kept verbatim.",
+          "source_page": 312
+        },
+        {
+          "id": "LBE-d1s1-teks4",
+          "text": "The triboelectric effect happens when two materials touch and then separate. It is like when you rub a balloon on your hair and it sticks because of static electricity. When two different things touch, electrons move from one to the other. This makes one thing positively charged and the other negatively charged. This effect builds up these charges.\nTriboelectric devices, also called triboelectric nanogenerator (TENG), use this effect to make energy. They use the static charge made when materials touch and then separate. TENG can change mechanical energy from movement or vibration into electrical energy. These devices are made of pairs of materials with opposite triboelectric properties. When they touch and then separate, they create voltage and current, which can be used to make energy.\nTriboelectric devices have many uses. **They** can turn energy from everyday activities, like walking, into power for small gadgets. TENG can also change body movements into electricity for small usable devices. By using energy from wind or water, they can help sensors monitor the movements.\nThis technology can run gadgets that power themselves. The use of TENG in various devices can reduce or even replace the use of conventional batteries. Furthermore, this means reducing the waste from conventional battery products.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 312
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBE-d1s1-q20",
+      "subtest": "LBE",
+      "day": 1,
+      "session": 1,
+      "number": 20,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBE-d1s1-teks3",
+        "LBE-d1s1-teks4"
+      ],
+      "question": "Based on Text 3 and Text 4, which of the following recommendations is appropriate to be implemented?",
+      "options": {
+        "a": "The Triboelectric Nanogenerator should operate by limiting mechanical energy obtained from human daily activities.",
+        "b": "Small electronic devices must utilize traditional batteries as a power source for human daily activities.",
+        "c": "Electronic devices that use energy from the triboelectric effect mechanism should be continually developed to support green energy.",
+        "d": "The Triboelectric Nanogenerator in small electronic devices should use solar panels as an energy source.",
+        "e": "Small wearable devices should be used to convert electrical energy into mechanical energy to support green energy."
+      },
+      "statements": [],
+      "answer": "C",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 314,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBE-d1s1-teks3",
+          "text": "Scientists have made a new type of nanogenerator. These devices are very energy-efficient and flexible. It can increase power density 140 times more than regular ones. They think this could make small devices as good as today’s solar panel. The new nanogenerator can turn small movements, like walking or opening a door, into a lot of electricity. For example, if a regular nanogenerator makes 10 milliwatts, this one can make over 1,000 milliwatts.\nThe nanogenerator works like a relay race. Instead of one part passing energy atoms, each part collects and adds energy before passing it on. This boosts the total energy collected. This process is called the charge regeneration effect. The lead researcher said they wanted to capture energy from everyday movements, like running, walking, or waves. Their device uses 34 tiny energy collectors, improved with a laser technique, which can be made in large numbers.\nThis type of nanogenerator is called a triboelectric nanogenerator (TENG). It turns simple movements into electricity by using special materials. These special materials get electrically charged when they touch and seperate, line how a balloon sticks to hair. The researchers said they would start a company to make healthcare sensors using this technology.\nIt is also said that with more technology, soon there would be over 50 billion devices needing power. Local green energy solutions are important to ensure sustainable future. This technology can use mechanical movements to power small devices. It could be used in smart homes, security systems, and healthcare to help patients.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": "Text 3 contains the typos 'seperate' (separate) and 'line how' (like how). Kept verbatim.",
+          "source_page": 312
+        },
+        {
+          "id": "LBE-d1s1-teks4",
+          "text": "The triboelectric effect happens when two materials touch and then separate. It is like when you rub a balloon on your hair and it sticks because of static electricity. When two different things touch, electrons move from one to the other. This makes one thing positively charged and the other negatively charged. This effect builds up these charges.\nTriboelectric devices, also called triboelectric nanogenerator (TENG), use this effect to make energy. They use the static charge made when materials touch and then separate. TENG can change mechanical energy from movement or vibration into electrical energy. These devices are made of pairs of materials with opposite triboelectric properties. When they touch and then separate, they create voltage and current, which can be used to make energy.\nTriboelectric devices have many uses. **They** can turn energy from everyday activities, like walking, into power for small gadgets. TENG can also change body movements into electricity for small usable devices. By using energy from wind or water, they can help sensors monitor the movements.\nThis technology can run gadgets that power themselves. The use of TENG in various devices can reduce or even replace the use of conventional batteries. Furthermore, this means reducing the waste from conventional battery products.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 312
+        }
+      ],
+      "has_answer": true
+    }
+  ]
+}

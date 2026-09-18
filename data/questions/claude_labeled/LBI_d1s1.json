@@ -1,0 +1,1231 @@
+{
+  "section": "LBI_d1s1",
+  "subtest": "LBI",
+  "day": 1,
+  "session": 1,
+  "pages": [
+    224,
+    237
+  ],
+  "source": "MMA SNBT 2025 (Tim Mangkuk Mi Ayam), CC BY-NC 4.0",
+  "answer_key": "labeled by claude-opus-5 (data/labels/), NOT from the source",
+  "questions": [
+    {
+      "id": "LBI-d1s1-q01",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 1,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks1"
+      ],
+      "question": "Simbol salah satu mineral yang terkandung dalam susu sesuai dengan bacaan di atas adalah …",
+      "options": {
+        "a": "F",
+        "b": "N",
+        "c": "Be",
+        "d": "Cu",
+        "e": "Se"
+      },
+      "statements": [],
+      "answer": "D",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 224,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks1",
+          "text": "Susu merupakan minuman bergizi tinggi yang dibutuhkan oleh balita untuk dapat tumbuh dan berkembang secara optimal. Namun, susu sering kali digolongkan sebagai minuman yang berharga cukup mahal, terutama sediaan susu yang telah mengalami berbagai proses pengolahan. Di pasaran, susu tersedia dalam bentuk minuman kemasan yang biasanya telah ditambahkan sukrosa serta zat perisai tertentu untuk memberikan variasi rasa. Kandungan gizi dalam susu sangat dipengaruhi oleh jenis ternak yang menghasilkannya, jenis makanan yang dikonsumsi ternak, dan tingkat kesehatan ternak. Setiap 100 ml susu sapi murni rata-rata dapat menghasilkan energi sekitar 259 kj.\nUmumnya, kandungan susu sapi murni menurut berat adalah 87% air, 3,7% lemak, 3,5% protein, 4,9% laktosa, 0,07% mineral, dan sisanya berupa berbagai jenis vitamin, enzim, dan lain-lain. Mineral yang terdapat dalam susu sapi murni di antaranya adalah kalsium, fosfor, natrium, besi, tembaga, dan seng. Kalsium dan fosfor merupakan mineral penting untuk pertumbuhan tulang dan gigi.\nSusu juga mengandung vitamin yang larut dalam lemak, yaitu vitamin A, D, E, dan K, serta vitamin yang larut dalam air, yaitu vitamin B dan C. Selain itu, di dalam susu juga terdapat beberapa jenis enzim, seperti peroksidase, katalase, fosfatase, dan lipase. Lipase berfungsi untuk menghidrolisis lipid. Di antara enzim-enzim tersebut, peroksidase dan fosfatase umumnya digunakan sebagai indikator kecukupan pasteurisasi susu karena kedua enzim ini akan rusak pada suhu pasteurisasi, sementara vitamin, mineral, dan enzim lain tidak mengalami perubahan.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 224
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q02",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 2,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks1"
+      ],
+      "question": "Menurut bacaan, senyawa karbohidrat yang terdapat dalam susu sapi murni adalah …",
+      "options": {
+        "a": "amilum",
+        "b": "selulosa",
+        "c": "sukrosa",
+        "d": "laktosa",
+        "e": "vitamin"
+      },
+      "statements": [],
+      "answer": "D",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 225,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks1",
+          "text": "Susu merupakan minuman bergizi tinggi yang dibutuhkan oleh balita untuk dapat tumbuh dan berkembang secara optimal. Namun, susu sering kali digolongkan sebagai minuman yang berharga cukup mahal, terutama sediaan susu yang telah mengalami berbagai proses pengolahan. Di pasaran, susu tersedia dalam bentuk minuman kemasan yang biasanya telah ditambahkan sukrosa serta zat perisai tertentu untuk memberikan variasi rasa. Kandungan gizi dalam susu sangat dipengaruhi oleh jenis ternak yang menghasilkannya, jenis makanan yang dikonsumsi ternak, dan tingkat kesehatan ternak. Setiap 100 ml susu sapi murni rata-rata dapat menghasilkan energi sekitar 259 kj.\nUmumnya, kandungan susu sapi murni menurut berat adalah 87% air, 3,7% lemak, 3,5% protein, 4,9% laktosa, 0,07% mineral, dan sisanya berupa berbagai jenis vitamin, enzim, dan lain-lain. Mineral yang terdapat dalam susu sapi murni di antaranya adalah kalsium, fosfor, natrium, besi, tembaga, dan seng. Kalsium dan fosfor merupakan mineral penting untuk pertumbuhan tulang dan gigi.\nSusu juga mengandung vitamin yang larut dalam lemak, yaitu vitamin A, D, E, dan K, serta vitamin yang larut dalam air, yaitu vitamin B dan C. Selain itu, di dalam susu juga terdapat beberapa jenis enzim, seperti peroksidase, katalase, fosfatase, dan lipase. Lipase berfungsi untuk menghidrolisis lipid. Di antara enzim-enzim tersebut, peroksidase dan fosfatase umumnya digunakan sebagai indikator kecukupan pasteurisasi susu karena kedua enzim ini akan rusak pada suhu pasteurisasi, sementara vitamin, mineral, dan enzim lain tidak mengalami perubahan.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 224
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q03",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 3,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks1"
+      ],
+      "question": "Pernyataan yang benar tentang peroksidase dan lipase yang terdapat dalam susu adalah …",
+      "options": {
+        "a": "Peroksidase dapat menghidrolisis molekul lemak dalam susu",
+        "b": "Lipase merupakan enzim yang terdenaturasi pada suhu pasteurisasi susu",
+        "c": "Peroksidase akan mengalami perubahan warna pada suhu pasteurisasi susu",
+        "d": "Lipase dalam susu akan menghidrolisis molekul laktosa menjadi asam karboksilat",
+        "e": "peroksidase dan lipase merupakan protein yang berfungsi sebagai biokatalisator"
+      },
+      "statements": [],
+      "answer": "E",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 225,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks1",
+          "text": "Susu merupakan minuman bergizi tinggi yang dibutuhkan oleh balita untuk dapat tumbuh dan berkembang secara optimal. Namun, susu sering kali digolongkan sebagai minuman yang berharga cukup mahal, terutama sediaan susu yang telah mengalami berbagai proses pengolahan. Di pasaran, susu tersedia dalam bentuk minuman kemasan yang biasanya telah ditambahkan sukrosa serta zat perisai tertentu untuk memberikan variasi rasa. Kandungan gizi dalam susu sangat dipengaruhi oleh jenis ternak yang menghasilkannya, jenis makanan yang dikonsumsi ternak, dan tingkat kesehatan ternak. Setiap 100 ml susu sapi murni rata-rata dapat menghasilkan energi sekitar 259 kj.\nUmumnya, kandungan susu sapi murni menurut berat adalah 87% air, 3,7% lemak, 3,5% protein, 4,9% laktosa, 0,07% mineral, dan sisanya berupa berbagai jenis vitamin, enzim, dan lain-lain. Mineral yang terdapat dalam susu sapi murni di antaranya adalah kalsium, fosfor, natrium, besi, tembaga, dan seng. Kalsium dan fosfor merupakan mineral penting untuk pertumbuhan tulang dan gigi.\nSusu juga mengandung vitamin yang larut dalam lemak, yaitu vitamin A, D, E, dan K, serta vitamin yang larut dalam air, yaitu vitamin B dan C. Selain itu, di dalam susu juga terdapat beberapa jenis enzim, seperti peroksidase, katalase, fosfatase, dan lipase. Lipase berfungsi untuk menghidrolisis lipid. Di antara enzim-enzim tersebut, peroksidase dan fosfatase umumnya digunakan sebagai indikator kecukupan pasteurisasi susu karena kedua enzim ini akan rusak pada suhu pasteurisasi, sementara vitamin, mineral, dan enzim lain tidak mengalami perubahan.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 224
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q04",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 4,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks1"
+      ],
+      "question": "Pemanasan susu pada suhu yang sedikit lebih tinggi dari suhu pasteurisasi mengakibatkan …",
+      "options": {
+        "a": "Hidrolisis molekul lemak sehingga susu menjadi asam lemak dan gliserol",
+        "b": "Denaturasi sebagian besar protein dan enzim sehingga menurunkan kualitas susu",
+        "c": "Katabolisme susu sehingga memperkecil kandungan energinya",
+        "d": "Penurunan kadar kalsium dan fosfor sehingga menurunkan gizi susu",
+        "e": "Degradasi vitamin dalam susu sehingga menimbulkan bau tidak sedap"
+      },
+      "statements": [],
+      "answer": "B",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "medium",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 225,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks1",
+          "text": "Susu merupakan minuman bergizi tinggi yang dibutuhkan oleh balita untuk dapat tumbuh dan berkembang secara optimal. Namun, susu sering kali digolongkan sebagai minuman yang berharga cukup mahal, terutama sediaan susu yang telah mengalami berbagai proses pengolahan. Di pasaran, susu tersedia dalam bentuk minuman kemasan yang biasanya telah ditambahkan sukrosa serta zat perisai tertentu untuk memberikan variasi rasa. Kandungan gizi dalam susu sangat dipengaruhi oleh jenis ternak yang menghasilkannya, jenis makanan yang dikonsumsi ternak, dan tingkat kesehatan ternak. Setiap 100 ml susu sapi murni rata-rata dapat menghasilkan energi sekitar 259 kj.\nUmumnya, kandungan susu sapi murni menurut berat adalah 87% air, 3,7% lemak, 3,5% protein, 4,9% laktosa, 0,07% mineral, dan sisanya berupa berbagai jenis vitamin, enzim, dan lain-lain. Mineral yang terdapat dalam susu sapi murni di antaranya adalah kalsium, fosfor, natrium, besi, tembaga, dan seng. Kalsium dan fosfor merupakan mineral penting untuk pertumbuhan tulang dan gigi.\nSusu juga mengandung vitamin yang larut dalam lemak, yaitu vitamin A, D, E, dan K, serta vitamin yang larut dalam air, yaitu vitamin B dan C. Selain itu, di dalam susu juga terdapat beberapa jenis enzim, seperti peroksidase, katalase, fosfatase, dan lipase. Lipase berfungsi untuk menghidrolisis lipid. Di antara enzim-enzim tersebut, peroksidase dan fosfatase umumnya digunakan sebagai indikator kecukupan pasteurisasi susu karena kedua enzim ini akan rusak pada suhu pasteurisasi, sementara vitamin, mineral, dan enzim lain tidak mengalami perubahan.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 224
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q05",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 5,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks2"
+      ],
+      "question": "Fluida Bingham mengalir dengan kelajuan geser tidak nol ketika nilai tegangan geser yang bekerja pada fluida …",
+      "options": {
+        "a": "= 0",
+        "b": "> 0",
+        "c": "< 0",
+        "d": "> σ0",
+        "e": "< σ0"
+      },
+      "statements": [],
+      "answer": "D",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 226,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks2",
+          "text": "Dinamika fluida berkaitan dengan tegangan geser yang menggambarkan pengaruh luar terhadap fluida dan laju regangan geser yang mengambarkan gerak fluida. Laju regangan fluida merupakan perubahan kecepatan fluida per satuan jarak. Untuk aliran fluida di dalam pipa, kecepatan v(r) merupakan kecepatan partikel fluida yang berada pada posisi radial r dari pusat pipa. Jadi, laju regangan geser sama dengan dv/dr. Sebagai contoh, fluida yang mengalir di dalam pipa dengan kecepatan v(r) = v0(R – r)/R memiliki laju regangan geser –v0/R yang seragam.\nBerdasarkan hubungan antara tegangan geser dan regangan geser, fluida dapat dibagi atas fluida Newtonian dan fluida non-Newtonian. Fluida jenis pertama dicirikan oleh rasio antara tegangan geser dan laju regangan geser yang konstan. Rasio ini dinamakan viskositas dinamis fluida. Jadi, untuk fluida Newtonian, tegangan geser sebanding dengan laju regangan geser. Fluida jenis kedua tidak memiliki sifat seperti ini. Pada fluida jenis kedua, viskositas dinamis tidak konstan, tetapi bergantung pada laju regangan geser. Atas dasar sifat hubungan antara tegangan geser dan laju regangan geser, fluida non-Newtonian terbagi atas fluida Bingham, fluida dilatan, dan luida pseudoplastik. Gambar di bawah menunjukkan perbedaan hubungan antara tegangan geser dan laju regangan geser dari fluida Bingham dan fluida non-Newtonian.",
+          "figure_path": "data/figures/LBI-d1s1-teks2.png",
+          "figure_note": "Grafik dengan sumbu X = laju regangan geser s dan sumbu Y = tegangan geser σ; sumbu tidak berskala angka, hanya σ0 yang ditandai pada sumbu Y. Dua garis lurus naik. Garis 'Fluida Newtonian' berawal dari titik asal (0, 0). Garis 'Fluida Bingham' berawal pada sumbu Y di σ0 (σ = σ0 > 0 ketika s = 0) dan seluruhnya berada di atas garis Newtonian pada rentang yang digambar. Kemiringan garis Bingham lebih landai daripada garis Newtonian (kira-kira 3 berbanding 4 jika diukur pada gambar); kedua garis tidak sejajar.",
+          "_source_note": null,
+          "source_page": 226
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q06",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 6,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks2"
+      ],
+      "question": "Kecepatan partikel fluida di pusat pipa dari fluida yang laju regangan gesernya disebutkan dalam bacaan sama dengan …",
+      "options": {
+        "a": "(v0/R)(R – r)",
+        "b": "–v0/R",
+        "c": "v0²/R",
+        "d": "v0/R",
+        "e": "v0"
+      },
+      "statements": [],
+      "answer": "E",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 227,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks2",
+          "text": "Dinamika fluida berkaitan dengan tegangan geser yang menggambarkan pengaruh luar terhadap fluida dan laju regangan geser yang mengambarkan gerak fluida. Laju regangan fluida merupakan perubahan kecepatan fluida per satuan jarak. Untuk aliran fluida di dalam pipa, kecepatan v(r) merupakan kecepatan partikel fluida yang berada pada posisi radial r dari pusat pipa. Jadi, laju regangan geser sama dengan dv/dr. Sebagai contoh, fluida yang mengalir di dalam pipa dengan kecepatan v(r) = v0(R – r)/R memiliki laju regangan geser –v0/R yang seragam.\nBerdasarkan hubungan antara tegangan geser dan regangan geser, fluida dapat dibagi atas fluida Newtonian dan fluida non-Newtonian. Fluida jenis pertama dicirikan oleh rasio antara tegangan geser dan laju regangan geser yang konstan. Rasio ini dinamakan viskositas dinamis fluida. Jadi, untuk fluida Newtonian, tegangan geser sebanding dengan laju regangan geser. Fluida jenis kedua tidak memiliki sifat seperti ini. Pada fluida jenis kedua, viskositas dinamis tidak konstan, tetapi bergantung pada laju regangan geser. Atas dasar sifat hubungan antara tegangan geser dan laju regangan geser, fluida non-Newtonian terbagi atas fluida Bingham, fluida dilatan, dan luida pseudoplastik. Gambar di bawah menunjukkan perbedaan hubungan antara tegangan geser dan laju regangan geser dari fluida Bingham dan fluida non-Newtonian.",
+          "figure_path": "data/figures/LBI-d1s1-teks2.png",
+          "figure_note": "Grafik dengan sumbu X = laju regangan geser s dan sumbu Y = tegangan geser σ; sumbu tidak berskala angka, hanya σ0 yang ditandai pada sumbu Y. Dua garis lurus naik. Garis 'Fluida Newtonian' berawal dari titik asal (0, 0). Garis 'Fluida Bingham' berawal pada sumbu Y di σ0 (σ = σ0 > 0 ketika s = 0) dan seluruhnya berada di atas garis Newtonian pada rentang yang digambar. Kemiringan garis Bingham lebih landai daripada garis Newtonian (kira-kira 3 berbanding 4 jika diukur pada gambar); kedua garis tidak sejajar.",
+          "_source_note": null,
+          "source_page": 226
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q07",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 7,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks2"
+      ],
+      "question": "Pernyataan yang menunjukkan perbedaan fluida Bingham dengan fluida Newtonian yang benar adalah …",
+      "options": {
+        "a": "Fluida Bingham mengalir dengan laju regangan tidak nol meskipun tegangan geser yang diberikan kecil",
+        "b": "Fluida Bingham memiliki viskositas dinamis yang membesar seiring dengan membesarnya tegangan geser yang diberikan",
+        "c": "Fluida Bingham mengalir dengan laju regangan konstan jika tegangan geser yang diberikan sama dengan σ0",
+        "d": "Fluida Bingham memiliki viskositas dinamis yang konstan jika tegangan geser yang diberikan lebih dari σ0",
+        "e": "Fluida Bingham mengalir dengan laju regangan tidak nol hanya jika tegangan geser yang diberikan kurang dari σ0"
+      },
+      "statements": [],
+      "answer": "D",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "medium",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 227,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks2",
+          "text": "Dinamika fluida berkaitan dengan tegangan geser yang menggambarkan pengaruh luar terhadap fluida dan laju regangan geser yang mengambarkan gerak fluida. Laju regangan fluida merupakan perubahan kecepatan fluida per satuan jarak. Untuk aliran fluida di dalam pipa, kecepatan v(r) merupakan kecepatan partikel fluida yang berada pada posisi radial r dari pusat pipa. Jadi, laju regangan geser sama dengan dv/dr. Sebagai contoh, fluida yang mengalir di dalam pipa dengan kecepatan v(r) = v0(R – r)/R memiliki laju regangan geser –v0/R yang seragam.\nBerdasarkan hubungan antara tegangan geser dan regangan geser, fluida dapat dibagi atas fluida Newtonian dan fluida non-Newtonian. Fluida jenis pertama dicirikan oleh rasio antara tegangan geser dan laju regangan geser yang konstan. Rasio ini dinamakan viskositas dinamis fluida. Jadi, untuk fluida Newtonian, tegangan geser sebanding dengan laju regangan geser. Fluida jenis kedua tidak memiliki sifat seperti ini. Pada fluida jenis kedua, viskositas dinamis tidak konstan, tetapi bergantung pada laju regangan geser. Atas dasar sifat hubungan antara tegangan geser dan laju regangan geser, fluida non-Newtonian terbagi atas fluida Bingham, fluida dilatan, dan luida pseudoplastik. Gambar di bawah menunjukkan perbedaan hubungan antara tegangan geser dan laju regangan geser dari fluida Bingham dan fluida non-Newtonian.",
+          "figure_path": "data/figures/LBI-d1s1-teks2.png",
+          "figure_note": "Grafik dengan sumbu X = laju regangan geser s dan sumbu Y = tegangan geser σ; sumbu tidak berskala angka, hanya σ0 yang ditandai pada sumbu Y. Dua garis lurus naik. Garis 'Fluida Newtonian' berawal dari titik asal (0, 0). Garis 'Fluida Bingham' berawal pada sumbu Y di σ0 (σ = σ0 > 0 ketika s = 0) dan seluruhnya berada di atas garis Newtonian pada rentang yang digambar. Kemiringan garis Bingham lebih landai daripada garis Newtonian (kira-kira 3 berbanding 4 jika diukur pada gambar); kedua garis tidak sejajar.",
+          "_source_note": null,
+          "source_page": 226
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q08",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 8,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks2"
+      ],
+      "question": "Memperbesar tegangan geser pada fluida Bingham menyebabkan …",
+      "options": {
+        "a": "Viskositas dinamis n meningkat",
+        "b": "Viskositas dinamis n menurun",
+        "c": "Laju regangan geser berubah dari 0 sampai (σ – σ0)/n",
+        "d": "Laju regangan geser menurun",
+        "e": "Laju regangan geser tetap sebesar (σ – σ0)/n"
+      },
+      "statements": [],
+      "answer": "C",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "low",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 227,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks2",
+          "text": "Dinamika fluida berkaitan dengan tegangan geser yang menggambarkan pengaruh luar terhadap fluida dan laju regangan geser yang mengambarkan gerak fluida. Laju regangan fluida merupakan perubahan kecepatan fluida per satuan jarak. Untuk aliran fluida di dalam pipa, kecepatan v(r) merupakan kecepatan partikel fluida yang berada pada posisi radial r dari pusat pipa. Jadi, laju regangan geser sama dengan dv/dr. Sebagai contoh, fluida yang mengalir di dalam pipa dengan kecepatan v(r) = v0(R – r)/R memiliki laju regangan geser –v0/R yang seragam.\nBerdasarkan hubungan antara tegangan geser dan regangan geser, fluida dapat dibagi atas fluida Newtonian dan fluida non-Newtonian. Fluida jenis pertama dicirikan oleh rasio antara tegangan geser dan laju regangan geser yang konstan. Rasio ini dinamakan viskositas dinamis fluida. Jadi, untuk fluida Newtonian, tegangan geser sebanding dengan laju regangan geser. Fluida jenis kedua tidak memiliki sifat seperti ini. Pada fluida jenis kedua, viskositas dinamis tidak konstan, tetapi bergantung pada laju regangan geser. Atas dasar sifat hubungan antara tegangan geser dan laju regangan geser, fluida non-Newtonian terbagi atas fluida Bingham, fluida dilatan, dan luida pseudoplastik. Gambar di bawah menunjukkan perbedaan hubungan antara tegangan geser dan laju regangan geser dari fluida Bingham dan fluida non-Newtonian.",
+          "figure_path": "data/figures/LBI-d1s1-teks2.png",
+          "figure_note": "Grafik dengan sumbu X = laju regangan geser s dan sumbu Y = tegangan geser σ; sumbu tidak berskala angka, hanya σ0 yang ditandai pada sumbu Y. Dua garis lurus naik. Garis 'Fluida Newtonian' berawal dari titik asal (0, 0). Garis 'Fluida Bingham' berawal pada sumbu Y di σ0 (σ = σ0 > 0 ketika s = 0) dan seluruhnya berada di atas garis Newtonian pada rentang yang digambar. Kemiringan garis Bingham lebih landai daripada garis Newtonian (kira-kira 3 berbanding 4 jika diukur pada gambar); kedua garis tidak sejajar.",
+          "_source_note": null,
+          "source_page": 226
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q09",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 9,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks3"
+      ],
+      "question": "Berdasarkan bacaan, pernyataan yang benar tentang siklus hidup cacing adalah …",
+      "options": {
+        "a": "Cacing dewasa dalam hewan inang bergerak dari usus menuju hati melalui saluran empedu",
+        "b": "Telur cacing menetas dalam usus besar hewan inang dan akan keluar bersama feses",
+        "c": "Perkembangan larva terakhir cacing Fasciola terjadi dalam tubuh siput air",
+        "d": "Cacing dewasa dalam hewan inang bergerak dari lambung menuju hati melalui saluran empedu",
+        "e": "Larva cacing dalam hewan inang berpindah dari usus menuju hati melalui pembuluh darah"
+      },
+      "statements": [],
+      "answer": "E",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "low",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 228,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks3",
+          "text": "Cacing merupakan kelompok hewan yang pada umumnya dikenal bersifat parasit karena banyak menimbulkan penyakit pada manusia dan hewan. Cacing Fasciola termasuk kelompok cacing pipih (_Platyheiminthes_) yang dapat menyebabkan penyakit Fascioliasis. Fascioliasis merupakan penyakit cacing hati yang menyerang organ hati sapi, kerbau, kambing, dan domba. Cacing ini berbentuk seperti daun, berwarna abu-abu kehijauan sampai kecokelatan, dan berukuran 2 hingga 3 cm.\nHewan ternak dapat terinfeksi cacing ini melalui pakan, terutama rumput yang tercemar larva cacing. Saat rumput masuk ke saluran pencernaan hewan, cacing bermigrasi dari usus ke hati. Cacing dewasa menetap di hati dan bereproduksi. Telur cacing disalurkan ke saluran empedu, kemudian masuk ke usus, dan keluar dari tubuh hewan bersama feses. Telur ini mencemari tanah dan air, selanjutnya menetas menjadi mirasidium, dan mengalami perkembangan menjadi larva serkaria pada tubuh siput air. Larva sarkaria keluar dari tubuh siput dan membentuk larva metaserkaria yang menempel pada tanaman atau rumput. Jika rumput ini termakan oleh hewan ternak, larva cacing menginfeksi hewan tersebut",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 228
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q10",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 10,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks3"
+      ],
+      "question": "Berdasarkan siklus hidup cacing Fasciola, jenis makanan berikut yang dapat menyebabkan manusia terinfeksi cacing tersebut adalah …",
+      "options": {
+        "a": "Telur cacing → mirasidium → serkaria → metaserkaria",
+        "b": "Telur cacing → serkaria → mirasidium → metaserkaria",
+        "c": "Telur cacing → metaserkaria → serkaria → mirasidium",
+        "d": "Telur cacing → mirasidium → metaserkaria → serkaria",
+        "e": "Telur cacing → serkaria → metaserkaria → mirasidium"
+      },
+      "statements": [],
+      "answer": "A",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "medium",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 228,
+      "_source_note": "Stem menanyakan 'jenis makanan' tetapi kelima opsi berisi urutan daur hidup cacing; salah satu bagian soal tampaknya tertukar saat rekonstruksi. Dijawab dari opsi yang tersedia.",
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks3",
+          "text": "Cacing merupakan kelompok hewan yang pada umumnya dikenal bersifat parasit karena banyak menimbulkan penyakit pada manusia dan hewan. Cacing Fasciola termasuk kelompok cacing pipih (_Platyheiminthes_) yang dapat menyebabkan penyakit Fascioliasis. Fascioliasis merupakan penyakit cacing hati yang menyerang organ hati sapi, kerbau, kambing, dan domba. Cacing ini berbentuk seperti daun, berwarna abu-abu kehijauan sampai kecokelatan, dan berukuran 2 hingga 3 cm.\nHewan ternak dapat terinfeksi cacing ini melalui pakan, terutama rumput yang tercemar larva cacing. Saat rumput masuk ke saluran pencernaan hewan, cacing bermigrasi dari usus ke hati. Cacing dewasa menetap di hati dan bereproduksi. Telur cacing disalurkan ke saluran empedu, kemudian masuk ke usus, dan keluar dari tubuh hewan bersama feses. Telur ini mencemari tanah dan air, selanjutnya menetas menjadi mirasidium, dan mengalami perkembangan menjadi larva serkaria pada tubuh siput air. Larva sarkaria keluar dari tubuh siput dan membentuk larva metaserkaria yang menempel pada tanaman atau rumput. Jika rumput ini termakan oleh hewan ternak, larva cacing menginfeksi hewan tersebut",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 228
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q11",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 11,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks3"
+      ],
+      "question": "Cacing parasit pada manusia yang satu kelompok dengan cacing hati adalah …",
+      "options": {
+        "a": "Cacing perut",
+        "b": "Cacing pita",
+        "c": "Cacing kremi",
+        "d": "Cacing tambang",
+        "e": "Cacing filarial"
+      },
+      "statements": [],
+      "answer": "B",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 229,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks3",
+          "text": "Cacing merupakan kelompok hewan yang pada umumnya dikenal bersifat parasit karena banyak menimbulkan penyakit pada manusia dan hewan. Cacing Fasciola termasuk kelompok cacing pipih (_Platyheiminthes_) yang dapat menyebabkan penyakit Fascioliasis. Fascioliasis merupakan penyakit cacing hati yang menyerang organ hati sapi, kerbau, kambing, dan domba. Cacing ini berbentuk seperti daun, berwarna abu-abu kehijauan sampai kecokelatan, dan berukuran 2 hingga 3 cm.\nHewan ternak dapat terinfeksi cacing ini melalui pakan, terutama rumput yang tercemar larva cacing. Saat rumput masuk ke saluran pencernaan hewan, cacing bermigrasi dari usus ke hati. Cacing dewasa menetap di hati dan bereproduksi. Telur cacing disalurkan ke saluran empedu, kemudian masuk ke usus, dan keluar dari tubuh hewan bersama feses. Telur ini mencemari tanah dan air, selanjutnya menetas menjadi mirasidium, dan mengalami perkembangan menjadi larva serkaria pada tubuh siput air. Larva sarkaria keluar dari tubuh siput dan membentuk larva metaserkaria yang menempel pada tanaman atau rumput. Jika rumput ini termakan oleh hewan ternak, larva cacing menginfeksi hewan tersebut",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 228
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q12",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 12,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks3"
+      ],
+      "question": "Salah satu upaya untuk mencegah infeksi cacing Fasciola ke kambing atau sapi sebagai sel inang baru adalah …",
+      "options": {
+        "a": "Mempercepat perkembangan mirasidium menjadi larva serkaria",
+        "b": "Menggunakan feses hewan ternak sebagai pupuk tanaman",
+        "c": "Membersihkan tanaman yang tumbuh di dekat perairan",
+        "d": "Meningkatkan perkembangan serkaria menjadi metaserkaria",
+        "e": "Memberikan rumput sebagai pakan sapi dan kambing"
+      },
+      "statements": [],
+      "answer": "C",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "medium",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 229,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks3",
+          "text": "Cacing merupakan kelompok hewan yang pada umumnya dikenal bersifat parasit karena banyak menimbulkan penyakit pada manusia dan hewan. Cacing Fasciola termasuk kelompok cacing pipih (_Platyheiminthes_) yang dapat menyebabkan penyakit Fascioliasis. Fascioliasis merupakan penyakit cacing hati yang menyerang organ hati sapi, kerbau, kambing, dan domba. Cacing ini berbentuk seperti daun, berwarna abu-abu kehijauan sampai kecokelatan, dan berukuran 2 hingga 3 cm.\nHewan ternak dapat terinfeksi cacing ini melalui pakan, terutama rumput yang tercemar larva cacing. Saat rumput masuk ke saluran pencernaan hewan, cacing bermigrasi dari usus ke hati. Cacing dewasa menetap di hati dan bereproduksi. Telur cacing disalurkan ke saluran empedu, kemudian masuk ke usus, dan keluar dari tubuh hewan bersama feses. Telur ini mencemari tanah dan air, selanjutnya menetas menjadi mirasidium, dan mengalami perkembangan menjadi larva serkaria pada tubuh siput air. Larva sarkaria keluar dari tubuh siput dan membentuk larva metaserkaria yang menempel pada tanaman atau rumput. Jika rumput ini termakan oleh hewan ternak, larva cacing menginfeksi hewan tersebut",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 228
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q13",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 13,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks4"
+      ],
+      "question": "Alasan utama pemerintah Indonesia menyetujui pelaksanaan referendum di Timor-Timur pada tahun 1999 adalah …",
+      "options": {
+        "a": "Untuk mendapatkan pengakuan internasional terhadap integrasi Timor-Timur",
+        "b": "Karena pemerintah Indonesia ingin menghentikan subsidi ke Timor-Timur",
+        "c": "Agar masyarakat Timor-Timur dapat memilih otonomi atau kemerdekaan",
+        "d": "Karena Indonesia didesak oleh dunia internasional",
+        "e": "Untuk memutuskan apakah Indonesia tetap mempertahankan Timor-Timur"
+      },
+      "statements": [],
+      "answer": "C",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "low",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 230,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks4",
+          "text": "Pelaksanaan referendum Timor-Timur pada masa pemerintahan Presiden B.J. Habibie merupakan langkah berani dan bijaksana dalam menyelesaikan permasalahan yang kompleks dan berlarut-larut. Sejak integrasi Timor-Timur ke Indonesia pada tahun 1975, banyak pengorbanan telah diberikan, termasuk subsidi yang besar dari pemerintah pusat untuk pembangunan dan kesejahteraan daerah tersebut. Namun, integrasi ini tidak pernah mendapatkan pengakuan internasional dan terus menjadi sorotan di berbagai forum dunia. Indonesia harus menghadapi kenyataan bahwa posisi negara sering kali dipojokkan oleh resolusi-resolusi PBB yang mendesak penyelesaian masalah Timor-Timur.\nOpsi otonomi luas yang ditawarkan oleh Indonesia dalam perundingan tripartit sebenarnya sudah merupakan solusi yang masuk akal. Namun. pihak-pihak yang menolak integrasi tetap menginginkan referendum untuk menentukan nasib mereka, antara memilih otonomi atau kemerdekaan. Menyadari sulitnya mencapai perdamaian jika konflik terus berlanjut, pemerintah Indonesia akhirya memilih untuk menyetujui pelaksanaan jajak pendapat.\nReferendum berlangsung pada 30 Agustus 1999 dan hasilnya menunjukkan bahwa mayoritas rakyat Timor-Timur, sebesar 78,5%, memilih kemerdekaan. Setelah referendum, meskipun terjadi kekerasan, Indonesia dengan bijaksana menyetujui pengiriman pasukan multinasional demi menjaga perdamaian. Sikap ini menunjukkan komitmen Indonesia untuk menghormati hak asasi manusia dan memenuhi tanggung jawab internasionalnya.\nDengan menerima hasil referendum, pemerintah Habibie memberikan contoh bahwa Indonesia adalah negara yang demokratis, menghargai hak setiap bangsa untuk merdeka, serta berperan sebagai anggota masyarakat internasional yang bertanggung jawab.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 230
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q14",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 14,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks4"
+      ],
+      "question": "Berdasarkan bacaan di atas yang dimaksud dengan ”resolusi-resolusi PBB” adalah …",
+      "options": {
+        "a": "Keputusan yang dibuat oleh pemerintah Indonesia untuk menjaga perdamaian",
+        "b": "Tuntutan internasional yang mendesak penyelesaian masalah Timor-Timur",
+        "c": "Seruan dari negara-negara anggota PBB agar Indonesia mengakui kedaulatan Timor-Timur",
+        "d": "Pernyataan dukungan negara-negara anggota PBB terhadap integrasi Timor-Timur ke Indonesia",
+        "e": "Seruan dari anggota Dewan Keamanan PBB untuk mengadakan referendum di Timor-Timur"
+      },
+      "statements": [],
+      "answer": "B",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 231,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks4",
+          "text": "Pelaksanaan referendum Timor-Timur pada masa pemerintahan Presiden B.J. Habibie merupakan langkah berani dan bijaksana dalam menyelesaikan permasalahan yang kompleks dan berlarut-larut. Sejak integrasi Timor-Timur ke Indonesia pada tahun 1975, banyak pengorbanan telah diberikan, termasuk subsidi yang besar dari pemerintah pusat untuk pembangunan dan kesejahteraan daerah tersebut. Namun, integrasi ini tidak pernah mendapatkan pengakuan internasional dan terus menjadi sorotan di berbagai forum dunia. Indonesia harus menghadapi kenyataan bahwa posisi negara sering kali dipojokkan oleh resolusi-resolusi PBB yang mendesak penyelesaian masalah Timor-Timur.\nOpsi otonomi luas yang ditawarkan oleh Indonesia dalam perundingan tripartit sebenarnya sudah merupakan solusi yang masuk akal. Namun. pihak-pihak yang menolak integrasi tetap menginginkan referendum untuk menentukan nasib mereka, antara memilih otonomi atau kemerdekaan. Menyadari sulitnya mencapai perdamaian jika konflik terus berlanjut, pemerintah Indonesia akhirya memilih untuk menyetujui pelaksanaan jajak pendapat.\nReferendum berlangsung pada 30 Agustus 1999 dan hasilnya menunjukkan bahwa mayoritas rakyat Timor-Timur, sebesar 78,5%, memilih kemerdekaan. Setelah referendum, meskipun terjadi kekerasan, Indonesia dengan bijaksana menyetujui pengiriman pasukan multinasional demi menjaga perdamaian. Sikap ini menunjukkan komitmen Indonesia untuk menghormati hak asasi manusia dan memenuhi tanggung jawab internasionalnya.\nDengan menerima hasil referendum, pemerintah Habibie memberikan contoh bahwa Indonesia adalah negara yang demokratis, menghargai hak setiap bangsa untuk merdeka, serta berperan sebagai anggota masyarakat internasional yang bertanggung jawab.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 230
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q15",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 15,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks4"
+      ],
+      "question": "Menurut bacaan, pernyataan yang paling tepat tentang opsi otonomi luas dan referendum adalah …",
+      "options": {
+        "a": "Otonomi luas menekankan kekuasaan pemerintah pusat, sedangkan referendum diatur oleh PBB",
+        "b": "Otonomi luas dan referendum pada dasarya sama karena keduanya tetap dalam wilayah Indonesia",
+        "c": "Otonomi luas memberikan kedaulatan penuh, sedangkan referendum hanya memberikan pilihan integrasi",
+        "d": "Keduanya merupakan bagian dari upaya Indonesia dalam menunjukkan komitmen terhadap demokrasi dan hak asasi manusia",
+        "e": "Otonomi luas memberikan kebebasan internal tanpa memisahkan diri, sementara referendum memberikan pilihan kemerdekaan"
+      },
+      "statements": [],
+      "answer": "E",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 231,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks4",
+          "text": "Pelaksanaan referendum Timor-Timur pada masa pemerintahan Presiden B.J. Habibie merupakan langkah berani dan bijaksana dalam menyelesaikan permasalahan yang kompleks dan berlarut-larut. Sejak integrasi Timor-Timur ke Indonesia pada tahun 1975, banyak pengorbanan telah diberikan, termasuk subsidi yang besar dari pemerintah pusat untuk pembangunan dan kesejahteraan daerah tersebut. Namun, integrasi ini tidak pernah mendapatkan pengakuan internasional dan terus menjadi sorotan di berbagai forum dunia. Indonesia harus menghadapi kenyataan bahwa posisi negara sering kali dipojokkan oleh resolusi-resolusi PBB yang mendesak penyelesaian masalah Timor-Timur.\nOpsi otonomi luas yang ditawarkan oleh Indonesia dalam perundingan tripartit sebenarnya sudah merupakan solusi yang masuk akal. Namun. pihak-pihak yang menolak integrasi tetap menginginkan referendum untuk menentukan nasib mereka, antara memilih otonomi atau kemerdekaan. Menyadari sulitnya mencapai perdamaian jika konflik terus berlanjut, pemerintah Indonesia akhirya memilih untuk menyetujui pelaksanaan jajak pendapat.\nReferendum berlangsung pada 30 Agustus 1999 dan hasilnya menunjukkan bahwa mayoritas rakyat Timor-Timur, sebesar 78,5%, memilih kemerdekaan. Setelah referendum, meskipun terjadi kekerasan, Indonesia dengan bijaksana menyetujui pengiriman pasukan multinasional demi menjaga perdamaian. Sikap ini menunjukkan komitmen Indonesia untuk menghormati hak asasi manusia dan memenuhi tanggung jawab internasionalnya.\nDengan menerima hasil referendum, pemerintah Habibie memberikan contoh bahwa Indonesia adalah negara yang demokratis, menghargai hak setiap bangsa untuk merdeka, serta berperan sebagai anggota masyarakat internasional yang bertanggung jawab.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 230
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q16",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 16,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks4"
+      ],
+      "question": "Dampak positif dari keputusan Presiden B.J. Habibie dalam menerima hasil referendum Timor-Timur adalah …",
+      "options": {
+        "a": "Meningkatkan stabilitas ekonomi di wilayah Indonesia lainnya",
+        "b": "Membangun citra Indonesia sebagai negara yang menghargai demokrasi",
+        "c": "Menurunkan konflik dengan negara tetangga yang mendukung Timor-Timur",
+        "d": "Mengurangi kebutuhan anggaran pertahanan di Indonesia secara drastis",
+        "e": "Mengurangi tekanan dunia internasional terhadap Indonesia"
+      },
+      "statements": [],
+      "answer": "B",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 231,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks4",
+          "text": "Pelaksanaan referendum Timor-Timur pada masa pemerintahan Presiden B.J. Habibie merupakan langkah berani dan bijaksana dalam menyelesaikan permasalahan yang kompleks dan berlarut-larut. Sejak integrasi Timor-Timur ke Indonesia pada tahun 1975, banyak pengorbanan telah diberikan, termasuk subsidi yang besar dari pemerintah pusat untuk pembangunan dan kesejahteraan daerah tersebut. Namun, integrasi ini tidak pernah mendapatkan pengakuan internasional dan terus menjadi sorotan di berbagai forum dunia. Indonesia harus menghadapi kenyataan bahwa posisi negara sering kali dipojokkan oleh resolusi-resolusi PBB yang mendesak penyelesaian masalah Timor-Timur.\nOpsi otonomi luas yang ditawarkan oleh Indonesia dalam perundingan tripartit sebenarnya sudah merupakan solusi yang masuk akal. Namun. pihak-pihak yang menolak integrasi tetap menginginkan referendum untuk menentukan nasib mereka, antara memilih otonomi atau kemerdekaan. Menyadari sulitnya mencapai perdamaian jika konflik terus berlanjut, pemerintah Indonesia akhirya memilih untuk menyetujui pelaksanaan jajak pendapat.\nReferendum berlangsung pada 30 Agustus 1999 dan hasilnya menunjukkan bahwa mayoritas rakyat Timor-Timur, sebesar 78,5%, memilih kemerdekaan. Setelah referendum, meskipun terjadi kekerasan, Indonesia dengan bijaksana menyetujui pengiriman pasukan multinasional demi menjaga perdamaian. Sikap ini menunjukkan komitmen Indonesia untuk menghormati hak asasi manusia dan memenuhi tanggung jawab internasionalnya.\nDengan menerima hasil referendum, pemerintah Habibie memberikan contoh bahwa Indonesia adalah negara yang demokratis, menghargai hak setiap bangsa untuk merdeka, serta berperan sebagai anggota masyarakat internasional yang bertanggung jawab.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 230
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q17",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 17,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks5"
+      ],
+      "question": "Fakta mengenai boneka Labubu yang benar menurut bacaan adalah …",
+      "options": {
+        "a": "Labubu pertama kali diproduksi di Korea",
+        "b": "Thailand merupakan negara dengan penggemar Labubu terbanyak",
+        "c": "Labubu sangat populer karena masyarakat sangat membutuhkannya",
+        "d": "Blackpink berperan besar meningkatkan popularitas Labubu",
+        "e": "Pop Mart menggunakan cerita karakter Labubu sebagai strategi pemasaran utama"
+      },
+      "statements": [],
+      "answer": "D",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 232,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks5",
+          "text": "Boneka Labubu kini menjadi fenomena populer, khususnya di kalangan kolektor, berkat desainnya yang khas dan strategi pemasaran yang inovatif. Produk dari perusahaan Pop Mart yang didirikan oleh miliader muda Wang Ning tersebut memiliki kepala besar, mata bulat, ekspresi unik, dan cerita karakter yang kuat.\nSalah satu strategi utama yang digunakan adalah ”blind box” atau kotak kejutan yang menciptakan elemen ketidakpastian sehingga menarik minat konsumen. Strategi ini memperkuat daya tarik Labubu sehingga mendorong banyak orang untuk mengoleksinya.\nKepopuleran boneka Labubu semakin meningkat setelah Lisa dari Blackpink mengungahnya di Instagram pada April 2024. Fenomena Labubu juga menarik perhatian besar di Thailand dan negara-negara Asia lainnya, termasuk Indonesia. Tren ini didorong oleh fear of missing out (FOMO). Dengan menciptakan eksklusivitas dan memanfaatkan pengaruh media sosial, produsen berhasil memengaruhi konsumen untuk membeli Labubu.\nStrategi pemasaran Pop Mart juga memanfaatkan konsep kelangkaan (scarcity marketing), dengan memproduksi Labubu dalam jumlah terbatas. Ini menciptakan rasa urgensi, membuat penggemar rela menunggu lama untuk membelinya. Kelangkaan ini juga meningkatkan nilai jual boneka tersebut di pasar sehingga harga Labubu menjadi naik seiring tingginya permintaan.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 232
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q18",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 18,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks5"
+      ],
+      "question": "Istilah ”blind box” pada bacaan memiliki makna . . .",
+      "options": {
+        "a": "Cara perancangan metode produksi yang memanfaatkan konsep kelangkaan",
+        "b": "Cara penjualan dengan kemasan tanpa memberikan kepastian jenis barangnya",
+        "c": "Tingkat penyebaran popularitas ke banyak negara tanpa arah yang pasti",
+        "d": "Strategi pemasaran yang mengandalkan produksi dengan jumlah tidak tentu",
+        "e": "Metode penjualan barang kepada konsumen secara acak"
+      },
+      "statements": [],
+      "answer": "B",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 232,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks5",
+          "text": "Boneka Labubu kini menjadi fenomena populer, khususnya di kalangan kolektor, berkat desainnya yang khas dan strategi pemasaran yang inovatif. Produk dari perusahaan Pop Mart yang didirikan oleh miliader muda Wang Ning tersebut memiliki kepala besar, mata bulat, ekspresi unik, dan cerita karakter yang kuat.\nSalah satu strategi utama yang digunakan adalah ”blind box” atau kotak kejutan yang menciptakan elemen ketidakpastian sehingga menarik minat konsumen. Strategi ini memperkuat daya tarik Labubu sehingga mendorong banyak orang untuk mengoleksinya.\nKepopuleran boneka Labubu semakin meningkat setelah Lisa dari Blackpink mengungahnya di Instagram pada April 2024. Fenomena Labubu juga menarik perhatian besar di Thailand dan negara-negara Asia lainnya, termasuk Indonesia. Tren ini didorong oleh fear of missing out (FOMO). Dengan menciptakan eksklusivitas dan memanfaatkan pengaruh media sosial, produsen berhasil memengaruhi konsumen untuk membeli Labubu.\nStrategi pemasaran Pop Mart juga memanfaatkan konsep kelangkaan (scarcity marketing), dengan memproduksi Labubu dalam jumlah terbatas. Ini menciptakan rasa urgensi, membuat penggemar rela menunggu lama untuk membelinya. Kelangkaan ini juga meningkatkan nilai jual boneka tersebut di pasar sehingga harga Labubu menjadi naik seiring tingginya permintaan.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 232
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q19",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 19,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks5"
+      ],
+      "question": "Faktor utama yang memengaruhi permintaan konsumen akibat unggahan influencer di media sosial menurut bacaan adalah . . .",
+      "options": {
+        "a": "Harga produk itu sendiri",
+        "b": "Harga produk serupa",
+        "c": "Pendapatan konsumen",
+        "d": "Ekspektasi konsumen",
+        "e": "Tren/selera konsumen"
+      },
+      "statements": [],
+      "answer": "E",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 233,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks5",
+          "text": "Boneka Labubu kini menjadi fenomena populer, khususnya di kalangan kolektor, berkat desainnya yang khas dan strategi pemasaran yang inovatif. Produk dari perusahaan Pop Mart yang didirikan oleh miliader muda Wang Ning tersebut memiliki kepala besar, mata bulat, ekspresi unik, dan cerita karakter yang kuat.\nSalah satu strategi utama yang digunakan adalah ”blind box” atau kotak kejutan yang menciptakan elemen ketidakpastian sehingga menarik minat konsumen. Strategi ini memperkuat daya tarik Labubu sehingga mendorong banyak orang untuk mengoleksinya.\nKepopuleran boneka Labubu semakin meningkat setelah Lisa dari Blackpink mengungahnya di Instagram pada April 2024. Fenomena Labubu juga menarik perhatian besar di Thailand dan negara-negara Asia lainnya, termasuk Indonesia. Tren ini didorong oleh fear of missing out (FOMO). Dengan menciptakan eksklusivitas dan memanfaatkan pengaruh media sosial, produsen berhasil memengaruhi konsumen untuk membeli Labubu.\nStrategi pemasaran Pop Mart juga memanfaatkan konsep kelangkaan (scarcity marketing), dengan memproduksi Labubu dalam jumlah terbatas. Ini menciptakan rasa urgensi, membuat penggemar rela menunggu lama untuk membelinya. Kelangkaan ini juga meningkatkan nilai jual boneka tersebut di pasar sehingga harga Labubu menjadi naik seiring tingginya permintaan.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 232
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q20",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 20,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks5"
+      ],
+      "question": "Kenaikan harga Labubu akibat strategi scarcity marketing pada bacaan dapat ditunjukkan dalam diagram permintaan dan penawaran melalui …",
+      "options": {
+        "a": "Pergeseran kurva permintaan ke kanan",
+        "b": "Pergeseran kurva permintaan ke kiri",
+        "c": "Pergeseran kurva permintaan dan penawaran ke kiri",
+        "d": "Pergeseran kurva permintaan dan penawaran ke kanan",
+        "e": "Pergeseran kurva permintaan kiri dan kurva penawaran ke kanan"
+      },
+      "statements": [],
+      "answer": "A",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "medium",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 233,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks5",
+          "text": "Boneka Labubu kini menjadi fenomena populer, khususnya di kalangan kolektor, berkat desainnya yang khas dan strategi pemasaran yang inovatif. Produk dari perusahaan Pop Mart yang didirikan oleh miliader muda Wang Ning tersebut memiliki kepala besar, mata bulat, ekspresi unik, dan cerita karakter yang kuat.\nSalah satu strategi utama yang digunakan adalah ”blind box” atau kotak kejutan yang menciptakan elemen ketidakpastian sehingga menarik minat konsumen. Strategi ini memperkuat daya tarik Labubu sehingga mendorong banyak orang untuk mengoleksinya.\nKepopuleran boneka Labubu semakin meningkat setelah Lisa dari Blackpink mengungahnya di Instagram pada April 2024. Fenomena Labubu juga menarik perhatian besar di Thailand dan negara-negara Asia lainnya, termasuk Indonesia. Tren ini didorong oleh fear of missing out (FOMO). Dengan menciptakan eksklusivitas dan memanfaatkan pengaruh media sosial, produsen berhasil memengaruhi konsumen untuk membeli Labubu.\nStrategi pemasaran Pop Mart juga memanfaatkan konsep kelangkaan (scarcity marketing), dengan memproduksi Labubu dalam jumlah terbatas. Ini menciptakan rasa urgensi, membuat penggemar rela menunggu lama untuk membelinya. Kelangkaan ini juga meningkatkan nilai jual boneka tersebut di pasar sehingga harga Labubu menjadi naik seiring tingginya permintaan.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 232
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q21",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 21,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks6"
+      ],
+      "question": "Pendekatan pengendalian penambangan pasir laut di Indonesia yang sejalan dengan Tujuan Pembangunan Berkelanjutan/SDGs adalah …",
+      "options": {
+        "a": "Pengkajian terhadap sumber penyebab sedimentasi laut yang berasal dari daratan",
+        "b": "Penanganan secara terpadu dan menyeluruh dengan mengikutsertakan masyarakat",
+        "c": "Pelaksanaan edukasi kepada masyarakat tentang pentingnya kelestarian pesisir pengembangan sistem peringatan dini bahaya eksploitasi penambangan pasir laut",
+        "d": "Pemanfaatan secara berkelanjutan untuk mendukung pembangunan berkelanjutan"
+      },
+      "statements": [],
+      "answer": "B",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "medium",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 234,
+      "_source_note": "Only four options (a)-(d) exist in the source module. Option (c) also looks like two options run together ('Pelaksanaan edukasi kepada masyarakat tentang pentingnya kelestarian pesisir' + 'pengembangan sistem peringatan dini bahaya eksploitasi penambangan pasir laut'), so the recovered (d) may be the original (e). Kept verbatim.",
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks6",
+          "text": "Penambangan pasir laut yang semakin marak di Indonesia menjadi ancaman serius bagi ekosistem pesisir dan kelautan. Aktivitas pengerukan, pengangkutan, dan perdagangan pasir laut yang tidak terkendali dapat menyebabkan kerusakan ekosistem, abrasi, dan bahkan menenggelamkan pulau-pulau kecil. Sebagai negara kepulauan yang kaya akan biodiversitas, Indonesia harus bijak dalam mengelola sumber daya ini agar kerusakan ekologis tidak terjadi.\nPengendalian penambangan pasir laut harus dilakukan dengan strategi yang tepat dan terintegrasi. Pendekatan ini sejalan dengan Tujuan Pembangunan Berkelanjutan/Sustainable Development Goals (SDGs), terutama dalam melestarikan dan memanfaatkan sumber daya kelautan secara berkelanjutan. Langkah ini tidak hanya bertujuan melindungi lingkungan, tetapi juga memastikan kesejahteraan masyarakat pesisir, seperti nelayan dan perempuan nelayan, yang sering menjadi korban utama akibat kerusakan lingkungan.\nPermasalahan ini memerlukan penyelesaian komprehensif yang mempertimbangkan aspek ekonomi, sosial, lingkungan, dan tata ruang laut. Salah satu solusinya adalah penerapan Rencana Zonasi Wilayah Pesisir dan Pulau-pulau Kecil (RZWP3K) yang mengatur pemanfaatan ruang laut secara berkelanjutan. Selain itu, penting untuk melakukan kajian mendalam terkait sedimentasi laut akibat aktivitas di hulu sungai.\nMelalui edukasi dan partisipasi masyarakat, pengendalian ini dapat lebih efektif. Dengan melibatkan masyarakat pesisir dalam menjaga ekosistemnya, upaya pelestarian menjadi lebih inklusif dan berkelanjutan. Penambangan pasir laut harus ditangani dengan kebijakan terpadu agar ekosistem pesisir dan kehidupan masyarakat tetap terjaga.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 234
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q22",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 22,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks6"
+      ],
+      "question": "Maksud ungkapan ”Indonesia kaya akan biodiversitas” dalam bacaan adalah …",
+      "options": {
+        "a": "Ekosistem lautnya beraneka macam",
+        "b": "Jenis tambang pasir laut beraneka ragam",
+        "c": "Sumber daya alam laut melimpah",
+        "d": "Keanekaragaman hayati laut melimpah",
+        "e": "Sumber daya alam pesisir tak terbatas"
+      },
+      "statements": [],
+      "answer": "D",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 235,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks6",
+          "text": "Penambangan pasir laut yang semakin marak di Indonesia menjadi ancaman serius bagi ekosistem pesisir dan kelautan. Aktivitas pengerukan, pengangkutan, dan perdagangan pasir laut yang tidak terkendali dapat menyebabkan kerusakan ekosistem, abrasi, dan bahkan menenggelamkan pulau-pulau kecil. Sebagai negara kepulauan yang kaya akan biodiversitas, Indonesia harus bijak dalam mengelola sumber daya ini agar kerusakan ekologis tidak terjadi.\nPengendalian penambangan pasir laut harus dilakukan dengan strategi yang tepat dan terintegrasi. Pendekatan ini sejalan dengan Tujuan Pembangunan Berkelanjutan/Sustainable Development Goals (SDGs), terutama dalam melestarikan dan memanfaatkan sumber daya kelautan secara berkelanjutan. Langkah ini tidak hanya bertujuan melindungi lingkungan, tetapi juga memastikan kesejahteraan masyarakat pesisir, seperti nelayan dan perempuan nelayan, yang sering menjadi korban utama akibat kerusakan lingkungan.\nPermasalahan ini memerlukan penyelesaian komprehensif yang mempertimbangkan aspek ekonomi, sosial, lingkungan, dan tata ruang laut. Salah satu solusinya adalah penerapan Rencana Zonasi Wilayah Pesisir dan Pulau-pulau Kecil (RZWP3K) yang mengatur pemanfaatan ruang laut secara berkelanjutan. Selain itu, penting untuk melakukan kajian mendalam terkait sedimentasi laut akibat aktivitas di hulu sungai.\nMelalui edukasi dan partisipasi masyarakat, pengendalian ini dapat lebih efektif. Dengan melibatkan masyarakat pesisir dalam menjaga ekosistemnya, upaya pelestarian menjadi lebih inklusif dan berkelanjutan. Penambangan pasir laut harus ditangani dengan kebijakan terpadu agar ekosistem pesisir dan kehidupan masyarakat tetap terjaga.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 234
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q23",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 23,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks6"
+      ],
+      "question": "Berdasarkan bacaan, salah satu kelebihan argumen yang disampaikan adalah …",
+      "options": {
+        "a": "Penyelesaian masalah abrasi tanpa memperhatikan aspek lain yang terkait",
+        "b": "Penekanan pada peran masyarakat pesisir dalam pengendalian penambangan pasir laut",
+        "c": "Penggunaan strategi yang parsial untuk menyelesaikan masalah penambangan pasir laut",
+        "d": "Penerapan RZWP3K tanpa mempertimbangkan dampak sosial",
+        "e": "Pendekatan yang hanya menekankan dampak ekonomi bagi masyarakat pesisir"
+      },
+      "statements": [],
+      "answer": "B",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 235,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks6",
+          "text": "Penambangan pasir laut yang semakin marak di Indonesia menjadi ancaman serius bagi ekosistem pesisir dan kelautan. Aktivitas pengerukan, pengangkutan, dan perdagangan pasir laut yang tidak terkendali dapat menyebabkan kerusakan ekosistem, abrasi, dan bahkan menenggelamkan pulau-pulau kecil. Sebagai negara kepulauan yang kaya akan biodiversitas, Indonesia harus bijak dalam mengelola sumber daya ini agar kerusakan ekologis tidak terjadi.\nPengendalian penambangan pasir laut harus dilakukan dengan strategi yang tepat dan terintegrasi. Pendekatan ini sejalan dengan Tujuan Pembangunan Berkelanjutan/Sustainable Development Goals (SDGs), terutama dalam melestarikan dan memanfaatkan sumber daya kelautan secara berkelanjutan. Langkah ini tidak hanya bertujuan melindungi lingkungan, tetapi juga memastikan kesejahteraan masyarakat pesisir, seperti nelayan dan perempuan nelayan, yang sering menjadi korban utama akibat kerusakan lingkungan.\nPermasalahan ini memerlukan penyelesaian komprehensif yang mempertimbangkan aspek ekonomi, sosial, lingkungan, dan tata ruang laut. Salah satu solusinya adalah penerapan Rencana Zonasi Wilayah Pesisir dan Pulau-pulau Kecil (RZWP3K) yang mengatur pemanfaatan ruang laut secara berkelanjutan. Selain itu, penting untuk melakukan kajian mendalam terkait sedimentasi laut akibat aktivitas di hulu sungai.\nMelalui edukasi dan partisipasi masyarakat, pengendalian ini dapat lebih efektif. Dengan melibatkan masyarakat pesisir dalam menjaga ekosistemnya, upaya pelestarian menjadi lebih inklusif dan berkelanjutan. Penambangan pasir laut harus ditangani dengan kebijakan terpadu agar ekosistem pesisir dan kehidupan masyarakat tetap terjaga.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 234
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q24",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 24,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks6"
+      ],
+      "question": "Jika penambangan pasir laut di Indonesia tidak dikendalikan dengan baik, prediksi yang paling mungkin terjadi dalam jangka panjang berdasarkan isi bacaan adalah …",
+      "options": {
+        "a": "Hilangnya biodiversitas laut sepenuhnya dalam 10 tahun ke depan akibat eksploitasi berlebih",
+        "b": "Pulau-pulau kecil tenggelam karena abrasi disertai meningkatnya kemiskinan di kalangan masyarakat pesisir",
+        "c": "Perbaikan ekosistem laut akibat sedimentasi dari aktivitas di hulu sungai yang berlangsung secara alami",
+        "d": "Pemanfaatan sumber daya kelautan akan lebih berkelanjutan dengan partisipasi masyarakat yang terus meningkat",
+        "e": "Peningkatan konflik sosial di wilayah pesisir karena masyarakat tidak dilibatkan dalam pengambilan keputusan"
+      },
+      "statements": [],
+      "answer": "B",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 235,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks6",
+          "text": "Penambangan pasir laut yang semakin marak di Indonesia menjadi ancaman serius bagi ekosistem pesisir dan kelautan. Aktivitas pengerukan, pengangkutan, dan perdagangan pasir laut yang tidak terkendali dapat menyebabkan kerusakan ekosistem, abrasi, dan bahkan menenggelamkan pulau-pulau kecil. Sebagai negara kepulauan yang kaya akan biodiversitas, Indonesia harus bijak dalam mengelola sumber daya ini agar kerusakan ekologis tidak terjadi.\nPengendalian penambangan pasir laut harus dilakukan dengan strategi yang tepat dan terintegrasi. Pendekatan ini sejalan dengan Tujuan Pembangunan Berkelanjutan/Sustainable Development Goals (SDGs), terutama dalam melestarikan dan memanfaatkan sumber daya kelautan secara berkelanjutan. Langkah ini tidak hanya bertujuan melindungi lingkungan, tetapi juga memastikan kesejahteraan masyarakat pesisir, seperti nelayan dan perempuan nelayan, yang sering menjadi korban utama akibat kerusakan lingkungan.\nPermasalahan ini memerlukan penyelesaian komprehensif yang mempertimbangkan aspek ekonomi, sosial, lingkungan, dan tata ruang laut. Salah satu solusinya adalah penerapan Rencana Zonasi Wilayah Pesisir dan Pulau-pulau Kecil (RZWP3K) yang mengatur pemanfaatan ruang laut secara berkelanjutan. Selain itu, penting untuk melakukan kajian mendalam terkait sedimentasi laut akibat aktivitas di hulu sungai.\nMelalui edukasi dan partisipasi masyarakat, pengendalian ini dapat lebih efektif. Dengan melibatkan masyarakat pesisir dalam menjaga ekosistemnya, upaya pelestarian menjadi lebih inklusif dan berkelanjutan. Penambangan pasir laut harus ditangani dengan kebijakan terpadu agar ekosistem pesisir dan kehidupan masyarakat tetap terjaga.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 234
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q25",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 25,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks7"
+      ],
+      "question": "Tokoh Aku enggan pulang karena …",
+      "options": {
+        "a": "Ketidakrinduan pada kehidupan di tanah kelahiran",
+        "b": "Kesulitan hidup yang selama ini dijalani tokoh Aku",
+        "c": "Kekecewaan pada kondisi kemiskinan desa kelahiran",
+        "d": "Ketidakadilan dalam lingkungan pekerjaan",
+        "e": "Kekecewaaan pada pola pikir masyarakat desa"
+      },
+      "statements": [],
+      "answer": "B",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "medium",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 236,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks7",
+          "text": "Sudah hampir sebulan aku di perantauan. Lima hari lagi aku harus pulang ke kampung halaman. PERASAANKU berkecamuk. Di satu sisi aku kangen pada tanah air tercinta yang alamnya konon kaya raya dan indah permai. Aku rindu makanan kesukaanku yang tak ada di sini: nasi pecel, rujak cingur, tongseng kambing. Namun, di sisi lain menyelusup sebesit perasan enggan pulang. Dan perasaan itu kian lama kian kuat. Orang bilang lebih baik hujan batu di negeri sendiri ketimbang hujan emas di negeri orang. Tetapi, bagiku itu hanya omong kosong orang yang tak pernah merasakan kesulitan hidup. Tentu saja lebih baik mendapat hujan emas di luar negeri daripada menjadi cacing melata di tanah air sendiri. Nasib mujur membawaku terbang ke sini.\nAku ditugaskan sebagai asisten Pak Lurah untuk melakukan studi banding pembangunan berkelanjutan di pinggiran kota di negeri asing ini selama sebulan atas biaya sebuah yayasan sosial yang memiliki cita-cita mulia untuk kemakmuran dunia. Desa kami dipilih sebab dianggap berhasil menggali potensi swadaya desa dan bangkit dari kemiskinan. Kubilang mujur sebab tadinya bukan aku yang mendapatkan rezeki ini. Semula yang akan berangkat adalah Srimulat, staf khusus Pak Lurah yang genit dan suka menjilat. Namun, Bu Lurah murka dan memprotes rencana itu karena cemburu. Akibatnya, Srimulat batal berangkat. Posisinya lalu digantikan Mas Yoyon, kemenakan Bu Lurah yang menjadi staf di kantor desa. Tetapi, enam minggu sebelum berangkat, dia terkena penyakit lumpuh sebelah. Ada yang bilang itu karena guna-guna. Orang-orang bergujirat bahwa itu penyakit kiriman Srimulat. Aku tak tahu pasti. Yang kutahu, aku ketiban pulung menggantikan Mas Yoyon berangkat ke Jerman.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 236
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q26",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 26,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks7"
+      ],
+      "question": "Majas yang digunakan untuk menggambarkan perubahan nasib tokoh Aku adalah …",
+      "options": {
+        "a": "Metafora untuk menggambarkan nasib sebagai sesuatu yang dapat ”terbang”",
+        "b": "Alegori untuk menunjukkan tokoh lain yang menjadi sumber keberuntungan",
+        "c": "Hiperbola untuk melebih-lebihkan peran nasib dalam membawa tokoh pergi",
+        "d": "Simile untuk membandingkan nasib tokoh dengan sesuatu yang beruntung",
+        "e": "Personifikasi untuk menyampaikan peran nasib dalam kehidupan tokoh"
+      },
+      "statements": [],
+      "answer": "E",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "medium",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 236,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks7",
+          "text": "Sudah hampir sebulan aku di perantauan. Lima hari lagi aku harus pulang ke kampung halaman. PERASAANKU berkecamuk. Di satu sisi aku kangen pada tanah air tercinta yang alamnya konon kaya raya dan indah permai. Aku rindu makanan kesukaanku yang tak ada di sini: nasi pecel, rujak cingur, tongseng kambing. Namun, di sisi lain menyelusup sebesit perasan enggan pulang. Dan perasaan itu kian lama kian kuat. Orang bilang lebih baik hujan batu di negeri sendiri ketimbang hujan emas di negeri orang. Tetapi, bagiku itu hanya omong kosong orang yang tak pernah merasakan kesulitan hidup. Tentu saja lebih baik mendapat hujan emas di luar negeri daripada menjadi cacing melata di tanah air sendiri. Nasib mujur membawaku terbang ke sini.\nAku ditugaskan sebagai asisten Pak Lurah untuk melakukan studi banding pembangunan berkelanjutan di pinggiran kota di negeri asing ini selama sebulan atas biaya sebuah yayasan sosial yang memiliki cita-cita mulia untuk kemakmuran dunia. Desa kami dipilih sebab dianggap berhasil menggali potensi swadaya desa dan bangkit dari kemiskinan. Kubilang mujur sebab tadinya bukan aku yang mendapatkan rezeki ini. Semula yang akan berangkat adalah Srimulat, staf khusus Pak Lurah yang genit dan suka menjilat. Namun, Bu Lurah murka dan memprotes rencana itu karena cemburu. Akibatnya, Srimulat batal berangkat. Posisinya lalu digantikan Mas Yoyon, kemenakan Bu Lurah yang menjadi staf di kantor desa. Tetapi, enam minggu sebelum berangkat, dia terkena penyakit lumpuh sebelah. Ada yang bilang itu karena guna-guna. Orang-orang bergujirat bahwa itu penyakit kiriman Srimulat. Aku tak tahu pasti. Yang kutahu, aku ketiban pulung menggantikan Mas Yoyon berangkat ke Jerman.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 236
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q27",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 27,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks7"
+      ],
+      "question": "Tujuan penulis menggambarkan konflik batin tokoh dalam cerita tersebut adalah …",
+      "options": {
+        "a": "Menggambarkan dilema atas keraguan tokoh Aku untuk pulang sehingga pembaca memahami kompleksitas perasaan tokoh",
+        "b": "Menunjukkan bahwa tokoh Aku adalah pribadi yang sulit puas dengan keadaan yang dianugerahkan kepadanya",
+        "c": "Memperlihatkan bahwa tokoh Aku memiliki pandangan positif dan negatif terhadap kampung halamannya",
+        "d": "Menekankan bahwa keinginan tokoh Aku tinggal di negeri asing selalu lebih baik daripada tinggal di kampung halaman",
+        "e": "Menyoroti konflik tokoh Aku dengan tokoh lain dalam cerita yang membuat cerita lebih realistis dengan kehidupan sehari-hari"
+      },
+      "statements": [],
+      "answer": "A",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 237,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks7",
+          "text": "Sudah hampir sebulan aku di perantauan. Lima hari lagi aku harus pulang ke kampung halaman. PERASAANKU berkecamuk. Di satu sisi aku kangen pada tanah air tercinta yang alamnya konon kaya raya dan indah permai. Aku rindu makanan kesukaanku yang tak ada di sini: nasi pecel, rujak cingur, tongseng kambing. Namun, di sisi lain menyelusup sebesit perasan enggan pulang. Dan perasaan itu kian lama kian kuat. Orang bilang lebih baik hujan batu di negeri sendiri ketimbang hujan emas di negeri orang. Tetapi, bagiku itu hanya omong kosong orang yang tak pernah merasakan kesulitan hidup. Tentu saja lebih baik mendapat hujan emas di luar negeri daripada menjadi cacing melata di tanah air sendiri. Nasib mujur membawaku terbang ke sini.\nAku ditugaskan sebagai asisten Pak Lurah untuk melakukan studi banding pembangunan berkelanjutan di pinggiran kota di negeri asing ini selama sebulan atas biaya sebuah yayasan sosial yang memiliki cita-cita mulia untuk kemakmuran dunia. Desa kami dipilih sebab dianggap berhasil menggali potensi swadaya desa dan bangkit dari kemiskinan. Kubilang mujur sebab tadinya bukan aku yang mendapatkan rezeki ini. Semula yang akan berangkat adalah Srimulat, staf khusus Pak Lurah yang genit dan suka menjilat. Namun, Bu Lurah murka dan memprotes rencana itu karena cemburu. Akibatnya, Srimulat batal berangkat. Posisinya lalu digantikan Mas Yoyon, kemenakan Bu Lurah yang menjadi staf di kantor desa. Tetapi, enam minggu sebelum berangkat, dia terkena penyakit lumpuh sebelah. Ada yang bilang itu karena guna-guna. Orang-orang bergujirat bahwa itu penyakit kiriman Srimulat. Aku tak tahu pasti. Yang kutahu, aku ketiban pulung menggantikan Mas Yoyon berangkat ke Jerman.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 236
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q28",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 28,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks7"
+      ],
+      "question": "Cara tokoh utama menghadapi konflik batin antara keinginan untuk tetap tinggal di negeri asing dan kerinduan terhadap kampung halaman adalah …",
+      "options": {
+        "a": "Mengabaikan rasa rindu dan tinggal lebih lama di negeri asing",
+        "b": "Merenungi konflik yang berkecamuk dalam hati tanpa mengambil keputusan",
+        "c": "Mengingat kembali keberuntungan yang membawanya ke negeri orang",
+        "d": "Memilih pulang karena merasa bertanggung jawab atas kampung halaman",
+        "e": "Memutuskan untuk tidak pulang dan merencanakan karier baru di negeri asing"
+      },
+      "statements": [],
+      "answer": "B",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "low",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 237,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks7",
+          "text": "Sudah hampir sebulan aku di perantauan. Lima hari lagi aku harus pulang ke kampung halaman. PERASAANKU berkecamuk. Di satu sisi aku kangen pada tanah air tercinta yang alamnya konon kaya raya dan indah permai. Aku rindu makanan kesukaanku yang tak ada di sini: nasi pecel, rujak cingur, tongseng kambing. Namun, di sisi lain menyelusup sebesit perasan enggan pulang. Dan perasaan itu kian lama kian kuat. Orang bilang lebih baik hujan batu di negeri sendiri ketimbang hujan emas di negeri orang. Tetapi, bagiku itu hanya omong kosong orang yang tak pernah merasakan kesulitan hidup. Tentu saja lebih baik mendapat hujan emas di luar negeri daripada menjadi cacing melata di tanah air sendiri. Nasib mujur membawaku terbang ke sini.\nAku ditugaskan sebagai asisten Pak Lurah untuk melakukan studi banding pembangunan berkelanjutan di pinggiran kota di negeri asing ini selama sebulan atas biaya sebuah yayasan sosial yang memiliki cita-cita mulia untuk kemakmuran dunia. Desa kami dipilih sebab dianggap berhasil menggali potensi swadaya desa dan bangkit dari kemiskinan. Kubilang mujur sebab tadinya bukan aku yang mendapatkan rezeki ini. Semula yang akan berangkat adalah Srimulat, staf khusus Pak Lurah yang genit dan suka menjilat. Namun, Bu Lurah murka dan memprotes rencana itu karena cemburu. Akibatnya, Srimulat batal berangkat. Posisinya lalu digantikan Mas Yoyon, kemenakan Bu Lurah yang menjadi staf di kantor desa. Tetapi, enam minggu sebelum berangkat, dia terkena penyakit lumpuh sebelah. Ada yang bilang itu karena guna-guna. Orang-orang bergujirat bahwa itu penyakit kiriman Srimulat. Aku tak tahu pasti. Yang kutahu, aku ketiban pulung menggantikan Mas Yoyon berangkat ke Jerman.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 236
+        }
+      ],
+      "has_answer": true
+    },
+    {
+      "id": "LBI-d1s1-q29",
+      "subtest": "LBI",
+      "day": 1,
+      "session": 1,
+      "number": 29,
+      "type": "mcq",
+      "subtype": null,
+      "passage_ids": [
+        "LBI-d1s1-teks7"
+      ],
+      "question": "Penggambaran tokoh utama berikut yang paling sesuai dengan isi cerpen adalah …",
+      "options": {
+        "a": "Ambisius karena ia selalu berusaha untuk mengungguli rekan-rekan di desa dalam semua bidang",
+        "b": "Tertutup karena ia tidak pernah membagikan perasaannya kepada orang lain di sekitarnya",
+        "c": "Tidak berpendirian karena ia terus-menerus bimbang dan tidak mampu membuat keputusan",
+        "d": "Egois karena ia tidak peduli dengan kehidupan di kampung halaman dan hanya mementingkan dirinya sendiri",
+        "e": "Realistis karena ia menyadari bahwa peluang hidup lebih baik mungkin ada di negeri asing"
+      },
+      "statements": [],
+      "answer": "E",
+      "answer_source": "claude-opus-5",
+      "label_confidence": "high",
+      "has_figure": false,
+      "figure_path": null,
+      "figure_note": null,
+      "source_page": 237,
+      "_source_note": null,
+      "needs_review": false,
+      "review_reasons": [],
+      "passages": [
+        {
+          "id": "LBI-d1s1-teks7",
+          "text": "Sudah hampir sebulan aku di perantauan. Lima hari lagi aku harus pulang ke kampung halaman. PERASAANKU berkecamuk. Di satu sisi aku kangen pada tanah air tercinta yang alamnya konon kaya raya dan indah permai. Aku rindu makanan kesukaanku yang tak ada di sini: nasi pecel, rujak cingur, tongseng kambing. Namun, di sisi lain menyelusup sebesit perasan enggan pulang. Dan perasaan itu kian lama kian kuat. Orang bilang lebih baik hujan batu di negeri sendiri ketimbang hujan emas di negeri orang. Tetapi, bagiku itu hanya omong kosong orang yang tak pernah merasakan kesulitan hidup. Tentu saja lebih baik mendapat hujan emas di luar negeri daripada menjadi cacing melata di tanah air sendiri. Nasib mujur membawaku terbang ke sini.\nAku ditugaskan sebagai asisten Pak Lurah untuk melakukan studi banding pembangunan berkelanjutan di pinggiran kota di negeri asing ini selama sebulan atas biaya sebuah yayasan sosial yang memiliki cita-cita mulia untuk kemakmuran dunia. Desa kami dipilih sebab dianggap berhasil menggali potensi swadaya desa dan bangkit dari kemiskinan. Kubilang mujur sebab tadinya bukan aku yang mendapatkan rezeki ini. Semula yang akan berangkat adalah Srimulat, staf khusus Pak Lurah yang genit dan suka menjilat. Namun, Bu Lurah murka dan memprotes rencana itu karena cemburu. Akibatnya, Srimulat batal berangkat. Posisinya lalu digantikan Mas Yoyon, kemenakan Bu Lurah yang menjadi staf di kantor desa. Tetapi, enam minggu sebelum berangkat, dia terkena penyakit lumpuh sebelah. Ada yang bilang itu karena guna-guna. Orang-orang bergujirat bahwa itu penyakit kiriman Srimulat. Aku tak tahu pasti. Yang kutahu, aku ketiban pulung menggantikan Mas Yoyon berangkat ke Jerman.",
+          "figure_path": null,
+          "figure_note": null,
+          "_source_note": null,
+          "source_page": 236
+        }
+      ],
+      "has_answer": true
+    }
+  ]
+}

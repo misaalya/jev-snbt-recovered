@@ -1,0 +1,33 @@
+{
+  "_note": "Daftar siap-pakai untuk runner benchmark. 'exclude_candidates' = soal yang kunci modulnya kemungkinan keliru; skor sebaiknya dilaporkan dengan dan tanpa soal-soal ini. 'flag_only' = soal yang kuncinya dipertahankan tetapi itemnya ambigu atau cacat desain. Dasar: data/audit/module_key_audit.json.",
+  "exclude_candidates": [
+    "PU-d1-q05",
+    "PU-d1-q24"
+  ],
+  "flag_only": [
+    "PU-d1-q18",
+    "PU-d1-q11",
+    "PU-d1-q23",
+    "PU-d1-q29",
+    "PK-d1s1-q17",
+    "PK-d1s1-q19",
+    "PM-d1s1-q14"
+  ],
+  "excluded_from_headline": {
+    "fill_in": [
+      "PK-d1s1-q01",
+      "PK-d1s1-q02",
+      "PK-d1s1-q18"
+    ],
+    "reason": "Tidak punya opsi di sumbernya, sehingga tidak bisa ditanyakan sebagai Choice tanpa distraktor buatan. Keputusan: dikeluarkan dari angka utama. Arm kandidat sintetis tersedia lewat 'scripts/build_requests.py --fill-in' tetapi tidak dibangun secara default dan tidak pernah digabung ke headline."
+  },
+  "headline_set": {
+    "n": 67,
+    "komposisi": {
+      "mcq": 65,
+      "table_yes_no": 2
+    },
+    "n_tanpa_soal_sengketa": 65,
+    "catatan": "67 = 70 soal berkunci modul dikurangi 3 soal isian. 65 = 67 dikurangi PU-d1-q05 dan PU-d1-q24 yang kuncinya diragukan; akurasi PU sebaiknya dilaporkan dua-duanya."
+  }
+}

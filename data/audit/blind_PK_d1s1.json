@@ -1,0 +1,22 @@
+{
+  "1": {"answer": "64", "confidence": "high", "reason": "4 ÷ 1/2 = 8, jadi √t = 8 dan t = 64."},
+  "2": {"answer": "10", "confidence": "high", "reason": "f(2) = 4 − 2r + 33 = 17 sehingga 2r = 20, r = 10."},
+  "3": {"answer": "d", "confidence": "high", "reason": "Urut turun: 8,8,7,6,5,4,4,3,2; posisi ke-3 u = 7 dan ke-8 t = 3, jadi 2u − t = 11."},
+  "4": {"answer": "c", "confidence": "high", "reason": "Enumerasi semua persegi pada kisi dari ruas garis di gambar: 8 persegi 1×1 dan 4 persegi 2×2, total 12 (persegi 1×1 di (0,1)-(1,2) tidak terbentuk karena ruas x=1 antara y=1 dan y=2 tidak ada)."},
+  "5": {"answer": "e", "confidence": "high", "reason": "[2) = (4+2)/2 = 3, lalu [1 − 3) = [−2) dan −2 genap negatif sehingga nilainya 2(−2)² + 1 = 9."},
+  "6": {"answer": "a", "confidence": "high", "reason": "2x² − x − 1 = x² − 3x + 7 memberi x = −4 atau x = 2 dengan titik (−4, 35) dan (2, 5); karena b > d maka K = (−4, 35), jadi a = −4."},
+  "7": {"answer": "a", "confidence": "high", "reason": "Gradien m = (35 − 5)/(−4 − 2) = −5."},
+  "8": {"answer": "e", "confidence": "high", "reason": "Tegak lurus m berarti p = 1/5; melalui (1,1) memberi q = 4/5, sehingga p + q = 1."},
+  "9": {"answer": "d", "confidence": "high", "reason": "KL mendatar pada y = 3 dan M pada y = 8, sehingga jaraknya 8 − 3 = 5 (proyeksi M jatuh di dalam ruas KL)."},
+  "10": {"answer": "b", "confidence": "high", "reason": "Alas KL = 6 dan tinggi = 5, jadi luas = ½ · 6 · 5 = 15."},
+  "11": {"answer": "d", "confidence": "high", "reason": "V = ⅓ · L · t → 30 = ⅓ · 15 · t sehingga t = 6."},
+  "12": {"answer": "a", "confidence": "high", "reason": "49² + 49 = 2450 dan 12² − 2² = 140, FPB-nya 70; 10, 14, 35 membagi 70 tetapi 50 tidak membagi 140."},
+  "13": {"answer": "b", "confidence": "high", "reason": "Untuk x = 3 berlaku 9 < f(3) < 28; nilai 7 dan 9 berada di luar selang (9 tidak memenuhi karena pertidaksamaan tegas), sedangkan 12 dan 24 mungkin."},
+  "14": {"answer": "c", "confidence": "high", "reason": "cos α = 3/4 memberi sin α = √7/4, jadi (1) salah dan (3) salah (0,75 > 0,661); tan(90°−α) = cot α = 3/√7 dan tan α = √7/3 keduanya benar."},
+  "15": {"answer": "d", "confidence": "high", "reason": "Luas ABE = ½·AB·jarak E ke AB, dan E bebas di sepanjang CD sehingga L2/L1 bisa bernilai apa saja dari 0 sampai 1; hubungan P dan Q tidak dapat ditentukan."},
+  "16": {"answer": "a", "confidence": "high", "reason": "Nilai susunan = ((a·2·3) − (7a) − a)(5 − 6) = (−2a)(−1) = 2a; karena a prima maka a ≥ 2 sehingga P ≥ 4 > 3."},
+  "17": {"answer": "b", "confidence": "medium", "reason": "Dari persamaan diperoleh f = z = 4 sementara d dan e tidak tunggal, tetapi P = 16 − (x² + y²) ≤ 16 < 17 untuk semua solusi, jadi P selalu kurang dari Q. Catatan: soal cacat penulisan — sistemnya memakai variabel c padahal prosa menyebut d, e, f, dan sistem itu tidak punya solusi tunggal; untungnya kesimpulan P < Q tetap sama pada kedua pembacaan."},
+  "18": {"answer": "40", "confidence": "high", "reason": "Jumlah keenam bilangan = 6 · 16/3 = 32 sehingga b = 9; jangkauan 9 − 1 = 8 dan 8 − 16/3 = 8/3 = 40/15, jadi Q = 40."},
+  "19": {"answer": "e", "confidence": "high", "reason": "a1 + a2 = 2a1 − 3 dan a2 + a3 = 2a2 − 3 selalu ganjil, jadi kedua pernyataan tidak memberi informasi apa pun tentang paritas a1 (dan a2025 = a1 − 6072 berparitas sama dengan a1). Soal agak cacat karena kedua pernyataannya tautologi."},
+  "20": {"answer": "d", "confidence": "high", "reason": "f(r) = g(r) ekuivalen r² + br + d = 0 yang punya akar real bila b² − 4d ≥ 0; (1) b = 5d memberi 25d² − 4d > 0 dan (2) b ≥ d + 2 memberi b² − 4d ≥ d² + 4 > 0, sehingga masing-masing pernyataan sudah cukup."}
+}

@@ -1,0 +1,166 @@
+{
+  "_note": "Audit independen terhadap kunci jawaban bawaan modul (answer_source = \"module\"). Metode: soal dikerjakan ulang dari nol tanpa melihat kunci, aritmetika diverifikasi dengan Python, lalu hasilnya dibandingkan dengan kunci modul. Setiap perbedaan dipikir ulang dua kali untuk menentukan apakah jawaban modul atau jawaban audit yang benar. Kunci modul TIDAK diubah di dataset; berkas ini hanya mencatat temuan.",
+  "auditor": "claude-opus-5",
+  "date": "2026-09-18",
+  "scope": {
+    "PK_d1s1": 20,
+    "PM_d1s1": 20,
+    "PU_d1": 30
+  },
+  "result": {
+    "PK_d1s1": {
+      "cocok": 20,
+      "beda": 0
+    },
+    "PM_d1s1": {
+      "cocok": 20,
+      "beda": 0
+    },
+    "PU_d1": {
+      "cocok": 24,
+      "beda": 6
+    }
+  },
+  "findings": [
+    {
+      "id": "PU-d1-q05",
+      "module_answer": "A",
+      "audit_answer": "E",
+      "verdict": "kunci modul kemungkinan besar keliru",
+      "confidence": "high",
+      "reason": "Teks hanya menyatakan angka malaria 'tidak menurun', bukan 'meningkat'. Pilihan (a) menambahkan klaim peningkatan yang tidak ada di teks. Pilihan (e) adalah transitivitas rantai kausal yang eksplisit di teks: rumah terbengkalai -> tanaman liar -> banyak nyamuk."
+    },
+    {
+      "id": "PU-d1-q24",
+      "module_answer": "E",
+      "audit_answer": "A (revisi; semula B)",
+      "verdict": "kunci modul kemungkinan keliru",
+      "confidence": "medium-high",
+      "reason": "Pertanyaan meminta pernyataan yang menggambarkan NERACA KEUANGAN 2024, sedangkan (e) 'pedagang akan menambah modal usaha' adalah prediksi perilaku, bukan neraca — tidak ada pemecah independen yang membelanya. Diagram tidak memuat titik 2024. Pengganti terbaik adalah (a) 'mengalami kerugian': tiga tahun berturut-turut (2021-2023) H < M, dan arah ini bertahan meski pembacaan skala pindaian meleset. (b) 'besarnya kerugian sama dengan tahun sebelumnya' memang cocok dengan selisih konstan -5 pada 2021-2023, tetapi menuntut kesamaan besaran untuk tahun yang titik datanya tidak ada sama sekali, jadi lebih rapuh daripada (a)."
+    },
+    {
+      "id": "PU-d1-q11",
+      "module_answer": "E",
+      "audit_answer": "D",
+      "verdict": "ambigu, kunci modul dapat dipertahankan",
+      "confidence": "low",
+      "reason": "Jika 'mendasari argumen' dibaca sebagai asumsi penghubung, (d) yang benar; jika dibaca sebagai bukti pendukung, (e) yang benar. Tidak ada dasar untuk menyebut kunci salah."
+    },
+    {
+      "id": "PU-d1-q10",
+      "module_answer": "B",
+      "audit_answer": "A",
+      "verdict": "kunci modul diterima setelah ditinjau ulang",
+      "reason": "(b) menambatkan sebab pada titik perubahan ('setelah dikelola warga') dan mencakup layanan secara menyeluruh; (a) hanya satu instansi khusus dari (b)."
+    },
+    {
+      "id": "PU-d1-q15",
+      "module_answer": "B",
+      "audit_answer": "D",
+      "verdict": "kunci modul diterima setelah ditinjau ulang",
+      "reason": "Kecocokan sepatu X dengan kebutuhan sudah dinyatakan di soal, jadi (d) tidak menambah kekuatan. Hambatan satu-satunya adalah harga mahal, yang dijawab langsung oleh (b)."
+    },
+    {
+      "id": "PU-d1-q20",
+      "module_answer": "A",
+      "audit_answer": "B",
+      "verdict": "kunci modul diterima setelah ditinjau ulang",
+      "reason": "Publikasi satu karya di jurnal tidak berkaitan dengan syarat keikutsertaan; kesimpulan adalah non sequitur, sehingga 'tidak relevan dengan informasi yang diberikan' lebih tepat daripada sekadar 'mungkin salah', yang berlaku untuk klaim tak terdukung mana pun."
+    },
+    {
+      "id": "PU-d1-q18",
+      "module_answer": "B",
+      "audit_answer": "B",
+      "blind_answer": "E",
+      "verdict": "diperdebatkan, kunci modul dipertahankan",
+      "confidence": "low",
+      "reason": "Ditemukan pada ronde buta. (b) secara formal adalah penyangkalan anteseden: 'jika persatuan memudar, konflik meningkat' tidak memberi 'jika tradisi dilestarikan, konflik dapat dicegah'. Namun batang soal memakai 'PALING MUNGKIN BENAR' yang memang meminta inferensi lunak, dan (b) sendiri sudah dilunakkan dengan 'dapat dicegah', sementara (e) hanya mengulang analogi yang sudah tertulis di teks sehingga bukan simpulan. Dinilai seri."
+    }
+  ],
+  "blind_round": {
+    "_note": "Ronde kedua: tiga instansi Claude Opus 5 terpisah mengerjakan 70 soal yang sama secara buta — hanya diberi salinan soal tanpa kunci (di luar repo, gambar ikut disalin), tanpa petunjuk apa pun tentang kunci modul maupun temuan audit pertama, dan dilarang membuka folder proyek. Jawaban mentah: data/audit/blind_<section>.json.",
+    "date": "2026-09-18",
+    "result": {
+      "PK_d1s1": {
+        "cocok_dengan_modul": 20,
+        "beda": 0
+      },
+      "PM_d1s1": {
+        "cocok_dengan_modul": 20,
+        "beda": 0
+      },
+      "PU_d1": {
+        "cocok_dengan_modul": 23,
+        "beda": 7
+      }
+    },
+    "pu_differences": {
+      "PU-d1-q05": {
+        "module": "A",
+        "audit": "E",
+        "blind": "E",
+        "note": "Dua pemecah independen sampai pada E; menguatkan dugaan kunci keliru."
+      },
+      "PU-d1-q24": {
+        "module": "E",
+        "audit": "B",
+        "blind": "A",
+        "note": "Dua pemecah independen sama-sama menolak E. Setelah diargumenkan ulang, (a) dinilai pengganti terbaik karena hanya menuntut arah tren yang tahan terhadap galat pembacaan pindaian, sementara (b) menuntut besaran kerugian yang sama untuk tahun tanpa titik data."
+      },
+      "PU-d1-q10": {
+        "module": "B",
+        "audit": "A",
+        "blind": "A",
+        "note": "Blind solver memilih A dengan keyakinan medium dan menyebutnya ambigu; setelah diargumenkan ulang, B tetap dapat dipertahankan (menambatkan sebab pada titik perubahan dan mencakup A). Kunci tidak diubah."
+      },
+      "PU-d1-q11": {
+        "module": "E",
+        "audit": "D",
+        "blind": "D",
+        "note": "Ambigu: D bila 'mendasari' dibaca sebagai asumsi, E bila dibaca sebagai bukti. Kunci tidak diubah."
+      },
+      "PU-d1-q15": {
+        "module": "B",
+        "audit": "D",
+        "blind": "D",
+        "note": "Blind solver memilih D dengan keyakinan medium tanpa argumen baru; kecocokan sepatu X sudah diberikan di soal, sehingga B tetap yang menjawab hambatan sebenarnya (harga). Kunci tidak diubah."
+      },
+      "PU-d1-q20": {
+        "module": "A",
+        "audit": "B",
+        "blind": "B",
+        "note": "Blind solver menyebut B dan D sama-sama sah secara logika, jadi pilihan itu sendiri tidak stabil; A ('tidak relevan') tetap paling tepat untuk non sequitur. Kunci tidak diubah."
+      },
+      "PU-d1-q18": {
+        "module": "B",
+        "audit": "B",
+        "blind": "E",
+        "note": "Kritik blind solver sah secara formal (B adalah penyangkalan anteseden), tetapi batang soal memakai 'PALING MUNGKIN BENAR' yang memang memberi ruang inferensi lunak, sedangkan E hanya mengulang analogi yang sudah ada di teks dan bukan simpulan baru. Dinilai seri; kunci B dipertahankan dan perbedaan dicatat."
+      }
+    },
+    "item_quality_flags": [
+      "PK-d1s1-q17: sistem persamaan tidak bersolusi tunggal dan ada salah tulis variabel (c vs d/e/f); jawaban B tetap sama pada kedua pembacaan.",
+      "PK-d1s1-q19: kedua pernyataan tautologis (selalu ganjil), jadi item tidak membedakan apa pun; jawaban E tetap.",
+      "PM teks4: data diagram tidak konsisten (pasokan 69 kuintal vs terjual 70), sehingga stok kumulatif hari Minggu negatif; berimbas pada q13, q14, q16 tanpa mengubah jawaban.",
+      "PM-d1s1-q14 pernyataan 3: rata-rata 26/7 = 3,71 membulat menjadi 4, sehingga 'Tidak' bergantung pada pembacaan eksak.",
+      "PU-d1-q23: selisih ke dua opsi hampir sama (6,92 berjarak 0,18 ke 7 1/10 dan 0,206 ke 6 5/7); kunci E menang tipis.",
+      "PU-d1-q29: jawaban A sah bila 900 dibaca sebagai 900 siswa berbeda, bukan jumlah keikutsertaan."
+    ]
+  },
+  "recommendation": {
+    "for_benchmark": "PK dan PM aman dipakai apa adanya: dua ronde independen mencocokkan 20/20. Untuk PU, laporkan dua angka — skor terhadap kunci modul apa adanya, dan skor dengan PU-d1-q05 dan PU-d1-q24 dikecualikan. Kedua soal itu ditolak oleh dua pemecah independen tanpa ada yang membela kunci, sehingga model yang menjawab benar justru akan dihitung salah.",
+    "exclude_candidates": [
+      "PU-d1-q05",
+      "PU-d1-q24"
+    ],
+    "flag_only": [
+      "PU-d1-q18",
+      "PU-d1-q11",
+      "PU-d1-q23",
+      "PU-d1-q29",
+      "PK-d1s1-q17",
+      "PK-d1s1-q19",
+      "PM-d1s1-q14"
+    ]
+  }
+}
