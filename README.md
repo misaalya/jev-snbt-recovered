@@ -16,7 +16,7 @@ The dataset has 159 questions across all seven subtests. Each question
 includes its own reading passage and figure transcriptions. Results are in
 **[RESULTS.md](RESULTS.md)**, and raw responses are in `data/results/`.
 
-## Where the questions come from
+## Question Sources
 
 The questions come from *Modul MMA SNBT 2025* by Tim Mangkuk Mi Ayam, a
 764-page collection of recalled questions (`dataset/MMASNBT2025.pdf`, not
