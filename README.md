@@ -1,4 +1,4 @@
-# jev-snbt-recovered
+# snbt-jev-bench
 
 **English** · [Bahasa Indonesia](README.id.md)
 
@@ -78,11 +78,9 @@ first transcription's claim that two lines were parallel was incorrect.
 
 Each transcription is stored in `figure_note` and embedded into every question
 that uses the figure. The original crop remains in `data/figures/` so that the
-transcription can be audited against it.
-
-The model therefore receives the same text-only input for every question, and
-the transcription is available for inspection rather than performed inside a
-vision model.
+transcription can be audited against it. The model therefore receives the same
+text-only input for every question, and the transcription is available for
+inspection rather than performed inside a vision model.
 
 ## Derivation of the answers
 

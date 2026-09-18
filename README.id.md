@@ -1,4 +1,4 @@
-# jev-snbt-recovered
+# snbt-jev-bench
 
 [English](README.md) · **Bahasa Indonesia**
 
@@ -79,11 +79,9 @@ bahwa dua garis sejajar tidaklah benar.
 
 Setiap transkrip disimpan dalam `figure_note` dan disematkan ke setiap soal
 yang memakai gambar tersebut. Potongan aslinya tetap berada di `data/figures/`
-sehingga transkripnya dapat diaudit terhadap potongan itu.
-
-Dengan begitu model menerima masukan berupa teks yang sama untuk setiap soal,
-dan transkripnya tersedia untuk diperiksa alih-alih dikerjakan di dalam model
-visual.
+sehingga transkripnya dapat diaudit terhadap potongan itu. Dengan begitu model
+menerima masukan berupa teks yang sama untuk setiap soal, dan transkripnya
+tersedia untuk diperiksa alih-alih dikerjakan di dalam model visual.
 
 ## Penurunan jawaban
 
