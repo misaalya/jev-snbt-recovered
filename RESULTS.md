@@ -1,5 +1,7 @@
 # Jev on recovered SNBT 2025 — first run
 
+**English** · [Bahasa Indonesia](RESULTS.id.md)
+
 Model `jev-1.13.0` (requested as `jev-latest`), 2026-09-18. One request per
 item, no figures (every figure is a text transcription in the state), no
 retries needed. Reproduce with:

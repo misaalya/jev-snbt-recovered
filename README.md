@@ -1,13 +1,15 @@
 # jev-snbt-recovered
 
+**English** · [Bahasa Indonesia](README.id.md)
+
 **First run: Jev 1.13.0 scores 47.8% (32/67) against the module's keys — 75% on PU's verbal half, 30% on its arithmetic half — and 85.4% (76/89) on the language subtests scored against Claude's labels; 69.2% (108/156) over everything, mixed reference. Full numbers in [RESULTS.md](RESULTS.md).**
 
 Benchmark of **TypeSafe Jev** (System One model) on community-recovered
 **SNBT 2025** (Indonesian university entrance test) questions.
 
 Status: **dataset extraction done for Day 1 / Sesi 1 of all seven subtests**
-(159 questions: 70 with the module's key, 89 labeled by Claude). Benchmark
-runner and results: not yet.
+(159 questions: 70 with the module's key, 89 labeled by Claude), benchmark
+harness working, first run written up in [RESULTS.md](RESULTS.md).
 
 ## Data source
 
