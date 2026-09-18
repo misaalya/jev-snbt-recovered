@@ -85,11 +85,15 @@ def agreement(results: str) -> None:
             continue
         q = keys[rec["id"]]
         got = rec["answers"].get("jawaban", {})
+        label = str(q["answer"]).lower()
         rows.append({
             "id": rec["id"], "subtest": q["subtest"],
-            "same": str(got.get("choice", "")).lower() == str(q["answer"]).lower(),
+            "label": label, "jev": str(got.get("choice", "")).lower(),
+            "same": str(got.get("choice", "")).lower() == label,
             "jev_conf": got.get("confidence"),
+            "p_label": (got.get("probabilities") or {}).get(label),
             "label_conf": q.get("label_confidence") or conf_of.get(rec["id"]),
+            "usage": rec.get("usage", {}), "latency": rec.get("latency_ms"),
         })
 
     print("== kesepakatan Jev vs label Claude (BUKAN akurasi) ==")
@@ -109,6 +113,34 @@ def agreement(results: str) -> None:
         band = [r for r in rows if r["jev_conf"] is not None and lo <= r["jev_conf"] < hi]
         if band:
             print("  conf %.1f-%.1f  %s" % (lo, min(hi, 1.0), pct(sum(r["same"] for r in band), len(band))))
+
+    pt = [r for r in rows if r["p_label"] is not None]
+    if pt:
+        print("  brier (peluang pada opsi berlabel): %.3f  atas %d soal" % (
+            statistics.fmean((1 - r["p_label"]) ** 2 for r in pt), len(pt)))
+
+    conf = [r for r in rows if r["jev_conf"] is not None]
+    if conf:
+        print("\n== jika soal paling ragu dikosongkan ==")
+        ranked = sorted(conf, key=lambda r: -r["jev_conf"])
+        for cov in (1.0, 0.9, 0.8, 0.7):
+            k = max(1, int(round(cov * len(ranked))))
+            print("  cakupan %3d%%  %s" % (round(100 * k / len(ranked)),
+                                           pct(sum(r["same"] for r in ranked[:k]), k)))
+
+    toks = sum(r["usage"].get("input_tokens", 0) for r in rows)
+    lat = [r["latency"] for r in rows if r["latency"]]
+    print("\n== biaya & latensi ==")
+    print("  input tokens %d  -> $%.4f" % (toks, toks / 1e6 * 0.042))
+    if lat:
+        print("  latensi p50 %.0f ms, p95 %.0f ms" % (statistics.median(lat), sorted(lat)[int(0.95 * (len(lat) - 1))]))
+
+    diffs = [r for r in rows if not r["same"]]
+    if diffs:
+        print("\n== %d ketidaksepakatan ==" % len(diffs))
+        for r in sorted(diffs, key=lambda r: -(r["jev_conf"] or 0)):
+            print("  %-14s label=%s (%s)  jev=%s (conf %.2f)" % (
+                r["id"], r["label"].upper(), r["label_conf"] or "?", r["jev"].upper(), r["jev_conf"] or 0))
 
 
 def main() -> None:
