@@ -2,85 +2,86 @@
 
 [English](RESULTS.md) · **Bahasa Indonesia**
 
-Model `jev-1.13.0`, dipanggil dengan nama `jev-latest`. Dijalankan 18 September
-2026 atas 156 soal, satu request untuk tiap soal, dengan gambar yang sudah
-diubah menjadi teks. Tidak ada satu pun request yang perlu diulang.
+Model `jev-1.13.0` (dipanggil sebagai `jev-latest`), dijalankan 18 September
+2026. Total 156 soal, satu request per soal, gambar dikirim dalam bentuk teks.
+Tidak ada request yang perlu diulang.
 
-## Skor tiap subtes
+## Skor per subtes
 
 | Subtes | Skor | Soal | Acuan |
 |---|---|---|---|
-| LBE — Literasi Bahasa Inggris | 100,0% | 20/20 | label Claude |
-| LBI — Literasi Bahasa Indonesia | 89,7% | 26/29 | label Claude |
-| PBM — Pemahaman Bacaan dan Menulis | 75,0% | 15/20 | label Claude |
-| PPU — Pengetahuan dan Pemahaman Umum | 75,0% | 15/20 | label Claude |
-| PU — Penalaran Umum | 60,0% | 18/30 | kunci modul |
-| PM — Penalaran Matematika | 45,0% | 9/20 | kunci modul |
-| PK — Pengetahuan Kuantitatif | 29,4% | 5/17 | kunci modul |
+| LBE (Literasi Bahasa Inggris) | 100,0% | 20/20 | label Claude |
+| LBI (Literasi Bahasa Indonesia) | 89,7% | 26/29 | label Claude |
+| PBM (Pemahaman Bacaan dan Menulis) | 75,0% | 15/20 | label Claude |
+| PPU (Pengetahuan dan Pemahaman Umum) | 75,0% | 15/20 | label Claude |
+| PU (Penalaran Umum) | 60,0% | 18/30 | kunci modul |
+| PM (Penalaran Matematika) | 45,0% | 9/20 | kunci modul |
+| PK (Pengetahuan Kuantitatif) | 29,4% | 5/17 | kunci modul |
 
-## Skor menurut acuan jawabannya
+## Skor per jenis acuan
 
 | Kelompok soal | Skor | Soal |
 |---|---|---|
 | Kunci modul | 47,8% | 32/67 |
 | Kunci modul, tanpa dua soal yang kuncinya meragukan | 49,2% | 32/65 |
 | Label Claude | 85,4% | 76/89 |
-| Gabungan keduanya | 69,2% | 108/156 |
+| Gabungan | 69,2% | 108/156 |
 
-Kunci modul hanya menutup PU, PK, dan PM. Empat subtes sisanya tidak berkunci,
-jadi dinilai memakai label Claude Opus 5 — tafsir satu model, bukan kunci
-resmi. Sebagai pembanding, menebak acak di antara lima opsi menghasilkan 20%,
-soal perbandingan kuantitas di PK yang hanya empat opsi menghasilkan 25%, dan
-tabel Ya/Tidak berisi tiga pernyataan yang dinilai utuh menghasilkan 12,5%.
+Kunci modul hanya ada untuk PU, PK, dan PM. Empat subtes lainnya dinilai dengan
+label dari Claude Opus 5, yang bukan kunci resmi. Sebagai pembanding, skor
+tebakan acak adalah 20% untuk lima opsi, 25% untuk soal perbandingan kuantitas
+PK (empat opsi), dan 12,5% untuk tabel Ya/Tidak berisi tiga pernyataan.
 
-## PU dipilah menurut jenis soalnya
+## PU per jenis soal
 
-PU satu-satunya subtes di sini yang mencampur soal verbal dengan soal hitungan.
+PU berisi campuran soal verbal dan soal hitungan.
 
 | Soal | Skor |
 |---|---|
-| q1–q20, penalaran verbal | 75,0% (15/20) |
-| q21–q30, hitungan dan pembacaan diagram | 30,0% (3/10) |
+| q1 sampai q20, penalaran verbal | 75,0% (15/20) |
+| q21 sampai q30, hitungan dan membaca diagram | 30,0% (3/10) |
 
 ## Kalibrasi
 
-Dihitung atas 154 soal yang dijawab sebagai Choice. Dua soal tabel Ya/Tidak
-tidak ikut, karena yang dikembalikannya peluang tiap pernyataan, bukan
-keyakinan Choice.
+Dihitung dari 154 soal Choice. Dua soal tabel Ya/Tidak tidak dihitung karena
+tidak memberi nilai keyakinan Choice.
 
 | Keyakinan | Skor | Soal |
 |---|---|---|
-| 0,0–0,5 | 34,0% | 16/47 |
-| 0,5–0,7 | 68,4% | 13/19 |
-| 0,7–0,9 | 75,0% | 21/28 |
-| 0,9–1,0 | 96,7% | 58/60 |
+| 0,0 - 0,5 | 34,0% | 16/47 |
+| 0,5 - 0,7 | 68,4% | 13/19 |
+| 0,7 - 0,9 | 75,0% | 21/28 |
+| 0,9 - 1,0 | 96,7% | 58/60 |
 
-Skor Brier atas peluang yang diberikan pada jawaban acuan: 0,253 untuk seluruh
-154 soal, 0,402 di soal berkunci modul, dan 0,143 di soal berlabel Claude.
+Semakin tinggi keyakinan Jev, semakin sering jawabannya benar.
 
-Skor kalau jawaban yang paling ragu dibiarkan kosong:
+Skor Brier: 0,253 untuk semua 154 soal, 0,402 untuk soal berkunci modul, dan
+0,143 untuk soal berlabel Claude. Makin kecil makin baik.
 
-| Cakupan | Gabungan | Kunci modul | Label Claude |
+Skor jika jawaban yang paling ragu tidak dihitung:
+
+| Soal yang dijawab | Gabungan | Kunci modul | Label Claude |
 |---|---|---|---|
 | 100% | 69,2% | 49,2% | 85,4% |
 | 90% | 77,0% | 53,4% | 88,8% |
 | 80% | 81,3% | 59,6% | 91,5% |
 | 70% | 85,2% | 63,0% | 91,9% |
 
-## Dua soal tabel Ya/Tidak
+## Soal tabel Ya/Tidak
 
-| Cara menghitung | Skor |
+| Cara hitung | Skor |
 |---|---|
-| Per soal utuh, ketiga pernyataan harus benar | 0/2 |
+| Per soal (ketiga pernyataan harus benar) | 0/2 |
 | Per pernyataan | 4/6 |
 
-Dua pernyataan yang meleset: `PM-d1s1-q06` pernyataan 3, acuannya "Tidak"
-sedangkan Jev menjawab 0,59; dan `PM-d1s1-q14` pernyataan 1, acuannya "Ya"
-sedangkan Jev menjawab 0,33.
+Dua pernyataan yang salah:
 
-## Beda jawaban dengan label Claude
+- `PM-d1s1-q06` pernyataan 3: acuan "Tidak", Jev menjawab 0,59.
+- `PM-d1s1-q14` pernyataan 1: acuan "Ya", Jev menjawab 0,33.
 
-Tingkat kecocokan pada 89 soal berlabel, dipilah menurut keyakinan labelnya:
+## Perbedaan dengan label Claude
+
+Tingkat kecocokan pada 89 soal, berdasarkan keyakinan label:
 
 | Keyakinan label | Cocok | Soal |
 |---|---|---|
@@ -88,7 +89,7 @@ Tingkat kecocokan pada 89 soal berlabel, dipilah menurut keyakinan labelnya:
 | medium | 87,0% | 20/23 |
 | low | 64,3% | 9/14 |
 
-Ke-13 soal yang jawabannya berbeda:
+Ada 13 soal yang jawabannya berbeda:
 
 | Soal | Label | Keyakinan label | Jev | Keyakinan Jev |
 |---|---|---|---|---|
@@ -106,13 +107,13 @@ Ke-13 soal yang jawabannya berbeda:
 | PPU-d1s1-q16 | A | low | D | 0,12 |
 | PBM-d1s1-q10 | B | high | C | 0,10 |
 
-Tidak ada satu pun kolom di tabel ini yang berisi kunci resmi.
+Label maupun jawaban Jev di tabel ini bukan kunci resmi.
 
-## Soal yang kunci modulnya meragukan
+## Soal dengan kunci modul yang meragukan
 
-Tujuh soal PU sudah ditandai sebelum run ini lewat pemeriksaan yang tercatat di
-`data/audit/module_key_audit.json`. Jawaban Jev ditaruh berdampingan sekadar
-sebagai pembanding, dan kuncinya sendiri tidak diubah.
+Tujuh soal PU sudah ditandai sebelum run ini (lihat
+`data/audit/module_key_audit.json`). Jawaban Jev dicantumkan sebagai
+pembanding. Kuncinya tidak diubah.
 
 | Soal | Kunci modul | Pemeriksaan | Penjawab buta | Jev | Keyakinan Jev |
 |---|---|---|---|---|---|
@@ -124,8 +125,8 @@ sebagai pembanding, dan kuncinya sendiri tidak diubah.
 | PU-d1-q15 | B | D | D | A | 0,19 |
 | PU-d1-q20 | A | B | B | B | 0,39 |
 
-`PU-d1-q05` dan `PU-d1-q24` adalah dua soal yang dikeluarkan pada angka 49,2%
-di atas.
+`PU-d1-q05` dan `PU-d1-q24` adalah dua soal yang tidak dihitung pada skor
+49,2%.
 
 ## Biaya dan latensi
 
@@ -135,27 +136,22 @@ di atas.
 | Soal berlabel Claude | 89 | 70.754 | 4.710 | $0,0030 | 882 ms | 1187 ms |
 | Total | 156 | 106.637 | 8.268 | $0,0045 | 883 ms | 1187 ms |
 
-Biayanya dihitung dengan tarif $0,042 per satu juta token input dan output
-tidak ditagih, yaitu tarif bawaan `scripts/score.py` (bisa diubah lewat
-`--rate-per-mtok`). Dokumentasi TypeSafe tidak memuat halaman harga, jadi tarif
-ini sebaiknya dicocokkan dulu dengan harga yang berlaku. Empat request berjalan
-bersamaan, dan tidak ada respons 429 maupun 5xx.
+Biaya dihitung dengan tarif $0,042 per satu juta token input, dan token output
+tidak ditagih. Ini tarif bawaan `scripts/score.py` (bisa diubah dengan
+`--rate-per-mtok`). Dokumentasi TypeSafe belum mencantumkan harga, jadi tarif
+ini perlu dicek ulang. Run memakai empat request sekaligus, tanpa respons 429
+atau 5xx.
 
-## Sejauh mana angka ini berlaku
+## Batasan
 
-- Soalnya rekonstruksi komunitas dari ingatan peserta, dan kunci modulnya
-  buatan penyusun modul, bukan kunci resmi. Selengkapnya di
+- Soal adalah rekonstruksi komunitas, dan kunci modul bukan kunci resmi. Lihat
   [README](README.id.md).
-- Tiga soal isian PK tidak masuk hitungan mana pun di atas, jadi yang terpakai
-  67 dari 70 soal berkunci modul. Ketiganya memang tidak punya opsi jawaban di
-  sumbernya.
-- Gambar dikirim dalam bentuk transkrip teks yang ditulis manual; tidak ada
-  gambar yang dikirim ke model. Run tanpa transkrip belum pernah dicoba,
-  sehingga seberapa besar pengaruh transkrip itu terhadap skor belum terpisah.
-- Semuanya berasal dari satu run pada satu versi model, tanpa pengulangan, jadi
-  tidak ada angka di atas yang disertai perkiraan galat.
+- Tiga soal isian PK tidak dihitung, jadi yang dinilai 67 dari 70 soal
+  berkunci modul.
+- Gambar dikirim sebagai teks, bukan gambar asli. Belum ada run tanpa
+  transkrip, jadi pengaruh transkrip terhadap skor belum diketahui.
+- Hanya satu run dengan satu versi model, jadi belum ada perkiraan galat.
 
-Respons di balik setiap angka di atas tersimpan di `data/results/`, satu baris
-JSON per soal berisi jawaban, peluangnya, dan pemakaian tokennya. Hitung ulang
-dengan `python3 scripts/score.py` dan `python3 scripts/score.py --combined`;
-untuk run yang benar-benar baru, jalankan `python3 scripts/run_bench.py`.
+Semua respons tersimpan di `data/results/`, satu baris JSON per soal. Hitung
+ulang dengan `python3 scripts/score.py` dan `python3 scripts/score.py
+--combined`. Untuk run baru, jalankan `python3 scripts/run_bench.py`.
