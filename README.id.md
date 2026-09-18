@@ -2,8 +2,16 @@
 
 [English](README.md) · **Bahasa Indonesia**
 
-Benchmark **TypeSafe Jev** pada **SNBT 2025**, dengan memakai naskah hasil
-rekonstruksi komunitas.
+Benchmark **TypeSafe Jev** pada **SNBT 2025**, ujian masuk perguruan tinggi di
+Indonesia.
+
+> **Soal di sini adalah soal hasil recovery, bukan naskah resmi.** Naskah SNBT
+> tidak dirilis setelah ujian. Setiap soal di repositori ini direkonstruksi
+> komunitas dari ingatan peserta, sehingga redaksinya bisa berbeda dari yang
+> benar-benar diujikan, sebagian soal jelas cacat, dan kunci jawabannya adalah
+> kunci versi rekonstruksi, bukan kunci penyelenggara. Seluruh angka dalam
+> repositori ini adalah pengukuran terhadap rekonstruksi tersebut, bukan
+> terhadap ujian yang sesungguhnya.
 
 Dataset ini memuat 159 soal yang mencakup ketujuh subtes. Setiap soal berdiri
 sendiri: bacaan dan transkrip gambar yang dirujuknya disematkan di dalam soal
@@ -12,12 +20,12 @@ respons mentahnya di `data/results/`.
 
 ## Sumber soal
 
-Soal diambil dari *Modul MMA SNBT 2025* susunan Tim Mangkuk Mi Ayam. Modul
-tersebut merupakan rekonstruksi komunitas atas naskah SNBT 2025, disusun dari
-apa yang diingat peserta setelah ujian (`dataset/MMASNBT2025.pdf`, 764 halaman,
-tidak disertakan dalam repositori ini).
+Soal diambil dari *Modul MMA SNBT 2025* susunan Tim Mangkuk Mi Ayam: 764
+halaman soal hasil ingatan peserta yang ditata ulang oleh relawan
+(`dataset/MMASNBT2025.pdf`, tidak disertakan dalam repositori ini).
 
-Dua sifat sumber tersebut menentukan bagaimana keseluruhan proyek ini disusun.
+Dua konsekuensi dari asal-usul itu menentukan bagaimana keseluruhan proyek ini
+disusun.
 
 **Kunci jawabannya bukan kunci resmi.** Kunci itu karya penyusun modul, dan
 hanya tersedia untuk tiga subtes: PU, PK, dan PM. Kunci PU bahkan memuat

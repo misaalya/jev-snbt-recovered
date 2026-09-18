@@ -3,7 +3,15 @@
 **English** · [Bahasa Indonesia](README.id.md)
 
 A benchmark of **TypeSafe Jev** on **SNBT 2025**, the Indonesian university
-entrance test, using a community reconstruction of the paper.
+entrance test.
+
+> **These are recovered questions, not the official paper.** SNBT papers are
+> not released after the examination. Every item here was reconstructed by the
+> community from what participants remembered, so the wording can differ from
+> what was actually sat, a few items are demonstrably damaged, and the answer
+> keys are the reconstruction's own rather than the organiser's. Every figure
+> in this repository is a measurement against that reconstruction, not against
+> the examination itself.
 
 The dataset contains 159 questions covering all seven subtests. Each question
 is self-contained: its reading passage and the transcription of any figure it
@@ -14,11 +22,10 @@ recorded in **[RESULTS.md](RESULTS.md)**, with the raw responses in
 ## Source of the questions
 
 The questions are taken from *Modul MMA SNBT 2025*, compiled by Tim Mangkuk Mi
-Ayam. The module is a community reconstruction of the 2025 paper, assembled
-from what participants recalled after the examination
-(`dataset/MMASNBT2025.pdf`, 764 pages, not included in this repository).
+Ayam: 764 pages of recalled questions, typeset by volunteers
+(`dataset/MMASNBT2025.pdf`, not included in this repository).
 
-Two properties of that source determine how the rest of this project is
+Two consequences of that origin determine how the rest of this project is
 organised.
 
 **The answer keys are not official.** They are the work of the module's
